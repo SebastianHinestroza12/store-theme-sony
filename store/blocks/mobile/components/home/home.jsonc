@@ -1,0 +1,29 @@
+{
+  "responsive-layout.mobile#phone__and__tablet": {
+    "title": "Responsive Mobile",
+    "children": ["flex-layout.row#mobile__home"]
+  },
+
+  "flex-layout.row#mobile__home": {
+    "title": "Mobile Row with text",
+    "children": [
+      "rich-text#hello-vtex"
+    ],
+    "props": {
+      "marginTop": 10,
+      "border": ["top", "bottom"],
+      "borderWidth": 1,
+      "borderColor": "danger"
+    }
+  },
+
+  "rich-text#hello-vtex": {
+    "title": "Text of MOBILE",
+    "props": {
+      "text": "Éxisto en Tablet y Phone -->> VTEX Store Framework",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  }
+}

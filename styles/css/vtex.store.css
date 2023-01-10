@@ -1,0 +1,5 @@
+ :global(.vtex-store__template) {
+   --primary-color      : #0c2340;
+   --primary-color-rgba : rgba(12, 35, 64, 0.502);
+   --secondary-color    : #e56a54;
+ }

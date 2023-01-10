@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#home__section--global": {
+    "title": "Global Row with text example",
+    "children": [
+      "rich-text#home__section--global"
+    ],
+    "props": {
+      "marginTop": 10,
+      "border": ["all"],
+      "borderWidth": 1,
+      "borderColor": "success"
+    }
+  },
+
+  "rich-text#home__section--global": {
+    "title": "Text Favorites",
+    "props": {
+      "blockClass": "",
+      "text": "Soy un texto que vive en Desktop, Tablet y Phone :D",
+      "font": "t-heading-1",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}
