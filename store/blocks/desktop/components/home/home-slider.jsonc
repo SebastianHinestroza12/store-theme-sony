@@ -33,12 +33,12 @@
   },
   "image#home__slider--two": {
     "props": {
-      "src": "assets/img/camera.jpg"
+      "src": "assets/img/camara1.jpg"
     }
   },
   "image#home__slider--three": {
     "props": {
-      "src": "assets/img/parlantes.jpg"
+      "src": "assets/img/main-slider1.jpg"
     }
   }
 }
