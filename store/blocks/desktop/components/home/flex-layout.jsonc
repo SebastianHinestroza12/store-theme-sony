@@ -11,7 +11,8 @@
   "rich-text#home__info--section-1": {
     "title": "text of information send product",
     "props": {
-      "text": "prueba"
+      "text": "GRATIS Envio desde $99.000",
+      "blockClass": "layout__section--one"
     }
   }
 }
