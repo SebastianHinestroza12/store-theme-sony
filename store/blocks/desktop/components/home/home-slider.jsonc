@@ -1,0 +1,44 @@
+{
+  "flex-layout.row#home__slider--section-1": {
+    "title": "DESKTOP Row with text",
+    "children": [
+      "slider-layout#home__slider"
+    ]
+  },
+  "slider-layout#home__slider": {
+    "title": "Slider layout-section1",
+    "props": {
+      "fullWidth": true,
+      "arrowSize": 15,
+      "itemsPerPage": {
+        "desktop": 1
+      },
+      "infite": true,
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#home__slider--one",
+      "image#home__slider--two",
+      "image#home__slider--three"
+    ]
+  },
+  "image#home__slider--one": {
+    "props": {
+      "src": "assets/img/linkbuds.jpg"
+    }
+  },
+  "image#home__slider--two": {
+    "props": {
+      "src": "assets/img/camera.jpg"
+    }
+  },
+  "image#home__slider--three": {
+    "props": {
+      "src": "assets/img/parlantes.jpg"
+    }
+  }
+}
