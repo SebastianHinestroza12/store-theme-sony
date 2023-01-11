@@ -1,0 +1,11 @@
+.paragraph--layout__section--one{
+    /* border: 10px solid #fff; */
+    margin: 0;
+    color: #bcbccc;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    line-height: 47px;
+}
