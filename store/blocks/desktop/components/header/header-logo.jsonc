@@ -3,6 +3,7 @@
     "title": "Header superior",
     "children": [
       "logo#header__top--logo",
+      "search-bar#search-bar__top",
       "header-spacer",
       // "modal-trigger#header__top--login",
       "minicart.v2"
@@ -18,6 +19,15 @@
       "url": "assets/img/logo.jpg",
       "width": 100,
       "href": "/"
+    }
+  },
+  "search-bar#search-bar__top": {
+    "title": "search-bar header",
+    "props": {
+      "maxWidth": 350,
+      "displayMode": "search-and-clear-buttons",
+      "placeholder": "Buscar productos por nombre, código",
+      "blockClass": "header__search--barra"
     }
   }
 }
