@@ -1,0 +1,22 @@
+{
+  "header-row#header__top": {
+    "title": "Header superior",
+    "children": [
+      "logo#header__top--logo",
+      "header-spacer",
+      // "modal-trigger#header__top--login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__top"
+    }
+  },
+  "logo#header__top--logo": {
+    "title": "Logo Header",
+    "props": {
+      "url": "assets/img/logo.jpg",
+      "width": 110,
+      "href": "/"
+    }
+  }
+}
