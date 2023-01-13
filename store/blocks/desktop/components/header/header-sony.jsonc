@@ -4,67 +4,13 @@
     "children": [
       "logo#header__top--logo",
       "search-bar#search-bar__top",
-      "flex-layout.row#header__information--store",
+      "flex-layout.row#header__information--container",
       // "header-spacer",
       // "modal-trigger#header__top--login",
       "minicart.v2"
     ],
     "props": {
       "blockClass": "header__top"
-    }
-  },
-  "flex-layout.row#header__information--store": {
-    "title": "header__information--store",
-    "children": [
-      "rich-text#telephone__sales--store",
-      "rich-text#telephone__contact--store",
-      "rich-text#information__store--hours"
-    ],
-    "props": {
-      "blockClass": "header__information--store"
-    }
-  },
-  "rich-text#telephone__sales--store": {
-    "title": "Header Sales Store",
-    "props": {
-      "text": "Venta telefónica",
-      "font": "t-heading-1",
-      "blockClass": "header__store--text"
-    }
-  },
-
-  "rich-text#telephone__contact--store": {
-    "title": "Header Contact Store",
-    "props": {
-      "text": "601 786 8928",
-      "font": "t-heading-1",
-      "blockClass": "header__store--number"
-    }
-  },
-  "rich-text#information__store--hours": {
-    "title": "Header Hours Store",
-    "props": {
-      "text": "Lunes a viernes 8 am a 16:59 hrs",
-      "font": "t-heading-1",
-      "blockClass": "header__store--text"
-    }
-  },
-  "logo#header__top--logo": {
-    "title": "Logo Header",
-    "props": {
-      "blockClass": "header__logo--sony",
-      "url": "assets/img/logo.jpg",
-      "width": 100,
-      "href": "/"
-    }
-  },
-  "search-bar#search-bar__top": {
-    "title": "search-bar header",
-    "props": {
-      "maxWidth": 350,
-      "displayMode": "search-and-clear-buttons",
-      "placeholder": "Buscar productos por nombre, código",
-      "blockClass": "header__search--barra"
     }
   }
 }

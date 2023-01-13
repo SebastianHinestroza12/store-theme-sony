@@ -1,0 +1,11 @@
+{
+  "logo#header__top--logo": {
+    "title": "Logo Header",
+    "props": {
+      "blockClass": "header__logo--sony",
+      "url": "assets/img/logo.jpg",
+      "width": 100,
+      "href": "/"
+    }
+  }
+}
