@@ -20,3 +20,8 @@
 .searchIcon{
   color  : #fff
 }
+
+.imageElement--header__image--icon{
+  border-radius: 50%;
+  width: 170px;
+}

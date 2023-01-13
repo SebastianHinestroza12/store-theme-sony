@@ -1,11 +1,33 @@
 .flexRowContent--header__information--store{
-  border: 2px solid #ccc;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
   justify-content: center;
   align-items: center;
-  width: 150%;
-  
+  width: 110%;
+  margin-right: 100rem;
+}
+.flexRowContent--header__information--container{
+  /* border: 10px solid #ccc; */
+  width: 21.875rem;
+
 }
 
+.flexRow--header__icon--call{
+  margin-top: 5px;
+  background-position: -325px -450px;
+  margin-right: 130px;
+}
 
+.flexColChild--header__icon--image{
+  /* border: 2px solid #ccc; */
+  width: 80%;
+}
+
+.flexRow--header__icon--call{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid #ccc; */
+  width: 20% !important;
+  height: 90% !important;
+}
