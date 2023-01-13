@@ -11,8 +11,20 @@
   },
   "flex-layout.row#header__icon--call": {
     "title": "Header Icon Call",
+    "children": [
+      "flex-layout.col#header__one--image"
+    ],
     "props": {
       "blockClass": "header__icon--call"
+    }
+  },
+  "flex-layout.col#header__one--image": {
+    "title": "header__icon--image",
+    "children": [
+      "image#header__image--icon"
+    ],
+    "props": {
+      "blockClass": "header__icon--image"
     }
   },
   "flex-layout.row#header__information--store": {
