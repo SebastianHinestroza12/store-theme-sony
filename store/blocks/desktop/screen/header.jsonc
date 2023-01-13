@@ -1,0 +1,20 @@
+{
+  "header": {
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop"
+    ]
+  },
+  "header.full": {
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop"
+    ]
+  },
+  "header-layout.desktop": {
+    "title": "Header In Desktop",
+    "children": [
+      "header-row#header__top"
+    ]
+  }
+}
