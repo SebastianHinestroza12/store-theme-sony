@@ -1,0 +1,22 @@
+.autoCompleteOuterContainer--header__search--barra{
+  display: flex;
+  border-radius: 0;
+  border-color: transparent;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 0.125rem;
+
+}
+
+
+.searchBarIcon--header__search--barra{
+  border-radius: 0 !important;
+  border-color: transparent;
+  background: #4572ed;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
+
+.searchIcon{
+  color  : #fff
+}
