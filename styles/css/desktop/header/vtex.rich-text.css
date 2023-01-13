@@ -1,0 +1,19 @@
+.paragraph--header__store--text{
+  border: 1px solid #ffffff;
+  width: 220%;
+  color: #ffffff;
+  font-size: .5rem;
+  text-transform: uppercase;
+  line-height: 18px;
+  font-family :Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+
+.paragraph--header__store--number{
+  border: 1px solid #ffffff;
+  font-family :Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color : #ffffff;
+  display: flex;
+  width: 140px;
+}

@@ -1,0 +1,11 @@
+.flexRowContent--header__information--store{
+  border: 2px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150%;
+  
+}
+
+
