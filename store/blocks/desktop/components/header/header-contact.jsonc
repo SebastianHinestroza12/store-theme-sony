@@ -1,0 +1,66 @@
+{
+  "flex-layout.row#header__information--container": {
+    "title": "Header Information Container",
+    "children": [
+      "flex-layout.row#header__icon--call",
+      "flex-layout.row#header__information--store"
+    ],
+    "props": {
+      "blockClass": "header__information--container"
+    }
+  },
+  "flex-layout.row#header__icon--call": {
+    "title": "Header Icon Call",
+    "children": [
+      "flex-layout.col#header__one--image"
+    ],
+    "props": {
+      "blockClass": "header__icon--call"
+    }
+  },
+  "flex-layout.col#header__one--image": {
+    "title": "header__icon--image",
+    "children": [
+      "image#header__image--icon"
+    ],
+    "props": {
+      "blockClass": "header__icon--image"
+    }
+  },
+  "flex-layout.row#header__information--store": {
+    "title": "Header Information Contact  ",
+    "children": [
+      "rich-text#telephone__sales--store",
+      "rich-text#telephone__contact--store",
+      "rich-text#information__store--hours"
+    ],
+    "props": {
+      "blockClass": "header__information--store"
+    }
+  },
+  "rich-text#telephone__sales--store": {
+    "title": "Header Sales Store",
+    "props": {
+      "text": "Venta telefónica",
+      "font": "t-heading-1",
+      "blockClass": "header__store--text"
+    }
+  },
+
+  "rich-text#telephone__contact--store": {
+    "title": "Header Contact Store",
+    "props": {
+      "text": "601 786 8928",
+      "font": "t-heading-1",
+      "blockClass": "header__store--number"
+    }
+  },
+  "rich-text#information__store--hours": {
+    "title": "Header Hours Store",
+    "props": {
+      "text": "Lunes a viernes 8 am a 16:59 hrs",
+      "font": "t-heading-1",
+      "blockClass": "header__store--text"
+    }
+  }
+}

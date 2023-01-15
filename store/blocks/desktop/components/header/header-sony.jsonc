@@ -1,0 +1,16 @@
+{
+  "header-row#header__top": {
+    "title": "Header superior",
+    "children": [
+      "logo#header__top--logo",
+      "search-bar#search-bar__top",
+      "flex-layout.row#header__information--container",
+      // "header-spacer",
+      // "modal-trigger#header__top--login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__top"
+    }
+  }
+}
