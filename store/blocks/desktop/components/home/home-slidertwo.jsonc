@@ -1,0 +1,50 @@
+{
+  "flex-layout.row#home__slider--section-2": {
+    "title": "DESKTOP slider section 2",
+    "children": [
+      "slider-layout#home__slider--section2"
+    ]
+  },
+  "slider-layout#home__slider--section2": {
+    "title": "Slider layout-section2",
+    "props": {
+      "fullWidth": true,
+      "arrowSize": 15,
+      "itemsPerPage": {
+        "desktop": 1
+      },
+      "infite": true,
+      "blockClass": "home__slider--section2",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#home__slider--one",
+      "image#home__slider--two",
+      "image#home__slider--three"
+    ]
+  },
+  "image#home__slider--one": {
+    "title": "Desktop Image Slider 1",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/e22bfbd5-e81d-4a5a-97d0-bef81ea81a27___44bd8cb7a1990118729f22cb012b0416.jpg",
+      "blockClass": "home__image--slider"
+    }
+  },
+  "image#home__slider--two": {
+    "title": "Desktop Image Slider 2",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/a921bcce-6e66-46ad-bef2-199d598ca77e___feafc2e5ebcddc37cf186bc237bdd909.jpg",
+      "blockClass": "home__image--slider"
+    }
+  },
+  "image#home__slider--three": {
+    "title": "Desktop Image Slider 3",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/1bb1ed34-0c86-492b-a66d-7c32abe56807___9ee1f3dd8fe6298db6de63d2a7d4e957.jpg",
+      "blockClass": "home__image--slider"
+    }
+  }
+}

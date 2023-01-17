@@ -3,7 +3,11 @@
     "title": "Home Section 1 Desktop",
     "children": [
       "flex-layout.row#home__slider--section-1",
-      "flex-layout.row#home__info--section-1"
+      "flex-layout.row#home__info--section-1",
+      "flex-layout.row#home__slider--section-2",
+      "flex-layout.row#home__rich--text",
+      "flex-layout.row#home__pictures",
+      "flex-layout.row#home__text--pictures"
     ]
   }
 }

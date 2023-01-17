@@ -1,0 +1,96 @@
+{
+  "flex-layout.row#home__pictures": {
+    "title": "Home pictures back to school",
+    "children": [
+      "flex-layout.col#home__picture--one",
+      "flex-layout.col#home__picture--two"
+    ],
+    "props": {
+      "blockClass": "home__pictures"
+    }
+  },
+  "flex-layout.col#home__picture--one": {
+    "title": "home__picture--one",
+    "children": [
+      "image#home__picture--one"
+    ],
+    "props": {
+      "blockClass": "home_container--pictures"
+    }
+  },
+  "flex-layout.col#home__picture--two": {
+    "title": "home__picture--two",
+    "children": [
+      "image#home__picture--two"
+    ],
+    "props": {
+      "blockClass": "home_container--pictures"
+    }
+  },
+  "image#home__picture--one": {
+    "title": "Desktop pictures back to school one",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/d33afbf8-d7ef-466a-abad-f9fd58d620ed___50f0a82637171ae4d8047ccf6567c94e.jpg",
+      "blockClass": "home__pitures--back"
+    }
+  },
+  "image#home__picture--two": {
+    "title": "Desktop pictures back to school two",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/7bd80cbd-aabd-4ba2-b319-1c7cc8e9f89a___d56e4ca6d9fed01c0b15122d2f3b522e.jpg",
+      "blockClass": "home__pictures--back"
+    }
+  },
+  "flex-layout.row#home__text--pictures": {
+    "title": "Home Text Pictures",
+    "children": [
+      "flex-layout.col#home__text--picture",
+      "flex-layout.col#home__text--picture"
+    ],
+    "props": {
+      "blockClass": "home__text--pictures"
+    }
+  },
+  "flex-layout.col#home__text--picture": {
+    "title": "Home text link",
+    "children": [
+      "rich-text#home__pictures--one",
+      "rich-text#home__pictures--two",
+      "link#home__link-text"
+    ],
+    "props": {
+      "blockClass": "home__text--rich"
+    }
+  },
+  "rich-text#home__pictures--one": {
+    "title": "Home picture One",
+    "props": {
+      "text": "Que estudiar sea divertido",
+      "blockClass": "text__pictures--one"
+    }
+  },
+  "rich-text#home__pictures--two": {
+    "title": "Home Picture Two",
+    "props": {
+      "text": "Descubre los productos esenciales para la vuelta a clases.",
+      "blockClass": "text__pictures--two"
+    }
+  },
+  "link#home__link-text": {
+    "title": "Home Picture Three",
+    "children": [
+      "rich-text#link__text--picture"
+    ],
+    "props": {
+      "href": "/",
+      "blockClass": "home__link--picture"
+    }
+  },
+  "rich-text#link__text--picture": {
+    "title": "Home text Three",
+    "props": {
+      "text": "Descubre más >>",
+      "blockClass": "text__pictures--three"
+    }
+  }
+}
