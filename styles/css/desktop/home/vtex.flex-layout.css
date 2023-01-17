@@ -1,7 +1,73 @@
 .flexRow--home__section--2{
-    /* border: 1px solid #000; */
+    /* border: 1px solid #fff; */
+    background-color: #212530;
     display: flex;
     justify-content: center;
-    padding: 15px;
-    background-color: #2C303B ;
+    opacity: .95;
+    align-items: center;
+}
+.flexRow--home__section--one{
+    /* border: 5px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/bc65af1d-78dd-430f-b724-f0315ba61f1e___bf3b889d11bc8a5e4d7e6d055de8e34b.jpg");
+    height: 405px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.flexRowContent--home__container-information{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* border: 2px solid #ccc; */
+    width: 74vw;
+    margin-right: 9rem;
+}
+
+.flexCol--home__section--info{
+    margin-bottom: 5.5rem;
+    margin-right: 45rem;
+}
+.flexColChild--home__section--info{
+    height: 40px !important;
+}
+
+.flexRow--home__rich--text{
+    /* border: 1px solid #212530 ; */
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.flexRow--home__pictures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* border: 1px solid #000; */
+}
+.flexColChild--home_container--pictures{
+    /* border: 1px solid #000; */
+    margin: 45px;
+    width: 84%;
+}
+
+.flexRow--home__text--pictures{
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #000; */
+}
+
+.flexCol--home__text--rich{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #000; */
+    margin: 15px 120px 30px 145px;
+
 }
