@@ -1,0 +1,54 @@
+{
+  "flex-layout.row#home__info--section-1": {
+    "title": "Flex layout section 1",
+    "children": [
+      "flex-layout.row#home__container-information"
+    ],
+    "props": {
+      "blockClass": "home__section--2"
+    }
+  },
+  "flex-layout.row#home__container-information": {
+    "title": "Home Information",
+    "children": [
+      "image#home__image--davivienda",
+      "rich-text#home__info--section-1",
+      "link#home__link--info"
+    ],
+    "props": {
+      "blockClass": "home__container-information"
+    }
+  },
+  "image#home__image--davivienda": {
+    "title": "Home Imagen Davivienda",
+    "props": {
+      "src": "https://cosonyb2c.vteximg.com.br/arquivos/davivienda-neg.png",
+      "blockClass": "home__image--davivienda"
+    }
+  },
+
+  "rich-text#home__info--section-1": {
+    "title": "text of information send product",
+    "props": {
+      "text": "| 0% de interés pagando a 12 cuotas con tarjetas Davivienda*",
+      "blockClass": "home__text--davivienda"
+    }
+  },
+  "link#home__link--info": {
+    "title": "home Link 'Ver Mas'",
+    "children": [
+      "rich-text#link__info--text"
+    ],
+    "props": {
+      "href": "/",
+      "blockClass": "home__link"
+    }
+  },
+  "rich-text#link__info--text": {
+    "title": "home text 'Ver Mas'",
+    "props": {
+      "text": "Ver Más >>",
+      "blockClass": "home__text--link"
+    }
+  }
+}

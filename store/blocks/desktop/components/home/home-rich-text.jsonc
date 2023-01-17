@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#home__rich--text": {
+    "title": "Home Text Imperdibles Del Mes ",
+    "children": [
+      "rich-text#home__rich--text"
+    ],
+    "props": {
+      "blockClass": "home__rich--text"
+    }
+  },
+  "rich-text#home__rich--text": {
+    "props": {
+      "text": "Imperdibles del Mes",
+      "blockClass": "home__text--unmissable"
+    }
+  }
+}

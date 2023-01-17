@@ -2,43 +2,52 @@
   "flex-layout.row#home__slider--section-1": {
     "title": "DESKTOP Row with text",
     "children": [
-      "slider-layout#home__slider"
-    ]
-  },
-  "slider-layout#home__slider": {
-    "title": "Slider layout-section1",
+      "flex-layout.col#home__container--section"
+    ],
     "props": {
-      "fullWidth": true,
-      "arrowSize": 15,
-      "itemsPerPage": {
-        "desktop": 1
-      },
-      "infite": true,
-      "blockClass": "home__slider",
-      "autoplay": {
-        "timeout": 5000,
-        "stopOnHover": true
-      }
-    },
+      "blockClass": "home__section--one"
+    }
+  },
+  "flex-layout.col#home__container--section": {
+    "title": "Home container section one",
     "children": [
-      "image#home__slider--one",
-      "image#home__slider--two",
-      "image#home__slider--three"
-    ]
-  },
-  "image#home__slider--one": {
+      "rich-text#home__text--one",
+      "rich-text#home__text--two",
+      "rich-text#home__text--three",
+      "link#home__link--button"
+    ],
     "props": {
-      "src": "assets/img/linkbuds.jpg"
+      "blockClass": "home__section--info"
     }
   },
-  "image#home__slider--two": {
+  "rich-text#home__text--one": {
+    "title": "Home text one",
     "props": {
-      "src": "assets/img/camara1.jpg"
+      "text": "Del 16 al 31 de Ene/2023",
+      "blockClass": "home__text--one"
     }
   },
-  "image#home__slider--three": {
+  "rich-text#home__text--two": {
+    "title": "Home text two",
     "props": {
-      "src": "assets/img/main-slider1.jpg"
+      "text": "Que estudiar sea divertido",
+      "blockClass": "home__text--two"
+    }
+  },
+  "rich-text#home__text--three": {
+    "title": "Home text three",
+    "props": {
+      "text": "Descubre los productos esenciales para la vuelta a clases.",
+      "blockClass": "home__text--three"
+    }
+  },
+  "link#home__link--button": {
+    "title": "Home button offers",
+    "props": {
+      "href": "/",
+      "label": "Ver ofertas >>",
+      "displayMode": "button",
+      "blockClass": "home__button-one"
     }
   }
 }
