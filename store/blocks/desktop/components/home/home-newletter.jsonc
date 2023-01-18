@@ -1,0 +1,76 @@
+{
+  "flex-layout.row#home__title--newletter": {
+    "title": "Home title new letter",
+    "children": [
+      "image#home__img--newletter",
+      "rich-text#home__text--newletter"
+    ],
+    "props": {
+      "blockClass": "home__title--newletter"
+    }
+  },
+
+  "image#home__img--newletter": {
+    "title": "Image title new letter",
+    "props": {
+      "src": "https://cosonyb2c.vteximg.com.br/arquivos/newsletter-title.png",
+      "blockClass": "home__icon--newletter"
+    }
+  },
+  "rich-text#home__text--newletter": {
+    "title": "Home text newletter",
+    "props": {
+      "text": "Regístrate y entérate de últimas novedades y especiales.",
+      "blockClass": "home__text--newletter"
+    }
+  },
+
+  "flex-layout.row#home__form--newletter": {
+    "title": "Home from new letter",
+    "children": [
+      "newsletter-form#home__form--newletter"
+    ],
+    "props": {
+      "blockClass": "Home__container--form--newletter"
+    }
+  },
+  "newsletter-form#home__form--newletter": {
+    "title": "Home new letter input",
+    "children": [
+      "newsletter-input-name#home__input--name",
+      "newsletter-input-name#home__input--surname",
+      "newsletter-input-email#home__input--email",
+      "newsletter-submit#home__button--newletter"
+    ],
+    "props": {
+      "blockClass": "home__form--newletter"
+    }
+  },
+  "newsletter-input-name#home__input--name": {
+    "title": "Home input name",
+    "props": {
+      "inputLabel": "Nombre",
+      "placeholderText": "Nombre"
+    }
+  },
+  "newsletter-input-name#home__input--surname": {
+    "title": "Home input surname",
+    "props": {
+      "inputLabel": "Apellido",
+      "placeholderText": "Apellido"
+    }
+  },
+  "newsletter-input-email#home__input--email": {
+    "title": "Home input email",
+    "props": {
+      "inputLabel": "E-mail",
+      "placeholderText": "Correo"
+    }
+  },
+  "newsletter-submit#home__button--newletter": {
+    "title": "Home button newletter",
+    "props": {
+      "submitButtonLabel": "Subscribirme"
+    }
+  }
+}
