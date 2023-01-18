@@ -1,0 +1,45 @@
+{
+  "flex-layout.row#mobile__home--slider3": {
+    "title": "Mobile slider section 3",
+    "children": [
+      "slider-layout#home__slider--sectionthree"
+    ],
+    "props": {
+      "blockClass": "mobile__home--slider3"
+    }
+  },
+  "slider-layout#home__slider--sectionthree": {
+    "title": "Slider layout-sectionthree",
+    "props": {
+      "centerMode": "center",
+      "showNavigationArrows": "never",
+      "itemsPerPage": {
+        "mobile": 1,
+        "tablet": 1
+      },
+      "blockClass": "home__slider--sectionthree",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#mobile__slider--section3-1",
+      "image#mobile__slider--section3-2"
+    ]
+  },
+  "image#mobile__slider--section3-1": {
+    "title": "Mobile Image Slider 2",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/d33afbf8-d7ef-466a-abad-f9fd58d620ed___50f0a82637171ae4d8047ccf6567c94e.jpg",
+      "blockClass": "home__image--slider2"
+    }
+  },
+  "image#mobile__slider--section3-2": {
+    "title": "Mobile Image Slider 2",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/7bd80cbd-aabd-4ba2-b319-1c7cc8e9f89a___d56e4ca6d9fed01c0b15122d2f3b522e.jpg",
+      "blockClass": "home__image--slider2"
+    }
+  }
+}

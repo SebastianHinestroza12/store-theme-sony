@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#mobile__marco--slider": {
+    "title": "Mobile Marco Slider",
+    "children": [
+      "rich-text#home__marco",
+      "link#home__link--marco"
+    ],
+    "props": {
+      "blockClass": "mobile__marco--slider"
+    }
+  },
+  "rich-text#home__marco": {
+    "title": "text marco slider",
+    "props": {
+      "text": "| 0% de interés pagando a 12 cuotas con tarjetas Davivienda*",
+      "blockClass": "mobile__text--davivienda"
+    }
+  },
+  "link#home__link--marco": {
+    "title": "mobile text ver mas",
+    "children": [
+      "rich-text#link__marco--text"
+    ],
+    "props": {
+      "href": "/",
+      "blockClass": "marco__link--text"
+    }
+  },
+  "rich-text#link__marco--text": {
+    "title": "rich mobile ver mas",
+    "props": {
+      "text": "Ver Más >>",
+      "blockClass": "mobile__text--ver"
+    }
+  }
+}
