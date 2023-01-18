@@ -1,0 +1,39 @@
+.paragraph--mobile__text--one{
+  color: black;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.paragraph--mobile__text--two{
+  color: black;
+  font-size: 23px;
+}
+.paragraph--mobile__text--three{
+  color: black;
+  font-size: .8rem;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.paragraph--mobile__text--davivienda{
+  /* border: 1px solid #ccc; */
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  color: #bcbccc;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.paragraph--mobile__text--ver{
+  background: transparent!important;
+  font-size: 18px;
+  color: #5787f4;
+  text-decoration: none !important;
+}
+
+
+.paragraph--mobile__text--ver:hover{
+  color: #EE5C38;
+}
