@@ -39,6 +39,7 @@
     "vtex.stack-layout": "0.x",
     "vtex.sticky-layout": "0.x",
     "vtex.store-components": "3.x",
+    "vtex.store-newsletter": "1.x",
     "vtex.store-drawer": "0.x",
     "vtex.store-footer": "2.x",
     "vtex.store-header": "2.x",

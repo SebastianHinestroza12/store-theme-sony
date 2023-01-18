@@ -1,0 +1,253 @@
+{
+  "rich-text#home__favorites--store": {
+    "title": "home favorites store",
+    "props": {
+      "text": "favoritos sony store",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home__favorites--store"
+      // "font": "t-heading-1"
+    }
+  },
+  "flex-layout.row#home__favorites--sony": {
+    "title": "Home favorites sony",
+    "children": [
+      "flex-layout.col#home__favorites--one",
+      "flex-layout.col#home__favorites--two",
+      "flex-layout.col#home__favorites--three",
+      "flex-layout.col#home__favorites--four"
+    ],
+    "props": {
+      "blockClass": "home__favorites--sony"
+    }
+  },
+  "flex-layout.col#home__favorites--one": {
+    "title": "Home favorite one",
+    "children": [
+      "image#img__favorite--one",
+      "rich-text#text__favorites--one",
+      "rich-text#text__favorites--two",
+      "rich-text#text__favorites--three",
+      "rich-text#text__favorites--four",
+      "rich-text#text__favorites--five"
+    ],
+    "props": {
+      "blockClass": "home__favorites--one"
+    }
+  },
+  "image#img__favorite--one": {
+    "title": "image favorite1",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/af73eeb6-4fd2-4867-8aed-b775e75f8924___8920f825105e00e012b99dd4ad30786b.jpg",
+      "blockClass": "images__favorites"
+    }
+  },
+  "rich-text#text__favorites--one": {
+    "title": "text1 product favorite one",
+    "props": {
+      "text": "Cine en Casa",
+      "blockClass": "text__favorites--one"
+    }
+  },
+  "rich-text#text__favorites--two": {
+    "title": "text2 product favorite one",
+    "props": {
+      "text": "Televisores Full Array LED",
+      "blockClass": "text__favorites"
+    }
+  },
+  "rich-text#text__favorites--three": {
+    "title": "text3 product favorite one",
+    "props": {
+      "text": "Telvisores Smart con Google TV",
+      "blockClass": "text__favorites"
+    }
+  },
+  "rich-text#text__favorites--four": {
+    "title": "text4 product favorite one",
+    "props": {
+      "text": "Barras de Sonido y Teatros",
+      "blockClass": "text__favorites"
+    }
+  },
+  "rich-text#text__favorites--five": {
+    "title": "text4 product favorite one",
+    "props": {
+      "text": "Reproductores Blu-ray",
+      "blockClass": "text__favorites"
+    }
+  },
+
+  "flex-layout.col#home__favorites--two": {
+    "title": "Home favorite two",
+    "children": [
+      "image#img__favorite--two",
+      "rich-text#text2__favorites--one",
+      "rich-text#text2__favorites--two",
+      "rich-text#text2__favorites--three",
+      "rich-text#text2__favorites--four",
+      "rich-text#text2__favorites--five"
+    ],
+    "props": {
+      "blockClass": "home__favorites--one"
+    }
+  },
+  "image#img__favorite--two": {
+    "title": "image favorite2",
+    "props": {
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674010107/camara_httpdl.jpg",
+      "blockClass": "images__favorites"
+    }
+  },
+
+  "rich-text#text2__favorites--one": {
+    "title": "text1 product favorite one",
+    "props": {
+      "text": "Captura el Momento",
+      "blockClass": "text__favorites--one"
+    }
+  },
+  "rich-text#text2__favorites--two": {
+    "title": "text2 product favorite one",
+    "props": {
+      "text": "Cámaras profesionales Alpha",
+      "blockClass": "text__favorites"
+    }
+  },
+  "rich-text#text2__favorites--three": {
+    "title": "text3 product favorite one",
+    "props": {
+      "text": "Lentes G-Master",
+      "blockClass": "text__favorites"
+    }
+  },
+  "rich-text#text2__favorites--four": {
+    "title": "text4 product favorite one",
+    "props": {
+      "text": "Cámaras Vlogger",
+      "blockClass": "text__favorites"
+    }
+  },
+  "rich-text#text2__favorites--five": {
+    "title": "text4 product favorite one",
+    "props": {
+      "text": "Cámaras Cinema Line",
+      "blockClass": "text__favorites"
+    }
+  },
+
+  "flex-layout.col#home__favorites--three": {
+    "title": "Home favorite three",
+    "children": [
+      "image#img__favorite--three",
+      "rich-text#text3__favorites--one",
+      "rich-text#text3__favorites--two",
+      "rich-text#text3__favorites--three",
+      "rich-text#text3__favorites--four",
+      "rich-text#text3__favorites--five"
+    ],
+    "props": {
+      "blockClass": "home__favorites--one"
+    }
+  },
+  "image#img__favorite--three": {
+    "title": "image favorite3",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/3ed55674-b8e9-422f-97c6-8ebb608b8558___6d46681096aa7a4b880261e52a281673.jpg",
+      "blockClass": "images__favorites"
+    }
+  },
+
+  "rich-text#text3__favorites--one": {
+    "title": "text1 product favorite one",
+    "props": {
+      "text": "Audio Premium",
+      "blockClass": "text__favorites--one"
+    }
+  },
+  "rich-text#text3__favorites--two": {
+    "title": "text2 product favorite one",
+    "props": {
+      "text": "Sistemas de audio Serie V",
+      "blockClass": "text__favorites"
+    }
+  },
+  "rich-text#text3__favorites--three": {
+    "title": "text3 product favorite one",
+    "props": {
+      "text": "Sistemas de Audio Hi-res",
+      "blockClass": "text__favorites"
+    }
+  },
+  "rich-text#text3__favorites--four": {
+    "title": "text4 product favorite one",
+    "props": {
+      "text": "Parlantes Bluetooth",
+      "blockClass": "text__favorites"
+    }
+  },
+  "rich-text#text3__favorites--five": {
+    "title": "text4 product favorite one",
+    "props": {
+      "text": "360 Reality Audio",
+      "blockClass": "text__favorites"
+    }
+  },
+
+  "flex-layout.col#home__favorites--four": {
+    "title": "Home favorite four",
+    "children": [
+      "image#img__favorite--four",
+      "rich-text#text4__favorites--one",
+      "rich-text#text4__favorites--two",
+      "rich-text#text4__favorites--three",
+      "rich-text#text4__favorites--four",
+      "rich-text#text4__favorites--five"
+    ],
+    "props": {
+      "blockClass": "home__favorites--one"
+    }
+  },
+  "image#img__favorite--four": {
+    "title": "image favorite4",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/219d4bce-0408-44b1-8906-10243d7b5e2b___27a0319e8b88106aeb52c31d563c38e6.jpg",
+      "blockClass": "images__favorites"
+    }
+  },
+  "rich-text#text4__favorites--one": {
+    "title": "text1 product favorite one",
+    "props": {
+      "text": "Playstation",
+      "blockClass": "text__favorites--one"
+    }
+  },
+  "rich-text#text4__favorites--two": {
+    "title": "text2 product favorite one",
+    "props": {
+      "text": "Playstation 5",
+      "blockClass": "text__favorites"
+    }
+  },
+  "rich-text#text4__favorites--three": {
+    "title": "text3 product favorite one",
+    "props": {
+      "text": "Juegos Playstation",
+      "blockClass": "text__favorites"
+    }
+  },
+  "rich-text#text4__favorites--four": {
+    "title": "text4 product favorite one",
+    "props": {
+      "text": "Accesorios Playstation",
+      "blockClass": "text__favorites"
+    }
+  },
+  "rich-text#text4__favorites--five": {
+    "title": "text4 product favorite one",
+    "props": {
+      "text": "Controles Dualsense",
+      "blockClass": "text__favorites"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.slideChildrenContainer--home__slider--sectiontwo{
+  margin-top: 3rem;
+  height: 100px;
+  /* border: 1px solid #000; */
+}
+
+.sliderArrows--home__slider--sectiontwo{
+  cursor: pointer;
+    z-index: 2;
+    width: 30px;
+    height: 52px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 52px;
+    background-color: #000 !important;
+    color: #fff;
+    border-radius: 3px;
+    opacity: .3;
+    transition: all .25s;
+    margin-top: 3.5rem;
+}
+
+/* .paginationDotsContainer--home__slider--sectiontwo{
+  border: 1px solid #000;
+} */

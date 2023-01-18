@@ -1,0 +1,66 @@
+{
+  "flex-layout.row#mobile__slider1--home": {
+    "title": "MOBILE AND TABLET ROW",
+    "children": [
+      "image#mobile__slider1--home"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section1"
+    }
+  },
+  "image#mobile__slider1--home": {
+    "title": "Mobile Image Slider 1",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/bc65af1d-78dd-430f-b724-f0315ba61f1e___bf3b889d11bc8a5e4d7e6d055de8e34b.jpg",
+      "blockClass": "mobile__image--slider"
+    }
+  },
+  "flex-layout.row#mobile__home--infomation": {
+    "title": "Mobile home information",
+    "children": [
+      "flex-layout.col#mobile__home--info"
+    ]
+  },
+  "flex-layout.col#mobile__home--info": {
+    "title": "Text Information Section One",
+    "children": [
+      "rich-text#home__text--one",
+      "rich-text#home__text--two",
+      "rich-text#home__text--three",
+      "link#home__link--button"
+    ],
+    "props": {
+      "blockClass": "mobile__section--info"
+    }
+  },
+  "rich-text#home__text--one": {
+    "title": "Home text one",
+    "props": {
+      "text": "Del 16 al 31 de Ene/2023",
+      "blockClass": "mobile__text--one"
+    }
+  },
+  "rich-text#home__text--two": {
+    "title": "Home text two",
+    "props": {
+      "text": "Que estudiar sea divertido",
+      "blockClass": "mobile__text--two"
+    }
+  },
+  "rich-text#home__text--three": {
+    "title": "Home text three",
+    "props": {
+      "text": "Descubre los productos esenciales para la vuelta a clases.",
+      "blockClass": "mobile__text--three"
+    }
+  },
+  "link#home__link--button": {
+    "title": "Home button offers",
+    "props": {
+      "href": "/",
+      "label": "Ver ofertas >>",
+      "displayMode": "button",
+      "blockClass": "mobile__button-one"
+    }
+  }
+}

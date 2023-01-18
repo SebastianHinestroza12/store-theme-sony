@@ -1,0 +1,26 @@
+.label--mobile__button-one{
+  text-transform: initial;
+  font-size: 14px;
+}
+
+.buttonLink--mobile__button-one{
+  color: #fff;
+  height: 44px;
+  transition: all .2s;
+  background-color: #5787F3;
+  border: none;
+  margin-top: 1rem;
+  border-radius: 0 !important;
+}
+
+.buttonLink--mobile__button-one:hover{
+  background-color: #7992D2;
+}
+
+.childrenContainer--marco__link--text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #fff; */
+  
+}

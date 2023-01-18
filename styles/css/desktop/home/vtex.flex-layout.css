@@ -1,5 +1,4 @@
 .flexRow--home__section--2{
-    /* border: 1px solid #fff; */
     background-color: #212530;
     display: flex;
     justify-content: center;
@@ -7,7 +6,6 @@
     align-items: center;
 }
 .flexRow--home__section--one{
-    /* border: 5px solid #000; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +21,6 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    /* border: 2px solid #ccc; */
     width: 74vw;
     margin-right: 9rem;
 }
@@ -37,7 +34,6 @@
 }
 
 .flexRow--home__rich--text{
-    /* border: 1px solid #212530 ; */
     margin-top: 5rem;
     text-align: center;
 }
@@ -47,10 +43,8 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
-    /* border: 1px solid #000; */
 }
 .flexColChild--home_container--pictures{
-    /* border: 1px solid #000; */
     margin: 45px;
     width: 84%;
 }
@@ -60,14 +54,82 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid #000; */
 }
 
 .flexCol--home__text--rich{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid #000; */
     margin: 15px 120px 30px 145px;
 
+}
+
+.flexRow--home__favorites--sony{
+    display: flex;
+    /* justify-content:space-between;  */
+    align-items: center;
+    height: 450px;
+}
+
+.flexColChild--home__favorites--one{
+    margin: 5px 31px 0 31px;
+}
+
+
+/* Title NewLetter */
+
+.flexRow--home__title--newletter{
+    margin-top: 3rem ;
+    margin-bottom: 3rem;
+}
+
+.flexRow--Home__container--form--newletter{
+    width: 90%;
+    padding: 1.6em 0 2.6em!important;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 4rem;
+    background-color: #F1F5F9;
+}
+
+/* Payments */
+
+.flexRowContent--home__payment--methods{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+}
+
+.flexColChild--home__payments--col{
+    margin: 4px;
+}
+
+.flexCol--home__payments--col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300%;
+    margin: 10px;
+}
+
+.flexRowContent--home__payment--methods{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+/* HELP BUY STORE */
+
+.flexRow--home__help--buy{
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

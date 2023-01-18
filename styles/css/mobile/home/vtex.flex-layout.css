@@ -1,0 +1,22 @@
+.flexColChild--mobile__section--info{
+  margin-top: 2px;
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.flexRowContent--mobile__home--section1{
+  margin-top: 10px;
+  /* border: 1px solid #000; */
+  width: 100%;
+
+}
+
+.flexRowContent--mobile__marco--slider{
+  padding: 5px;
+  /* word-wrap: break-word; */
+  margin-top: 3rem;
+  background-color: #212530;
+}
