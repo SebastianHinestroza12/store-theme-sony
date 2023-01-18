@@ -5,6 +5,34 @@
   height: 85px;
 }
 
-/* .imageElement--home__pictures--back{
-  height: 400px;
-} */
+.imageElement--images__favorites{ 
+  border: 1px solid #000;
+  width: 250px;
+  height: 240px;
+  margin-bottom: 10px;
+  border-style: none; 
+}
+
+/* NewLetter */
+
+
+/* Payments */
+
+.imageElement--image__payment--size{
+  /* border: 1px solid #000; */
+  width: 65px;
+  height: 65px;
+}
+
+.imageElement--image__payment--allmethods{
+  width: 120px;
+  height: 83px;
+}
+
+
+/* BUTTON BACK */
+
+.backToTopButtonContainer{
+  opacity: .3;
+  right: calc(12% - 1vw);
+}

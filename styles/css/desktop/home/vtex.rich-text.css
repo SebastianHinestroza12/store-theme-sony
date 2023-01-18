@@ -1,5 +1,4 @@
 .paragraph--home__text--davivienda{
-    /* border: 1px solid #fff; */
     width: 530px;
     margin: 0;
     color: #bcbccc;
@@ -8,7 +7,6 @@
 }
 
 .paragraph--home__text--link{
-    /* border: 1px solid #fff; */
     width: 100px;
     background: transparent!important;
     font-size: 18px;
@@ -25,11 +23,9 @@
     font-size: 13px;
     font-weight: 700;
     color: black;
-    /* border: 1px solid #fff; */
 }
 .paragraph--home__text--two{
     width: 350px;
-    /* border: 1px solid #fff; */
     font-size: 28px;
     font-weight: 600;
     color: black;
@@ -57,7 +53,6 @@
     margin: 0 auto 35px;
     float: none;
     text-transform: capitalize;
-    /* border: 1px solid #000; */
 }
 
 .paragraph--text__pictures--one{
@@ -79,4 +74,101 @@
     text-decoration: none;
     transition: all .2s;
     text-decoration: none !important;
+}
+
+.paragraph--home__favorites--store{
+    margin-top: 5rem;
+    display: block;
+    margin-bottom: 40px;
+    text-transform: none;
+    font-weight: 600;
+    line-height: 26px;
+    color: #2f353d;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 45px;
+}
+
+.container--text__favorites--one{
+    font-size: 18px;
+    color: #2f353d;
+    line-height: 1!important;
+    margin-bottom: 12px;
+}
+
+.paragraph--text__favorites{
+    color: #83838f;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.paragraph--text__favorites::before{
+    content: "";
+    float: left;
+    width: 4px;
+    height: 4px;
+    background: #f75229;
+    margin: 8px 8px 8px 0;
+    border-radius: 4px;
+}
+
+/* NewLetter */
+
+.container--home__text--newletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    z-index: 4;
+}
+
+.paragraph--home__text--newletter{
+    margin-right: 6rem;
+    font-size: 23px;
+}
+
+/* //Payments */
+
+.container--text__orange--payment{
+    color: #f75229;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.paragraph--text__description--payment{
+    color: #83838f;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+}
+
+
+/* SECTION HELP, INFORMATION STORE */
+
+.container--home__help--info{
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2f353d;
+}
+
+.container--home__help--correo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.paragraph--home__help--correo{
+    color : #83838F;
+    text-decoration: none;
+    
 }
