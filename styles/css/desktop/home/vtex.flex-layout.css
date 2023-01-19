@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/bc65af1d-78dd-430f-b724-f0315ba61f1e___bf3b889d11bc8a5e4d7e6d055de8e34b.jpg");
     height: 405px;
     background-size: cover;
@@ -42,7 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 .flexColChild--home_container--pictures{
     margin: 45px;
