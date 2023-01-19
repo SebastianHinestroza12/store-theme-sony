@@ -1,0 +1,43 @@
+{
+  "flex-layout.row#home__help": {
+    "title": "Home help-buy",
+    "children": [
+      "flex-layout.col#home__help--mobile"
+    ],
+    "props": {
+      "blockClass": "home__help"
+    }
+  },
+
+  "flex-layout.col#home__help--mobile": {
+    "children": [
+      "rich-text#home__help--info1",
+      "rich-text#home__help--correo1",
+      "rich-text#home__help--doubts1"
+    ]
+  },
+
+  "rich-text#home__help--info1": {
+    "title": "Text help information",
+    "props": {
+      "text": "¿Necesitas información de tu compra?",
+      "blockClass": "home__help--info1"
+    }
+  },
+
+  "rich-text#home__help--correo1": {
+    "title": "Text help correo",
+    "props": {
+      "text": "Escríbenos a compras.online@am.sony.com",
+      "blockClass": "home__help--correo1"
+    }
+  },
+
+  "rich-text#home__help--doubts1": {
+    "title": "Text help correo",
+    "props": {
+      "text": "para solucionar tus dudas en el proceso de compra, envío, entrega o estado de tu pedido.",
+      "blockClass": "home__help--correo1"
+    }
+  }
+}

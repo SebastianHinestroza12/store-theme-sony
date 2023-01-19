@@ -7,7 +7,15 @@
       "flex-layout.row#mobile__marco--slider",
       "flex-layout.row#mobile__home--slider2",
       "flex-layout.row#home__rich--text",
-      "flex-layout.row#mobile__home--slider3"
+      "flex-layout.row#mobile__home--slider3",
+      "flex-layout.row#home__rich--favorites",
+      "flex-layout.row#home__favorites--store-sony",
+      "flex-layout.row#home__surveys--mobile",
+      "flex-layout.row#home__title--newletter--mobile",
+      "flex-layout.row#home__form--newletter--mobile",
+      "flex-layout.row#mobile__home--slider4",
+      "flex-layout.row#home__help",
+      "back-to-top-button#home__button--back"
     ]
   }
 }

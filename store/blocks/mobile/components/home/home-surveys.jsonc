@@ -1,0 +1,46 @@
+{
+  "flex-layout.row#home__surveys--mobile": {
+    "title": "Homem Surveys Mobile",
+    "children": [
+      "flex-layout.col#home__surveys--text",
+      "flex-layout.col#home__surveys--button"
+    ],
+    "props": {
+      "blockClass": "home__surveys--mobile"
+    }
+  },
+  "flex-layout.col#home__surveys--text": {
+    "title": "Home Surveys Text",
+    "children": [
+      "rich-text#home__surveys--text"
+    ],
+    "props": {
+      "blockClass": "surveys__block--container"
+    }
+  },
+  "rich-text#home__surveys--text": {
+    "title": "Home Surveys Text",
+    "props": {
+      "text": "Ayudanos a mejorar, toma una breve encuesta",
+      "blockClass": "home__survey__text"
+    }
+  },
+  "flex-layout.col#home__surveys--button": {
+    "title": "Home Survey Button",
+    "children": [
+      "link#home__surveys--button"
+    ],
+    "props": {
+      "blockClass": "surveys__block--container"
+    }
+  },
+  "link#home__surveys--button": {
+    "title": "Home Button Survey",
+    "props": {
+      "href": "/encuesta",
+      "label": "Danos tu opinión",
+      "displayMode": "button",
+      "blockClass": "home__button--surveys"
+    }
+  }
+}

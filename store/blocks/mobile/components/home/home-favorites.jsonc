@@ -1,0 +1,134 @@
+{
+  "flex-layout.row#home__rich--favorites": {
+    "title": "Home to Favorites",
+    "children": [
+      "rich-text#home__rich--favorites"
+    ],
+    "props": {
+      "blockClass": "home__rich--favorites-container"
+    }
+  },
+  "rich-text#home__rich--favorites": {
+    "title": "Home rich favorites",
+    "props": {
+      "text": "favoritos sony store",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "text__block--favorites"
+    }
+  },
+
+  "flex-layout.row#home__favorites--store-sony": {
+    "title": "Home favorites sony",
+    "children": [
+      "flex-layout.col#home__favorites--1",
+      "flex-layout.col#home__favorites--2",
+      "flex-layout.col#home__favorites--3",
+      "flex-layout.col#home__favorites--4"
+    ],
+    "props": {
+      "blockClass": "home__favorites--store-sony"
+    }
+  },
+  "flex-layout.col#home__favorites--1": {
+    "title": "Home favorite one",
+    "children": [
+      "image#img__favorite--1",
+      "rich-text#text__favorites--1"
+    ],
+    "props": {
+      "blockClass": "home__favorites--title"
+    }
+  },
+  "image#img__favorite--1": {
+    "title": "image favorite1",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/af73eeb6-4fd2-4867-8aed-b775e75f8924___8920f825105e00e012b99dd4ad30786b.jpg",
+      "blockClass": "image__favorites--mobile"
+    }
+  },
+  "rich-text#text__favorites--1": {
+    "title": "text1 product favorite one",
+    "props": {
+      "text": "Cine en Casa",
+      "blockClass": "text__favorites--1"
+    }
+  },
+
+  "flex-layout.col#home__favorites--2": {
+    "title": "Home favorite two",
+    "children": [
+      "image#img__favorite--2",
+      "rich-text#text2__favorites--2"
+    ],
+    "props": {
+      "blockClass": "home__favorites--title"
+    }
+  },
+  "image#img__favorite--2": {
+    "title": "image favorite2",
+    "props": {
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674010107/camara_httpdl.jpg",
+      "blockClass": "image__favorites--mobile"
+    }
+  },
+
+  "rich-text#text2__favorites--2": {
+    "title": "text1 product favorite one",
+    "props": {
+      "text": "Captura el Momento",
+      "blockClass": "text__favorites--1"
+    }
+  },
+
+  "flex-layout.col#home__favorites--3": {
+    "title": "Home favorite three",
+    "children": [
+      "image#img__favorite--3",
+      "rich-text#text3__favorites--3"
+    ],
+    "props": {
+      "blockClass": "home__favorites--title"
+    }
+  },
+  "image#img__favorite--3": {
+    "title": "image favorite3",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/3ed55674-b8e9-422f-97c6-8ebb608b8558___6d46681096aa7a4b880261e52a281673.jpg",
+      "blockClass": "image__favorites--mobile"
+    }
+  },
+
+  "rich-text#text3__favorites--3": {
+    "title": "text1 product favorite one",
+    "props": {
+      "text": "Audio Premium",
+      "blockClass": "text__favorites--1"
+    }
+  },
+
+  "flex-layout.col#home__favorites--4": {
+    "title": "Home favorite four",
+    "children": [
+      "image#img__favorite--4",
+      "rich-text#text4__favorites--4"
+    ],
+    "props": {
+      "blockClass": "home__favorites--title"
+    }
+  },
+  "image#img__favorite--4": {
+    "title": "image favorite4",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/219d4bce-0408-44b1-8906-10243d7b5e2b___27a0319e8b88106aeb52c31d563c38e6.jpg",
+      "blockClass": "image__favorites--mobile"
+    }
+  },
+  "rich-text#text4__favorites--4": {
+    "title": "text1 product favorite one",
+    "props": {
+      "text": "Playstation",
+      "blockClass": "text__favorites--1"
+    }
+  }
+}
