@@ -6,7 +6,9 @@
     ],
     "props": {
       "marginTop": 10,
-      "border": ["all"],
+      "border": [
+        "all"
+      ],
       "borderWidth": 1,
       "borderColor": "success"
     }

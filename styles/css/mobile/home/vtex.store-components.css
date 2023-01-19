@@ -1,7 +1,27 @@
 .imageElement--home__image--mobile{
   /* border: 1px solid #000; */
   width: 70%;
-  height: 70px;
+  height: 6.375rem;
   margin: 0 auto;
-  /* margin-top: 1rem; */
+}
+
+.imageElement--home__image--slider2{
+  width: 18.75rem;
+}
+
+.imageElement--image__favorites--mobile{
+  width: 8.175rem;
+}
+
+:global(.vtex-button){
+  background-color: #F25529;
+  width: 100%;
+  border: none;
+  transition: all .25s;
+  min-height: 36px;
+  border-radius: 0 ;
+}
+:global(.vtex-button__label){
+  text-transform: initial;
+  font-size: 12px;
 }

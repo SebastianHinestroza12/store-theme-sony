@@ -1,0 +1,238 @@
+{
+  "flex-layout.row#mobile__home--slider4": {
+    "title": "Mobile slider section 4",
+    "children": [
+      "slider-layout#home__slider--sectionfour"
+    ],
+    "props": {
+      "blockClass": "mobile__home--slider4"
+    }
+  },
+  "slider-layout#home__slider--sectionfour": {
+    "title": "Slider layout-sectionthree",
+    "props": {
+      "showNavigationArrows": "never",
+      "itemsPerPage": {
+        "mobile": 2,
+        "tablet": 3
+      },
+      "blockClass": "home__slider--sectionthree",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "flex-layout.col#home__payment--col1",
+      "flex-layout.col#home__payment--col2",
+      "flex-layout.col#home__payment--col3",
+      "flex-layout.col#home__payment--col4",
+      "flex-layout.col#home__payment--col5",
+      "flex-layout.col#home__payment--col6"
+    ]
+  },
+  "flex-layout.col#home__payment--col1": {
+    "title": "Home easy buy col1",
+    "children": [
+      "image#img__easy--buy",
+      "rich-text#text__easy--buy",
+      "rich-text#text__decpription__easy--buy"
+    ],
+    "props": {
+      "blockClass": "home__payments--col"
+    }
+  },
+
+  "image#img__easy--buy": {
+    "title": "Image easy-buy",
+    "props": {
+      "src": "https://cosonyb2c.vteximg.com.br/arquivos/como-comprar.png",
+      "blockClass": "image__payment--size"
+    }
+  },
+
+  "rich-text#text__easy--buy": {
+    "title": "TEXT EASY BUY",
+    "props": {
+      "text": "Compra fácil",
+      "blockClass": "text__orange--payment"
+    }
+  },
+
+  "rich-text#text__decpription__easy--buy": {
+    "title": "TEXT  DESCRIPTION EASY BUY",
+    "props": {
+      "text": "Elige tu producto, selecciona el medio de pago, la dirección de entrega y listo",
+      "blockClass": "text__description--payment"
+    }
+  },
+
+  "flex-layout.col#home__payment--col2": {
+    "title": "Home payment col2",
+    "children": [
+      "image#img__payment--methods",
+      "rich-text#text__payment--methods",
+      "image#img__payment--allmethods"
+    ],
+    "props": {
+      "blockClass": "home__payments--col"
+    }
+  },
+
+  "image#img__payment--methods": {
+    "title": "Image payment method",
+    "props": {
+      "src": "https://cosonyb2c.vteximg.com.br/arquivos/medios-pago.png",
+      "blockClass": "image__payment--size"
+    }
+  },
+
+  "rich-text#text__payment--methods": {
+    "props": {
+      "text": "Medios de Pago",
+      "blockClass": "text__orange--payment"
+    }
+  },
+
+  "image#img__payment--allmethods": {
+    "title": "Image payment Allmethod",
+    "props": {
+      "src": "https://cosonyb2c.vteximg.com.br/arquivos/payments2.png",
+      "blockClass": "image__payment--allmethods"
+    }
+  },
+
+  "flex-layout.col#home__payment--col3": {
+    "title": "Home free shipping col3",
+    "children": [
+      "image#img__free--shipping",
+      "rich-text#text__free--shipping",
+      "rich-text#text__description--free--shipping"
+    ],
+    "props": {
+      "blockClass": "home__payments--col"
+    }
+  },
+
+  "image#img__free--shipping": {
+    "title": "Image free shipping",
+    "props": {
+      "src": "https://cosonyb2c.vteximg.com.br/arquivos/envios-pais.png",
+      "blockClass": "image__payment--size"
+    }
+  },
+
+  "rich-text#text__free--shipping": {
+    "title": "text free shipping",
+    "props": {
+      "text": "Envíos GRATIS*",
+      "blockClass": "text__orange--payment"
+    }
+  },
+
+  "rich-text#text__description--free--shipping": {
+    "title": "text decpription shipping",
+    "props": {
+      "text": "*En compras superiores a $99.000",
+      "blockClass": "text__description--payment"
+    }
+  },
+
+  "flex-layout.col#home__payment--col4": {
+    "title": "Home product fast col4",
+    "children": [
+      "image#img__product--fast",
+      "rich-text#text__product--fast",
+      "rich-text#text__description--product--fast"
+    ],
+    "props": {
+      "blockClass": "home__payments--col"
+    }
+  },
+
+  "image#img__product--fast": {
+    "title": "Image product fast",
+    "props": {
+      "src": "https://cosonyb2c.vteximg.com.br/arquivos/icn-test.png",
+      "blockClass": "image__payment--size"
+    }
+  },
+
+  "rich-text#text__product--fast": {
+    "title": "text product fast",
+    "props": {
+      "text": "Tu producto rápido",
+      "blockClass": "text__orange--payment"
+    }
+  },
+
+  "rich-text#text__description--product--fast": {
+    "title": "text decpription product--fast",
+    "props": {
+      "text": "El tiempo de entrega dependerá de la ciudad en la que te encuentres.",
+      "blockClass": "text__description--payment"
+    }
+  },
+
+  "flex-layout.col#home__payment--col5": {
+    "title": "Home warranty col5",
+    "children": [
+      "image#img__warranty--product",
+      "rich-text#text__warranty--product",
+      "rich-text#text__description-warranty--product"
+    ],
+    "props": {
+      "blockClass": "home__payments--col"
+    }
+  },
+
+  "image#img__warranty--product": {
+    "title": "Image warranty product",
+    "props": {
+      "src": "https://cosonyb2c.vteximg.com.br/arquivos/icn-test2.png",
+      "blockClass": "image__payment--size"
+    }
+  },
+
+  "rich-text#text__warranty--product": {
+    "title": "text warranty product",
+    "props": {
+      "text": "Garantía directa",
+      "blockClass": "text__orange--payment"
+    }
+  },
+
+  "rich-text#text__description-warranty--product": {
+    "title": "text decpription warranty-product",
+    "props": {
+      "text": "Todas tus compras cuentan con el respaldo directo de Sony.",
+      "blockClass": "text__description--payment"
+    }
+  },
+
+  "flex-layout.col#home__payment--col6": {
+    "title": "Home security buy col6",
+    "children": [
+      "image#img__security--buy",
+      "rich-text#text__security--buy"
+    ],
+    "props": {
+      "blockClass": "home__payments--col"
+    }
+  },
+  "image#img__security--buy": {
+    "title": "Image security buy",
+    "props": {
+      "src": "https://cosonyb2c.vteximg.com.br/arquivos/compra-segura.png",
+      "blockClass": "image__payment--size"
+    }
+  },
+
+  "rich-text#text__security--buy": {
+    "title": "text security buy",
+    "props": {
+      "text": "Compra segura 100% certificada",
+      "blockClass": "text__orange--payment"
+    }
+  }
+}

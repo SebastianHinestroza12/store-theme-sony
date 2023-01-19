@@ -24,3 +24,23 @@
   /* border: 1px solid #fff; */
   
 }
+
+/* BUTTON OF SURVEYS MOBILE */
+
+.buttonLink--home__button--surveys{
+
+  color: #fff;
+  width: 11.575rem;
+  height: 2.75rem;
+  transition: all .2s;
+  background-color: #4472ED;
+  border: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+  border-radius: 0 !important;
+}
+
+.label--home__button--surveys{
+  font-size: .775rem;
+}

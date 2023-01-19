@@ -1,0 +1,95 @@
+{
+  "flex-layout.row#home__title--newletter--mobile": {
+    "title": "Title newletter mobile",
+    "children": [
+      "flex-layout.col#home__image--newletter-mobile",
+      "flex-layout.col#home__text--newletter-mobile"
+    ],
+    "props": {
+      "blockClass": "home__newletter-mobile"
+    }
+  },
+  "flex-layout.col#home__image--newletter-mobile": {
+    "title": "Home Image newletter mobile",
+    "children": [
+      "image#home__image--newletter-mobile"
+    ],
+    "props": {
+      "blockClass": "home__newletter-mobile--info"
+    }
+  },
+
+  "image#home__image--newletter-mobile": {
+    "title": "Home image newletter mobile",
+    "props": {
+      "src": "https://store.sony.com.co/arquivos/newsletter-title.png",
+      "blockClass": "image__newletter--mobile"
+    }
+  },
+
+  "flex-layout.col#home__text--newletter-mobile": {
+    "title": "Home Text newletter mobile",
+    "children": [
+      "rich-text#home__text--newletter-mobile"
+    ],
+    "props": {
+      "blockClass": "home__newletter-mobile--info"
+    }
+  },
+  "rich-text#home__text--newletter-mobile": {
+    "title": "Home Text newletter mobile",
+    "props": {
+      "text": "Regístrate y entérate de últimas novedades y especiales.",
+      "blockClass": "home__text--newletter--mobile"
+    }
+  },
+
+  "flex-layout.row#home__form--newletter--mobile": {
+    "title": "Home form new letter mobile",
+    "children": [
+      "newsletter-form#home__form--newletter"
+    ],
+    "props": {
+      "blockClass": "Home__mobile--form--newletter"
+    }
+  },
+  "newsletter-form#home__form--newletter": {
+    "title": "Home new letter input",
+    "children": [
+      "newsletter-input-name#home__input--name--mobile",
+      "newsletter-input-name#home__input--surname--mobile",
+      "newsletter-input-email#home__input--email--mobile",
+      "newsletter-submit#home__button--newletter--mobile"
+    ],
+    "props": {
+      "blockClass": "home__form--newletter--mobile"
+    }
+  },
+  "newsletter-input-name#home__input--name--mobile": {
+    "title": "Home input name",
+    "props": {
+      "blockClass": "home__input--mobile",
+      "placeholderText": "Nombre"
+    }
+  },
+  "newsletter-input-name#home__input--surname--mobile": {
+    "title": "Home input surname",
+    "props": {
+      "blockClass": "home__input--mobile",
+      "placeholderText": "Apellido"
+    }
+  },
+  "newsletter-input-email#home__input--email--mobile": {
+    "title": "Home input email",
+    "props": {
+      "blockClass": "home__input--mobile",
+      "placeholderText": "Correo"
+    }
+  },
+  "newsletter-submit#home__button--newletter--mobile": {
+    "title": "Home button newletter",
+    "props": {
+      "submitButtonLabel": "Subscribirme"
+    }
+  }
+}

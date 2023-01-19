@@ -1,0 +1,5 @@
+:global(.vtex-input-prefix__group ){
+  border-radius: 0;
+  /* border: none !important; */
+  margin: .225rem;
+}
