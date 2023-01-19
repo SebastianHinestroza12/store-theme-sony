@@ -1,0 +1,24 @@
+.newsletterForm--home__form--newletter--mobile{
+  width: 90% !important;
+  margin-top: 4rem;
+  background: #f1f5f9;
+  height: 17rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nameInputContainer--home__input--mobile{
+  width: 16.8rem;
+}
+
+.emailInputContainer--home__input--mobile{
+  width: 16.8rem;
+  
+}
+
+.formSubmitContainer{
+  width: 16.5rem;
+}
+

@@ -20,3 +20,58 @@
   margin-top: 3rem;
   background-color: #212530;
 }
+
+/* FAVORITE SONY STORE */
+
+.flexRowContent--home__favorites--store-sony{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.flexColChild--home__favorites--title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .4125rem;
+}
+
+/* SURVEY MOBILE */
+
+.flexRowContent--home__surveys--mobile {
+  margin-top: 3rem;
+  height: 5.25rem;
+}
+
+.flexColChild--surveys__block--container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .125rem;
+}
+
+/* Newletter */
+
+.flexRowContent--home__newletter-mobile {
+  margin-top: 4rem;
+  display: flex;
+  align-content: center;
+  /* border: 1px solid #000; */
+}
+
+.flexColChild--home__newletter-mobile--info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRowContent--mobile__home--slider4{
+  margin-top: 4rem;
+}
+
+.flexRow--home__help{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  height: 10rem;
+}

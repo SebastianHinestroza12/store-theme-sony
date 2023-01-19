@@ -37,3 +37,64 @@
 .paragraph--mobile__text--ver:hover{
   color: #EE5C38;
 }
+
+
+/* Favorites Sony Store */
+
+.container--text__block--favorites{
+  margin-top: 3rem;
+  font-weight: 700;
+  line-height: 26px;
+  color: #2f353d;
+  text-transform:capitalize;
+  font-size: 24px;
+  margin-bottom: 45px;
+
+}
+
+.paragraph--text__favorites--one{
+  font-size: .875rem;
+}
+
+/* SURVEYS MOBILE */
+
+.paragraph--home__survey__text{
+  font-size: 12px;
+  color: #63666a;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* NEWLETTER MOBILE */
+
+.paragraph--home__text--newletter--mobile{
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 1;
+  font-size: 19px;
+}
+
+.wrapper--home__help--info1{
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  color: #2f353d;
+  font-size: 20px;
+}
+
+.container--home__help--info1{
+  margin-bottom: 1.5rem;
+}
+
+
+.wrapper--home__help--correo1{
+  width: 100%;
+  text-align: center;
+  line-height: 1.5;
+  display: block;
+}
+.paragraph--home__help--correo1{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 300;
+}
