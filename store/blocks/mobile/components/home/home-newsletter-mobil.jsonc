@@ -47,13 +47,13 @@
   "flex-layout.row#home__form--newletter--mobile": {
     "title": "Home form new letter mobile",
     "children": [
-      "newsletter-form#home__form--newletter"
+      "newsletter-form#home__form--newletter2"
     ],
     "props": {
       "blockClass": "Home__mobile--form--newletter"
     }
   },
-  "newsletter-form#home__form--newletter": {
+  "newsletter-form#home__form--newletter2": {
     "title": "Home new letter input",
     "children": [
       "newsletter-input-name#home__input--name--mobile",

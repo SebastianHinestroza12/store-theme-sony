@@ -102,6 +102,11 @@
     line-height: 20px;
     margin-bottom: 5px;
     text-decoration: none;
+    cursor: pointer;
+}
+
+.paragraph--text__favorites:hover{
+    color: #000;
 }
 
 .paragraph--text__favorites::before{
@@ -172,3 +177,4 @@
     text-decoration: none;
     
 }
+
