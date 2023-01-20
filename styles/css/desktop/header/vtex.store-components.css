@@ -25,3 +25,8 @@
   border-radius: 50%;
   width: 170px;
 }
+
+.imageElement--header__img--products{
+  width: 50px;
+  height: 60px;
+}
