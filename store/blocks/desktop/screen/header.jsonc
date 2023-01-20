@@ -14,7 +14,8 @@
   "header-layout.desktop": {
     "title": "Header In Desktop",
     "children": [
-      "header-row#header__top"
+      "header-row#header__top",
+      "menu#desktop__menu--middle"
     ]
   }
 }

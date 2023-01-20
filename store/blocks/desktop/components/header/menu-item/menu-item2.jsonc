@@ -1,0 +1,131 @@
+{
+  "menu-item#desktop__deparment--two": {
+    "props": {
+      "blockClass": "desktop__dep",
+      "id": "department-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/televisores-y-teatros-en-casa",
+        "noFollow": true,
+        "tagTitle": "televisores y teatros en casa",
+        "text": "TV y Teatro en casa"
+      }
+    },
+    "blocks": [
+      "submenu#desktop__deparment--one"
+    ]
+  },
+
+  "submenu#desktop__deparment--one": {
+    "title": "Sub Menu Header Department One",
+    "children": [
+      "menu#desktop__department--one"
+    ],
+    "props": {
+      "onMountBehahior": "open",
+      "blockClass": "desktop__deparment--submenu"
+    }
+  },
+  "menu#desktop__department--one": {
+    "title": "Menu Categories One",
+    "children": [
+      "flex-layout.row#header-tv"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu__deparments"
+    }
+  },
+
+  "flex-layout.row#header-tv": {
+    "title": "Header Section Tv",
+    "children": [
+      "flex-layout.col#header-tv",
+      "flex-layout.col#header-theater",
+      "flex-layout.col#header-player"
+    ],
+    "props": {
+      "blockClass": "row__container--menu"
+    }
+  },
+
+  "flex-layout.col#header-tv": {
+    "title": "Header Section Col Tv",
+    "children": [
+      "image#image__header--tv",
+      "rich-text#text__header--tv"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header--tv": {
+    "title": "Header Imagen Tv",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/tv-televisores.png",
+      "blockClass": "header__img--products"
+    }
+  },
+  "rich-text#text__header--tv": {
+    "title": "Header Text Tv",
+    "props": {
+      "text": "Televisores",
+      "blockClass": "header__text--products"
+    }
+  },
+
+  "flex-layout.col#header-theater": {
+    "title": "Header Section Col Theater",
+    "children": [
+      "image#image__header--theater",
+      "rich-text#text__header--theater"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header--theater": {
+    "title": "Header Imagen Theater",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/teatro-en-casa.png",
+      "blockClass": "header__img--products"
+    }
+  },
+
+  "rich-text#text__header--theater": {
+    "title": "Header Text Theater",
+    "props": {
+      "text": "Teatro en Casa",
+      "blockClass": "header__text--products"
+    }
+  },
+
+  "flex-layout.col#header-player": {
+    "title": "Header Section Col Player",
+    "children": [
+      "image#image__header--player",
+      "rich-text#text__header--player"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header--player": {
+    "title": "Header Imagen Player",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/reproductores-Blu-ray.png",
+      "blockClass": "header__img--products"
+    }
+  },
+  "rich-text#text__header--player": {
+    "title": "Header Text Player",
+    "props": {
+      "text": "Reproductores de Blu-ray Disc y DVD",
+      "blockClass": "header__text--products"
+    }
+  }
+}

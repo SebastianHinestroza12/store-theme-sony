@@ -1,0 +1,18 @@
+{
+  "menu#desktop__menu--middle": {
+    "title": "Menu Header Middle Desktop",
+    "children": [
+      "menu-item#desktop__deparment--one",
+      "menu-item#desktop__deparment--two",
+      "menu-item#desktop__deparment--three",
+      "menu-item#desktop__deparment--four",
+      "menu-item#desktop__deparment--five",
+      "menu-item#desktop__deparment--six",
+      "menu-item#desktop__deparment--seven"
+    ],
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "desktop__menu--middle"
+    }
+  }
+}

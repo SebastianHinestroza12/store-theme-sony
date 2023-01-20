@@ -1,0 +1,106 @@
+{
+  "menu-item#desktop__deparment--seven": {
+    "props": {
+      "blockClass": "desktop__dep",
+      "id": "department-five",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-para-auto",
+        "noFollow": true,
+        "tagTitle": "audio para auto",
+        "text": "Audio para Auto"
+      }
+    },
+    "blocks": [
+      "submenu#desktop__deparment--six"
+    ]
+  },
+
+  // SUbmenu
+
+  "submenu#desktop__deparment--six": {
+    "title": "Sub Menu Header Department Six",
+    "children": [
+      "menu#desktop__department--six"
+    ],
+    "props": {
+      "onMountBehahior": "open",
+      "blockClass": "desktop__deparment--submenu"
+    }
+  },
+  "menu#desktop__department--six": {
+    "title": "Menu Categories Six",
+    "children": [
+      "flex-layout.row#header__car--audio"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu__deparments"
+    }
+  },
+
+  "flex-layout.row#header__car--audio": {
+    "title": "Header Section Col CarAudio",
+    "children": [
+      "flex-layout.col#header__car--audio1",
+      "flex-layout.col#header__car--audio2"
+    ],
+    "props": {
+      "blockClass": "row__container--menu"
+    }
+  },
+
+  "flex-layout.col#header__car--audio1": {
+    "title": "Header Section Col CarAudio",
+    "children": [
+      "image#image__header__car--audio1",
+      "rich-text#text__header__car--audio1"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header__car--audio1": {
+    "title": "Header Imagen CarAudio1",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/reproductores-automovil.png",
+      "blockClass": "header__img--products"
+    }
+  },
+  "rich-text#text__header__car--audio1": {
+    "title": "Header Text CarAudio1",
+    "props": {
+      "text": "Reproductores para Automóvil",
+      "blockClass": "header__text--products"
+    }
+  },
+
+  "flex-layout.col#header__car--audio2": {
+    "title": "Header Section Col CarAudio2",
+    "children": [
+      "image#image__header__car--audio2",
+      "rich-text#text__header__car--audio2"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header__car--audio2": {
+    "title": "Header Imagen CarAudio2",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/audio-auto-bocinas-amplificadores.png",
+      "blockClass": "header__img--products"
+    }
+  },
+
+  "rich-text#text__header__car--audio2": {
+    "title": "Header Text CarAudio2",
+    "props": {
+      "text": "Bocinas y Amplificadores",
+      "blockClass": "header__text--products"
+    }
+  }
+}

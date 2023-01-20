@@ -1,0 +1,132 @@
+{
+  "menu-item#desktop__deparment--four": {
+    "props": {
+      "blockClass": "desktop__dep",
+      "id": "department-four",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/videocamaras",
+        "noFollow": true,
+        "tagTitle": "videocamaras",
+        "text": "Videocámaras"
+      }
+    },
+    "blocks": [
+      "submenu#desktop__deparment--three"
+    ]
+  },
+
+  //////// Sub Menu ///////////
+  "submenu#desktop__deparment--three": {
+    "title": "Sub Menu Header Department Three",
+    "children": [
+      "menu#desktop__department--three"
+    ],
+    "props": {
+      "onMountBehahior": "open",
+      "blockClass": "desktop__deparment--submenu"
+    }
+  },
+  "menu#desktop__department--three": {
+    "title": "Menu Categories Three",
+    "children": [
+      "flex-layout.row#header-camcorders"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu__deparments"
+    }
+  },
+
+  "flex-layout.row#header-camcorders": {
+    "title": "Header Section CamCorder",
+    "children": [
+      "flex-layout.col#header-camcorders1",
+      "flex-layout.col#header-camcorders2",
+      "flex-layout.col#header-camcorders3"
+    ],
+    "props": {
+      "blockClass": "row__container--menu"
+    }
+  },
+
+  "flex-layout.col#header-camcorders1": {
+    "title": "Header Section Col CamCorder1",
+    "children": [
+      "image#image__header--camcorders1",
+      "rich-text#text__header--camcorders1"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header--camcorders1": {
+    "title": "Header Imagen CamCorder1",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/video-handycam.png",
+      "blockClass": "header__img--products"
+    }
+  },
+  "rich-text#text__header--camcorders1": {
+    "title": "Header Text CamCorder1",
+    "props": {
+      "text": "Handycam",
+      "blockClass": "header__text--products"
+    }
+  },
+
+  "flex-layout.col#header-camcorders2": {
+    "title": "Header Section Col CamCorder2",
+    "children": [
+      "image#image__header--camcorders2",
+      "rich-text#text__header--camcorders2"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header--camcorders2": {
+    "title": "Header Imagen CamCorder2",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/video-accesorios.png",
+      "blockClass": "header__img--products"
+    }
+  },
+
+  "rich-text#text__header--camcorders2": {
+    "title": "Header Text CamCorder2",
+    "props": {
+      "text": "Accesorios",
+      "blockClass": "header__text--products"
+    }
+  },
+
+  "flex-layout.col#header-camcorders3": {
+    "title": "Header Section Col CamCorder3",
+    "children": [
+      "image#image__header--camcorders3",
+      "rich-text#text__header--camcorders3"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header--camcorders3": {
+    "title": "Header Imagen CamCorder3",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/video-camaras-cine.png",
+      "blockClass": "header__img--products"
+    }
+  },
+  "rich-text#text__header--camcorders3": {
+    "title": "Header Text CamCorder3",
+    "props": {
+      "text": "Cámaras de Cine",
+      "blockClass": "header__text--products"
+    }
+  }
+}
