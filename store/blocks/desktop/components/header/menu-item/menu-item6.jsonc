@@ -1,0 +1,159 @@
+{
+  "menu-item#desktop__deparment--six": {
+    "props": {
+      "blockClass": "desktop__dep",
+      "id": "department-five",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/playStation",
+        "noFollow": true,
+        "tagTitle": "playStation",
+        "text": "PlayStation"
+      }
+    },
+    "blocks": [
+      "submenu#desktop__deparment--five"
+    ]
+  },
+
+  // SUbmenu
+
+  "submenu#desktop__deparment--five": {
+    "title": "Sub Menu Header Department Five",
+    "children": [
+      "menu#desktop__department--five"
+    ],
+    "props": {
+      "onMountBehahior": "open",
+      "blockClass": "desktop__deparment--submenu"
+    }
+  },
+  "menu#desktop__department--five": {
+    "title": "Menu Header Categories Five",
+    "children": [
+      "flex-layout.row#header-playstation"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu__deparments"
+    }
+  },
+
+  "flex-layout.row#header-playstation": {
+    "title": "Header Section PlayStation ",
+    "children": [
+      "flex-layout.col#header-playstation1",
+      "flex-layout.col#header-playstation2",
+      "flex-layout.col#header-playstation3",
+      "flex-layout.col#header-playstation4"
+    ],
+    "props": {
+      "blockClass": "row__container--menu"
+    }
+  },
+
+  "flex-layout.col#header-playstation1": {
+    "title": "Header Section Col PlayStation1",
+    "children": [
+      "image#image__header--playstation1",
+      "rich-text#text__header--playstation1"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header--playstation1": {
+    "title": "Header Imagen PlayStation1",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/menu-ps5-v1.png",
+      "blockClass": "header__img--products"
+    }
+  },
+  "rich-text#text__header--playstation1": {
+    "title": "Header Text PlayStation1",
+    "props": {
+      "text": "PlayStation 5",
+      "blockClass": "header__text--products"
+    }
+  },
+
+  "flex-layout.col#header-playstation2": {
+    "title": "Header Section Col PlayStation2",
+    "children": [
+      "image#image__header--playstation2",
+      "rich-text#text__header--playstation2"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header--playstation2": {
+    "title": "Header Imagen PlayStation2",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/playstation-consolas.png",
+      "blockClass": "header__img--products"
+    }
+  },
+
+  "rich-text#text__header--playstation2": {
+    "title": "Header Text PlayStation2",
+    "props": {
+      "text": "Consolas",
+      "blockClass": "header__text--products"
+    }
+  },
+
+  "flex-layout.col#header-playstation3": {
+    "title": "Header Section Col PlayStation3",
+    "children": [
+      "image#image__header--playstation3",
+      "rich-text#text__header--playstation3"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header--playstation3": {
+    "title": "Header Imagen PlayStation3",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/playstation-juegos.png",
+      "blockClass": "header__img--products"
+    }
+  },
+  "rich-text#text__header--playstation3": {
+    "title": "Header Text PlayStation3",
+    "props": {
+      "text": "Juegos",
+      "blockClass": "header__text--products"
+    }
+  },
+  "flex-layout.col#header-playstation4": {
+    "title": "Header Section Col PlayStation4",
+    "children": [
+      "image#image__header--playstation4",
+      "rich-text#text__header--playstation4"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header--playstation4": {
+    "title": "Header Imagen PlayStation4",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/playstation-accesorios.png",
+      "blockClass": "header__img--products"
+    }
+  },
+  "rich-text#text__header--playstation4": {
+    "title": "Header Text PlayStation4",
+    "props": {
+      "text": "Accesorios para PlayStation",
+      "blockClass": "header__text--products"
+    }
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "menu-item#desktop__deparment--three": {
+    "props": {
+      "blockClass": "desktop__dep",
+      "id": "department-three",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/camara",
+        "noFollow": true,
+        "tagTitle": "camara",
+        "text": "Cámaras"
+      }
+    },
+    "blocks": [
+      "submenu#desktop__deparment--two"
+    ]
+  },
+
+  "submenu#desktop__deparment--two": {
+    "title": "Sub Menu Header Department Two",
+    "children": [
+      "menu#desktop__department--two"
+    ],
+    "props": {
+      "onMountBehahior": "open",
+      "blockClass": "desktop__deparment--submenu"
+    }
+  },
+  "menu#desktop__department--two": {
+    "title": "Menu Categories Two",
+    "children": [
+      "flex-layout.row#header-cameras"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu__deparments"
+    }
+  },
+
+  "flex-layout.row#header-cameras": {
+    "title": "Header Section Cameras",
+    "children": [
+      "flex-layout.col#header-camera1",
+      "flex-layout.col#header-camera2",
+      "flex-layout.col#header-camera3",
+      "flex-layout.col#header-camera4",
+      "flex-layout.col#header-camera5"
+    ],
+    "props": {
+      "blockClass": "row__container--menu"
+    }
+  },
+
+  "flex-layout.col#header-camera1": {
+    "title": "Header Section Col Camera1",
+    "children": [
+      "image#image__header--camera1",
+      "rich-text#text__header--camera1"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header--camera1": {
+    "title": "Header Imagen Camera1",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/photo-camaras-lentes-intercambiables.png",
+      "blockClass": "header__img--products"
+    }
+  },
+  "rich-text#text__header--camera1": {
+    "title": "Header Text Camera1",
+    "props": {
+      "text": "Cámaras con Lentes Intercambiables",
+      "blockClass": "header__text--products"
+    }
+  },
+
+  "flex-layout.col#header-camera2": {
+    "title": "Header Section Col Camera2",
+    "children": [
+      "image#image__header--camera2",
+      "rich-text#text__header--camera2"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header--camera2": {
+    "title": "Header Imagen Camera2",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/photo-cybershot.png",
+      "blockClass": "header__img--products"
+    }
+  },
+
+  "rich-text#text__header--camera2": {
+    "title": "Header Text Camera2",
+    "props": {
+      "text": "Cyber-Shot",
+      "blockClass": "header__text--products"
+    }
+  },
+
+  "flex-layout.col#header-camera3": {
+    "title": "Header Section Camera3",
+    "children": [
+      "image#image__header--camera3",
+      "rich-text#text__header--camera3"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header--camera3": {
+    "title": "Header Imagen Camera3",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/photo-lentes.png",
+      "blockClass": "header__img--products"
+    }
+  },
+  "rich-text#text__header--camera3": {
+    "title": "Header Text Camera3",
+    "props": {
+      "text": "Lentes",
+      "blockClass": "header__text--products"
+    }
+  },
+  "flex-layout.col#header-camera4": {
+    "title": "Header Section Col Camera4",
+    "children": [
+      "image#image__header--camera4",
+      "rich-text#text__header--camera4"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header--camera4": {
+    "title": "Header Imagen Camera4",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/photo-accesorios.png",
+      "blockClass": "header__img--products"
+    }
+  },
+  "rich-text#text__header--camera4": {
+    "title": "Header Text Camera4",
+    "props": {
+      "text": "Accesorios",
+      "blockClass": "header__text--products"
+    }
+  },
+
+  "flex-layout.col#header-camera5": {
+    "title": "Header Section Camera5",
+    "children": [
+      "image#image__header--camera5",
+      "rich-text#text__header--camera5"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header--camera5": {
+    "title": "Header Imagen Camera5",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/camaras-cine.png",
+      "blockClass": "header__img--products"
+    }
+  },
+  "rich-text#text__header--camera5": {
+    "title": "Header Text Camera5",
+    "props": {
+      "text": "Cámaras de Cine",
+      "blockClass": "header__text--products"
+    }
+  }
+}

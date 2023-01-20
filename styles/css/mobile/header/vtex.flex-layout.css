@@ -1,0 +1,6 @@
+.flexRowContent--header__call--block-mobile{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  padding: .25rem;
+}

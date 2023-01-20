@@ -1,0 +1,13 @@
+.headerRowContentContainer{
+  background-color: #000;
+}
+
+.headerRowContentContainer--mobile__drawer:hover{
+  height: 100%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: rgb(69, 114, 237);
+}

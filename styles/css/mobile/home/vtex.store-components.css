@@ -13,6 +13,11 @@
   width: 8.175rem;
 }
 
+.imageElement--mobile__image--slider{
+  max-width: 100vw;
+}
+
+
 :global(.vtex-button){
   background-color: #F25529;
   width: 100%;

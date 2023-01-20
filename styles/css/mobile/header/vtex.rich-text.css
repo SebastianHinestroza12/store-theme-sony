@@ -1,0 +1,12 @@
+.paragraph--header__text--mobile{
+  font-size: 16px;
+  color: rgb(47, 52, 61);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.container--header__text--mobile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

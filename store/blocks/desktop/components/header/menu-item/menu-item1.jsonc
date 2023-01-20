@@ -1,0 +1,16 @@
+{
+  "menu-item#desktop__deparment--one": {
+    "props": {
+      "blockClass": "desktop__dep",
+      "id": "department-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/promociones",
+        "noFollow": true,
+        "tagTitle": "promociones",
+        "text": "Promociones"
+      }
+    }
+  }
+}

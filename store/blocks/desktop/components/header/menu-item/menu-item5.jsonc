@@ -1,0 +1,157 @@
+{
+  "menu-item#desktop__deparment--five": {
+    "props": {
+      "blockClass": "desktop__dep",
+      "id": "department-five",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio",
+        "noFollow": true,
+        "tagTitle": "audio",
+        "text": "Audio"
+      }
+    },
+    "blocks": [
+      "submenu#desktop__deparment--four"
+    ]
+  },
+
+  "submenu#desktop__deparment--four": {
+    "title": "Sub Menu Header Department Four",
+    "children": [
+      "menu#desktop__department--four"
+    ],
+    "props": {
+      "onMountBehahior": "open",
+      "blockClass": "desktop__deparment--submenu"
+    }
+  },
+  "menu#desktop__department--four": {
+    "title": "Menu Categories Four",
+    "children": [
+      "flex-layout.row#header-audio"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu__deparments"
+    }
+  },
+
+  "flex-layout.row#header-audio": {
+    "title": "Header Section Audio",
+    "children": [
+      "flex-layout.col#header-audio1",
+      "flex-layout.col#header-audio2",
+      "flex-layout.col#header-audio3",
+      "flex-layout.col#header-audio4"
+    ],
+    "props": {
+      "blockClass": "row__container--menu"
+    }
+  },
+
+  "flex-layout.col#header-audio1": {
+    "title": "Header Section Col Audio1",
+    "children": [
+      "image#image__header--audio1",
+      "rich-text#text__header--audio1"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header--audio1": {
+    "title": "Header Imagen Audio1 ",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/sistemas%20de-audio.png",
+      "blockClass": "header__img--products"
+    }
+  },
+  "rich-text#text__header--audio1": {
+    "title": "Header Text Audio1",
+    "props": {
+      "text": "Sistemas de Audio",
+      "blockClass": "header__text--products"
+    }
+  },
+
+  "flex-layout.col#header-audio2": {
+    "title": "Header Section Col Audio2",
+    "children": [
+      "image#image__header--audio2",
+      "rich-text#text__header--audio2"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header--audio2": {
+    "title": "Header Imagen Audio2",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/ICON-MENU-SRS-XG300.png",
+      "blockClass": "header__img--products"
+    }
+  },
+
+  "rich-text#text__header--audio2": {
+    "title": "Header Text Audio2",
+    "props": {
+      "text": "Parlantes Inalámbricos",
+      "blockClass": "header__text--products"
+    }
+  },
+
+  "flex-layout.col#header-audio3": {
+    "title": "Header Section Col Audio3",
+    "children": [
+      "image#image__header--audio3",
+      "rich-text#text__header--audio3"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header--audio3": {
+    "title": "Header Imagen Audio3",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/audifonos-categoria.png",
+      "blockClass": "header__img--products"
+    }
+  },
+  "rich-text#text__header--audio3": {
+    "title": "Header Text Audio3",
+    "props": {
+      "text": "Audífonos",
+      "blockClass": "header__text--products"
+    }
+  },
+  "flex-layout.col#header-audio4": {
+    "title": "Header Section Col Audio4",
+    "children": [
+      "image#image__header--audio4",
+      "rich-text#text__header--audio4"
+    ],
+    "props": {
+      "blockClass": "header__container--col"
+    }
+  },
+
+  "image#image__header--audio4": {
+    "title": "Header Imagen Audio4",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/reproductores-musica-digital-walkman.png",
+      "blockClass": "header__img--products"
+    }
+  },
+  "rich-text#text__header--audio4": {
+    "title": "Header Text Audio4",
+    "props": {
+      "text": "Reproductores de Música Digital Walkman",
+      "blockClass": "header__text--products"
+    }
+  }
+}

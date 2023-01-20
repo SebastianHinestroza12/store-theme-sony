@@ -1,0 +1,79 @@
+{
+  "header-row#mobile__header--sony": {
+    "title": "Header mobile",
+    "children": [
+      "header-row#mobile__drawer",
+      "logo#header__top--logo"
+      // "login",
+      // "minicart.v2"
+    ],
+    "props": {
+      "sticky": true
+    }
+  },
+  "header-row#mobile__drawer": {
+    "title": "Header Drawer Mobile",
+    "children": [
+      "drawer#mobile__header--menu"
+    ],
+    "props": {
+      "blockClass": "mobile__drawer"
+    }
+  },
+  "drawer#mobile__header--menu": {
+    "children": [
+      "mega-menu#mobile"
+    ],
+    "blocks": [
+      "drawer-header#my-drawer"
+    ]
+  },
+  "mega-menu#mobile": {
+    "props": {
+      "defaultDepartmentActive": "...",
+      "orientation": "vertical",
+      "openOnly": "vertical",
+      "title": ""
+    }
+  },
+  "drawer-header#my-drawer": {
+    "children": [
+      "flex-layout.row#drawer-header"
+    ]
+  },
+  "flex-layout.row#drawer-header": {
+    "title": "Header Drawer Mobile",
+    "children": [
+      "flex-layout.col#mega__button--back",
+      "flex-layout.col#drawer__close--button"
+    ],
+    "props": {
+      "blockClass": "drawer-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#drawer__close--button": {
+    "title": "Header Close Drawer Mobile",
+    "children": [
+      "drawer-close-button"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#mega__button--back": {
+    "title": "Header Mega Menu Button Back",
+    "children": [
+      "mega-menu-go-back-btn"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "paddingLeft": 4
+    }
+  }
+}

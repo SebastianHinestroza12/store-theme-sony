@@ -1,0 +1,8 @@
+{
+  "header-layout.mobile": {
+    "title": "Header mobile",
+    "children": [
+      "header-row#mobile__header--sony"
+    ]
+  }
+}

@@ -1,4 +1,24 @@
-/* Example desktop:
-.styledLinkContainer {
-    margin: 0 12px;
+.menuContainer--desktop__menu--middle{
+    /* border: 1px solid #000; */
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+/* .submenuContainer--desktop__deparment--submenu{
+    border: 1px solid #000;
+    width: 100%;
+} */
+.submenuWrapper--desktop__deparment--submenu--isOpen{
+    border: 1px solid #000;
+}
+
+/* .styledLinkContainer--desktop__dep {
+    
+}
+
+.styledLinkContainer--desktop__dep:hover{
+    
 } */
