@@ -2,13 +2,13 @@
   "menu#desktop__menu--middle": {
     "title": "Menu Header Middle Desktop",
     "children": [
-      "menu-item#desktop__deparment--one",
-      "menu-item#desktop__deparment--two",
-      "menu-item#desktop__deparment--three",
-      "menu-item#desktop__deparment--four",
-      "menu-item#desktop__deparment--five",
-      "menu-item#desktop__deparment--six",
-      "menu-item#desktop__deparment--seven"
+      "flex-layout.row#desktop__deparment1",
+      "flex-layout.row#desktop__deparment2",
+      "flex-layout.row#desktop__deparment3",
+      "flex-layout.row#desktop__deparment4",
+      "flex-layout.row#desktop__deparment5",
+      "flex-layout.row#desktop__deparment6",
+      "flex-layout.row#desktop__deparment7"
     ],
     "props": {
       "orientation": "horizontal",
