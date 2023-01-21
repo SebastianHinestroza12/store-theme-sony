@@ -35,6 +35,22 @@
 /* MENU */
 
 .flexRowContent--row__container--menu{
-  background-color: aliceblue;
-  border: 1px solid #000;
+  /* background-color: red; */
+  width: 100%;
+}
+
+
+.flexColChild--header__container--col{
+  margin: .4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexCol--header__container--col{
+  padding: 1.5rem;
+
+}
+.flexCol--header__container--col:hover{
+  background-color: white;
+  cursor: pointer;
 }

@@ -18,3 +18,11 @@
   display: flex;
   width: 140px;
 }
+
+.paragraph--header__text--products{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  text-align: center;
+}
