@@ -1,0 +1,64 @@
+{
+  "flex-layout.row#header__order--racking": {
+    "title": "Header Order Racking",
+    "children": [
+      "flex-layout.col#header__order--help",
+      "flex-layout.col#header__order--racking"
+    ],
+    "props": {
+      "blockClass": "header__order--racking",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#header__order--help": {
+    "title": "Header Order Help",
+    "children": [
+      "link#header__link--help"
+    ],
+    "props": {
+      "blockClass": "header__col--order"
+    }
+  },
+  "link#header__link--help": {
+    "children": [
+      "rich-text#header__order--help"
+    ],
+    "props": {
+      "blockClass": "header__link--help",
+      "href": "/centro-de-ayuda"
+    }
+  },
+  "rich-text#header__order--help": {
+    "title": "Header Text Order Help",
+    "props": {
+      "text": "ayuda",
+      "blockClass": "header__text--order"
+    }
+  },
+  "flex-layout.col#header__order--racking": {
+    "title": "Header Col Order Racking",
+    "children": [
+      "link#header__link--order--racking"
+    ],
+    "props": {
+      "blockClass": "header__col--order"
+    }
+  },
+  "link#header__link--order--racking": {
+    "children": [
+      "rich-text#header__order--racking"
+    ],
+    "props": {
+      "blockClass": "header__link--help",
+      "href": "/mi-pedido"
+    }
+  },
+  "rich-text#header__order--racking": {
+    "title": "Header Col Order Racking",
+    "props": {
+      "text": "seguimiento de pedido",
+      "blockClass": "header__text--order"
+    }
+  }
+}

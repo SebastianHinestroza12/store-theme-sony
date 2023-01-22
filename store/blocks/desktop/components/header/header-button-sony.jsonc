@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#header__sony__site--button": {
+    "title": "Header Button Sony Site",
+    "children": [
+      "link#home__button--sony--site"
+    ]
+  },
+  "link#home__button--sony--site": {
+    "title": "Header Button Sony Site Link",
+    "props": {
+      "href": "/",
+      "label": "Sitio Sony",
+      "displayMode": "button",
+      "blockClass": "Sitio__Sony--button"
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "flex-layout.row#desktop__deparment1--login": {
+    "title": "Header Deparment Login",
+    "children": [
+      "menu-item#desktop__deparment--login"
+    ],
+    "props": {
+      "blockClass": "header__deparment--login"
+    }
+  },
+  "menu-item#desktop__deparment--login": {
+    "props": {
+      "blockClass": "desktop__dep--login",
+      "id": "department-login",
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "login"
+      }
+    },
+    "blocks": [
+      "submenu#desktop__deparment--login"
+    ]
+  },
+  "submenu#desktop__deparment--login": {
+    "title": "Header Menu Login",
+    "children": [
+      "menu#desktop__department--login1"
+    ],
+    "props": {
+      "onMountBehahior": "open",
+      "blockClass": "desktop__deparment--submenu--login"
+    }
+  },
+  "menu#desktop__department--login1": {
+    "title": "Menu Header Login1",
+    "children": [
+      "flex-layout.row#header__login--one"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu__deparments--login"
+    }
+  },
+  "flex-layout.row#header__login--one": {
+    "title": "Desktop Login Menu",
+    "children": [
+      "flex-layout.col#header__login--one",
+      "flex-layout.col#header__login--two",
+      "flex-layout.col#header__login--three",
+      "flex-layout.col#header__login--four"
+    ],
+    "props": {
+      "blockClass": "header__deparments--login--one",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#header__login--one": {
+    "title": "Header Login Col One",
+    "children": [
+      "login#login__header"
+    ],
+    "props": {
+      "blockClass": "header__col--login"
+    }
+  },
+
+  "login#login__header": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel": "Mi Cuenta",
+      "logInButtonBehavior": "link",
+      "accountOptionsButtonBehavior": "link",
+      "hasGoogleOneTap": true,
+      "googleOneTapAlignment": "Right"
+    }
+  },
+
+  "flex-layout.col#header__login--two": {
+    "title": "Header Login Col Two",
+    "children": [
+      "link#header__link--help--login"
+    ],
+    "props": {
+      "blockClass": [
+        "header__col--login",
+        "help__site"
+      ]
+    }
+  },
+
+  "link#header__link--help--login": {
+    "title": "Header Button Login Link",
+    "props": {
+      "href": "/centro-de-ayuda?cpint=gwt_footer_onlinepurchase",
+      "label": "Ayuda",
+      "blockClass": "Login__help--link"
+    }
+  },
+  "flex-layout.col#header__login--three": {
+    "title": "Header Login Col Three",
+    "children": [
+      "login#login2__header"
+    ],
+    "props": {
+      "blockClass": "header__col--login"
+    }
+  },
+
+  "login#login2__header": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel": "Login Sony",
+      "logInButtonBehavior": "link",
+      "accountOptionsButtonBehavior": "link",
+      "hasGoogleOneTap": true,
+      "googleOneTapAlignment": "Right"
+    }
+  },
+  "flex-layout.col#header__login--four": {
+    "title": "Header Login Col Three",
+    "children": [
+      "link#header__link--site--login"
+    ],
+    "props": {
+      "blockClass": [
+        "header__col--login",
+        "help__site"
+      ]
+    }
+  },
+  "link#header__link--site--login": {
+    "title": "Header Link Login Site Sony",
+    "props": {
+      "href": "/",
+      "label": "Sitio Sony",
+      "blockClass": "Login__help--link--site"
+    }
+  }
+}
