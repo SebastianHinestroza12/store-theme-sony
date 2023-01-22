@@ -5,12 +5,17 @@
       "logo#header__top--logo",
       "search-bar#search-bar__top",
       "flex-layout.row#header__information--container",
+      "flex-layout.row#header__order--racking",
+      "menu#desktop__menu--login",
+      "flex-layout.row#header__sony__site--button",
       // "header-spacer",
       // "modal-trigger#header__top--login",
       "minicart.v2"
     ],
     "props": {
-      "blockClass": "header__top"
+      "blockClass": "header__top",
+      "fullWidth": true,
+      "sticky": true
     }
   }
 }

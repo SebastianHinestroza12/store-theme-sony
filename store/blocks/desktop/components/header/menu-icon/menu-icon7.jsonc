@@ -1,0 +1,27 @@
+{
+  "flex-layout.row#desktop__deparment7": {
+    "title": "Header Deparment AudioCar7",
+    "children": [
+      "flex-layout.col#desktop__deparment7"
+    ]
+  },
+  "flex-layout.col#desktop__deparment7": {
+    "title": "Header Deparments AudioCar",
+    "children": [
+      "image#img__deparment7",
+      "menu-item#desktop__deparment--seven"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "header__col--deparment"
+    }
+  },
+  "image#img__deparment7": {
+    "title": "Icon Deparment AudioCar",
+    "props": {
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674274226/icons8-lo-fi-100_rcaess.png",
+      "maxWidth": "37px",
+      "maxHeight": "32px"
+    }
+  }
+}

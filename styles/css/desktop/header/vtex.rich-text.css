@@ -1,20 +1,36 @@
+
 .paragraph--header__store--text{
-  /* border: 1px solid #ffffff; */
-  width: 40%;
-  color: #ffffff;
-  font-size: .5rem;
+  font-size: 8px;
   text-transform: uppercase;
   line-height: 18px;
-  font-family :Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bolder;
-  margin-right: 380px;
+  color: #FFF;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
 }
 
 .paragraph--header__store--number{
-  /* border: 1px solid #ffffff; */
-  font-family :Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px;
-  color : #ffffff;
-  display: flex;
-  width: 140px;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.paragraph--header__text--order{
+  font-size: 10px;
+  text-transform: uppercase;
+  line-height: 18px;
+  color: #fff;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.paragraph--header__text--products{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  text-align: center;
+}
+

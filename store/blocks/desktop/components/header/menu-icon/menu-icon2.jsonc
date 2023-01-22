@@ -1,0 +1,28 @@
+{
+  "flex-layout.row#desktop__deparment2": {
+    "title": "Header Deparment Tv2",
+    "children": [
+      "flex-layout.col#desktop__deparment2"
+    ]
+  },
+  "flex-layout.col#desktop__deparment2": {
+    "title": "Header Deparments Tv",
+    "children": [
+      "image#img__deparment2",
+      "menu-item#desktop__deparment--two"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "header__col--deparment"
+    }
+  },
+
+  "image#img__deparment2": {
+    "title": "Icon Deparment Tv",
+    "props": {
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674268805/icons8-tv-48_vpnr6k.png",
+      "maxWidth": "37px",
+      "maxHeight": "32px"
+    }
+  }
+}

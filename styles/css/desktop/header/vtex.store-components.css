@@ -3,19 +3,13 @@
   border-radius: 0;
   border-color: transparent;
   overflow: hidden;
-  border-style: solid;
-  border-width: 0.125rem;
-
 }
 
 
-.searchBarIcon--header__search--barra{
-  border-radius: 0 !important;
-  border-color: transparent;
-  background: #4572ed;
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
+.searchBarIcon--header__search--barra--external-search{
+  background-color: #4572ed;
 }
+
 
 .searchIcon{
   color  : #fff
@@ -26,7 +20,12 @@
   width: 170px;
 }
 
+
 .imageElement--header__img--products{
-  width: 50px;
-  height: 60px;
+  width: auto;
+  max-width: 100%;
+  border-style: none;
+  overflow-clip-margin: content-box;
+  cursor: pointer;
+  overflow: clip;
 }

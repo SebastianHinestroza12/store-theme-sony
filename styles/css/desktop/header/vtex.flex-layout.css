@@ -1,40 +1,63 @@
-.flexRowContent--header__information--store{
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  justify-content: center;
-  align-items: center;
-  width: 110%;
-  margin-right: 100rem;
-}
 .flexRowContent--header__information--container{
-  /* border: 10px solid #ccc; */
-  width: 21.875rem;
-
+  display: flex;
+  flex-direction: column;
 }
-
-.flexRow--header__icon--call{
-  margin-top: 5px;
-  background-position: -325px -450px;
-  margin-right: 130px;
-}
-
-.flexColChild--header__icon--image{
-  /* border: 2px solid #ccc; */
-  width: 80%;
-}
-
-.flexRow--header__icon--call{
+.flexRowContent--header__order--racking{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 2px solid #ccc; */
-  width: 20% !important;
-  height: 90% !important;
 }
 
+.flexCol--header__col--order  {
+  margin: 8px;
+}
 /* MENU */
 
 .flexRowContent--row__container--menu{
-  background-color: aliceblue;
-  border: 1px solid #000;
+  /* background-color: red; */
+  width: 100%;
+}
+
+
+.flexColChild--header__container--col{
+  margin: .4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexCol--header__container--col{
+  padding: 1.5rem;
+
+}
+.flexCol--header__container--col:hover{
+  background-color: white;
+  cursor: pointer;
+}
+
+
+/* MENU LOGIN */
+
+.flexRowContent--header__deparments--login--one{
+    background-color: white;
+    height: 211px;
+    width: 262px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+    -webkit-box-shadow: 10px 10px 69px 1px rgba(0,0,0,0.54);
+    -moz-box-shadow: 10px 10px 69px 1px rgba(0,0,0,0.54);
+    box-shadow: 10px 10px 69px 1px rgba(0,0,0,0.54);
+}
+
+.flexColChild--header__col--login{
+    width: 257px;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+
+.flexColChild--help__site{
+  margin-left: 1rem;
 }

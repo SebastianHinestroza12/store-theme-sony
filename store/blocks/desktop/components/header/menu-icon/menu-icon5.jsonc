@@ -1,0 +1,27 @@
+{
+  "flex-layout.row#desktop__deparment5": {
+    "title": "Header Deparment Audio5",
+    "children": [
+      "flex-layout.col#desktop__deparment5"
+    ]
+  },
+  "flex-layout.col#desktop__deparment5": {
+    "title": "Header Deparments Audio",
+    "children": [
+      "image#img__deparment5",
+      "menu-item#desktop__deparment--five"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "header__col--deparment"
+    }
+  },
+  "image#img__deparment5": {
+    "title": "Icon Deparment Aaudio",
+    "props": {
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674273317/icons8-auriculares-50_ffi3hx.png",
+      "maxWidth": "37px",
+      "maxHeight": "32px"
+    }
+  }
+}

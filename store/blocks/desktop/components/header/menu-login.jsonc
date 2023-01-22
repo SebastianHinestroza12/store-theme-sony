@@ -1,0 +1,12 @@
+{
+  "menu#desktop__menu--login": {
+    "title": "Menu Header Login Desktop",
+    "children": [
+      "flex-layout.row#desktop__deparment1--login"
+    ],
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "desktop__menu--login"
+    }
+  }
+}

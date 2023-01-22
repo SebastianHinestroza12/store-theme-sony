@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#desktop__deparment1": {
+    "title": "Header Deparment Promociones1",
+    "children": [
+      "flex-layout.col#desktop__deparment1"
+    ],
+    "props": {
+      "blockClass": "line__block--container"
+    }
+  },
+  "flex-layout.col#desktop__deparment1": {
+    "title": "Header Deparments Promociones",
+    "children": [
+      "image#desktop__deparment--col1",
+      "menu-item#desktop__deparment--one"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "header__col--deparment"
+    }
+  },
+  "image#desktop__deparment--col1": {
+    "title": "Icon Deparment Promociones",
+    "props": {
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674266990/icons8-estrella-50_f2cbd0.png",
+      "maxWidth": "37px",
+      "maxHeight": "32px"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "flex-layout.row#desktop__deparment4": {
+    "title": "Header Deparment CamCorder4",
+    "children": [
+      "flex-layout.col#desktop__deparment4"
+    ]
+  },
+  "flex-layout.col#desktop__deparment4": {
+    "title": "Header Deparments CamCoder",
+    "children": [
+      "image#img__deparment4",
+      "menu-item#desktop__deparment--four"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "header__col--deparment"
+    }
+  },
+  "image#img__deparment4": {
+    "title": "Icon Deparment CamCorder",
+    "props": {
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674272936/icons8-videoc%C3%A1mara-50_k8jhhc.png",
+      "maxWidth": "37px",
+      "maxHeight": "32px"
+    }
+  }
+}

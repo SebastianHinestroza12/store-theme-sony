@@ -1,0 +1,27 @@
+{
+  "flex-layout.row#desktop__deparment3": {
+    "title": "Header Deparment Cameras3",
+    "children": [
+      "flex-layout.col#desktop__deparment3"
+    ]
+  },
+  "flex-layout.col#desktop__deparment3": {
+    "title": "Header Deparments Cameras",
+    "children": [
+      "image#img__deparment3",
+      "menu-item#desktop__deparment--three"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "header__col--deparment"
+    }
+  },
+  "image#img__deparment3": {
+    "title": "Icon Deparment Camera",
+    "props": {
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674271565/icons8-c%C3%A1mara-compacta-50_dgk6bv.png",
+      "maxWidth": "37px",
+      "maxHeight": "32px"
+    }
+  }
+}

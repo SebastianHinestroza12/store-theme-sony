@@ -1,0 +1,27 @@
+{
+  "flex-layout.row#desktop__deparment6": {
+    "title": "Header Deparment PlayStation6",
+    "children": [
+      "flex-layout.col#desktop__deparment6"
+    ]
+  },
+  "flex-layout.col#desktop__deparment6": {
+    "title": "Header Deparments PlayStation",
+    "children": [
+      "image#img__deparment6",
+      "menu-item#desktop__deparment--six"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "header__col--deparment"
+    }
+  },
+  "image#img__deparment6": {
+    "title": "Icon Deparment PlayStation",
+    "props": {
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674273924/icons8-playstation-4-64_w51afl.png",
+      "maxWidth": "37px",
+      "maxHeight": "32px"
+    }
+  }
+}

@@ -1,24 +1,42 @@
 .menuContainer--desktop__menu--middle{
     /* border: 1px solid #000; */
-    height: 80px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
 }
 
-/* .submenuContainer--desktop__deparment--submenu{
-    border: 1px solid #000;
-    width: 100%;
-} */
 .submenuWrapper--desktop__deparment--submenu--isOpen{
-    border: 1px solid #000;
+    background-color: #F1F5F9;
+    position: fixed
 }
 
-/* .styledLinkContainer--desktop__dep {
-    
+
+.submenu--desktop__deparment--submenu{
+    width: 100%;
 }
 
-.styledLinkContainer--desktop__dep:hover{
-    
-} */
+.styledLinkContent--desktop__dep{
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.styledLinkContainer--desktop__dep{
+    padding-bottom: 5px;
+    padding-top: 7px;
+}
+
+/* LOGIN MENU */
+
+.submenuWrapper--desktop__deparment--submenu--login--isOpen{
+    background-color: transparent;
+    position: fixed;
+    width: 165%;
+    border: none;
+}
+
+
+.styledLinkContent--desktop__dep--login::before{
+    content: url(https://res.cloudinary.com/dafsjo7al/image/upload/v1674370929/icons8-men%C3%BA-2-24_1_bxwleo.png);
+}

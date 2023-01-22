@@ -65,6 +65,8 @@
     "title": "Header Imagen Tv",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/tv-televisores.png",
+      "maxHeight": "200px",
+      "maxWidth": "200px",
       "blockClass": "header__img--products"
     }
   },
