@@ -26,3 +26,17 @@
     padding-bottom: 5px;
     padding-top: 7px;
 }
+
+/* LOGIN MENU */
+
+.submenuWrapper--desktop__deparment--submenu--login--isOpen{
+    background-color: transparent;
+    position: fixed;
+    width: 165%;
+    border: none;
+}
+
+
+.styledLinkContent--desktop__dep--login::before{
+    content: url(https://res.cloudinary.com/dafsjo7al/image/upload/v1674370929/icons8-men%C3%BA-2-24_1_bxwleo.png);
+}

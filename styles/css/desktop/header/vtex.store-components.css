@@ -3,19 +3,13 @@
   border-radius: 0;
   border-color: transparent;
   overflow: hidden;
-  border-style: solid;
-  border-width: 0.125rem;
-
 }
 
 
-.searchBarIcon--header__search--barra{
-  border-radius: 0 !important;
-  border-color: transparent;
-  background: #4572ed;
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
+.searchBarIcon--header__search--barra--external-search{
+  background-color: #4572ed;
 }
+
 
 .searchIcon{
   color  : #fff
@@ -34,5 +28,4 @@
   overflow-clip-margin: content-box;
   cursor: pointer;
   overflow: clip;
-  transform: scale(1.2);
 }

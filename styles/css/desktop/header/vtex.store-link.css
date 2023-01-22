@@ -1,0 +1,49 @@
+.buttonLink--Sitio__Sony--button{
+  background-color: #30343d;
+  text-align: center;
+  font-size: 12px;
+  transition: all .25s;
+  border: none;
+  border-radius: 0 !important;
+}
+
+.buttonLink--Sitio__Sony--button:hover{
+  background: #4572ed;
+}
+.label--Sitio__Sony--button{
+    font-size: 12px;
+    text-transform: capitalize;
+    line-height: 18px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link--Login__help--link::before{
+  content:url(https://res.cloudinary.com/dafsjo7al/image/upload/v1674363049/icons8-_por-qu%C3%A9-somos-hombre-16_pzuwmu.png);
+}
+
+.label--Login__help--link{
+  font-size: 0.875rem;
+  color: #474747;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  margin-left: 2rem;
+}
+
+
+.link--Login__help--link--site::before{
+  content:url(https://res.cloudinary.com/dafsjo7al/image/upload/v1674362976/icons8-mundo-verde-16_jn8cxy.png);
+}
+
+.label--Login__help--link--site{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.875rem;
+  color: #474747;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
