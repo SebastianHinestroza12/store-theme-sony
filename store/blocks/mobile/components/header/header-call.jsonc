@@ -3,8 +3,6 @@
     "title": "Header call mobile",
     "children": [
       "rich-text#header__text--mobile"
-      // "image#header__image--mobile",
-      // "rich-text#header__number--mobile"
     ],
     "props": {
       "blockClass": "header__call--block-mobile"
@@ -17,18 +15,4 @@
       "blockClass": "header__text--mobile"
     }
   }
-  // "image#header__image--mobile": {
-  //   "title": "Header Image Call",
-  //   "props": {
-  //     "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674201259/icons8-tel%C3%A9fono-48_1_wsqudn.png",
-  //     "blockClass": "header__image--mobile"
-  //   }
-  // },
-  // "rich-text#header__number--mobile": {
-  //   "title": "Header Number",
-  //   "props": {
-  //     "text": "601 786 8928",
-  //     "blockClass": "header__number--mobile"
-  //   }
-  // }
 }
