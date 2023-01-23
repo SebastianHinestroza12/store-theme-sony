@@ -6,13 +6,11 @@
     font-weight: 700;
 }
 
+
 .paragraph--home__text--link{
-    width: 100px;
     background: transparent!important;
     font-size: 18px;
     color: #5787f4;
-    text-decoration: none !important;
-    margin-left: 13rem;
 }
 
 .paragraph--home__text--link:hover{

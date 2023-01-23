@@ -16,3 +16,16 @@
   text-transform: initial;
   font-size: 14px;
 }
+
+.childrenContainer--home__link{
+  border: 1px solid red;
+  text-decoration: none !important;
+}
+
+.link--home__link--vermas{
+  text-decoration: none;
+}
+
+.link--home__link--picture{
+  text-decoration: none;
+}

@@ -5,6 +5,15 @@
     opacity: .95;
     align-items: center;
 }
+
+.flexRowContent--home__section--2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexColChild--home__sectionCol--2{
+    margin: 7px;
+}
 .flexRow--home__section--one{
     display: flex;
     justify-content: center;
