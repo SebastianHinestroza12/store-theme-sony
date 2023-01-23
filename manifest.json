@@ -33,6 +33,7 @@
     "vtex.responsive-layout": "0.x",
     "vtex.rich-text": "0.x",
     "vtex.search-result": "3.x",
+    "vtex.search": "2.x",
     "vtex.shelf": "1.x",
     "vtex.slider-layout": "0.x",
     "vtex.slider": "0.x",
@@ -48,7 +49,8 @@
     "vtex.store": "2.x",
     "vtex.styleguide": "9.x",
     "vtex.tab-layout": "0.x",
-    "vtex.telemarketing": "2.x"
+    "vtex.telemarketing": "2.x",
+    "vtex.store-icons": "0.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x"
