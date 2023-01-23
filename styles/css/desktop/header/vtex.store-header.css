@@ -1,13 +1,10 @@
 .headerRowBackground--header__top {
-  display: flex;
-  justify-content: center !important;
-  align-items: center;
   background: #000;
 }
 
 .headerRowContainer--header__top{
   display: flex;
-  justify-content:space-evenly;
+  justify-content: center;
   align-items: center;
-  padding: 8px;
+  padding: 6px;
 }
