@@ -34,6 +34,7 @@
     "vtex.rich-text": "0.x",
     "vtex.search-result": "3.x",
     "vtex.search": "2.x",
+    "vtex.checkout-summary": "0.x",
     "vtex.shelf": "1.x",
     "vtex.slider-layout": "0.x",
     "vtex.slider": "0.x",
