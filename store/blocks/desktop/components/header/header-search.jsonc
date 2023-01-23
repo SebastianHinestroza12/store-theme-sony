@@ -1,11 +1,21 @@
 {
   "search-bar#search-bar__top": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
     "title": "search-bar header",
     "props": {
+      "openAutocompleteOnFocus": true,
       "maxWidth": 350,
       "displayMode": "search-and-clear-buttons",
       "placeholder": "Buscar productos por nombre, código",
       "blockClass": "header__search--barra"
     }
+  },
+
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary"
+    ]
   }
 }
