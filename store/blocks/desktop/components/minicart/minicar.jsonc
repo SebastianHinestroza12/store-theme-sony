@@ -1,0 +1,15 @@
+{
+  "minicart.v2": {
+    "props": {
+      // "variation": "popup",
+      // "MinicartIcon": "image#icon__prueba",
+      "itemCountMode": "total",
+      "quantityDisplay": "not-empty"
+    }
+  }
+  // "image#icon__prueba": {
+  //   "props": {
+  //     "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674430934/icons8-carrito-de-compras-24_cbeybq.png"
+  //   }
+  // }
+}

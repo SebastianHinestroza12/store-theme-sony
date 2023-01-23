@@ -40,3 +40,10 @@
 .styledLinkContent--desktop__dep--login::before{
     content: url(https://res.cloudinary.com/dafsjo7al/image/upload/v1674370929/icons8-men%C3%BA-2-24_1_bxwleo.png);
 }
+
+.menuItem--desktop__dep--login--isClosed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27px !important;
+}
