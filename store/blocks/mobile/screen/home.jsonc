@@ -10,6 +10,7 @@
       "flex-layout.row#mobile__home--slider2",
       "flex-layout.row#home__rich--text",
       "flex-layout.row#mobile__home--slider3",
+      "search-result-layout.customQuery#home",
       "flex-layout.row#home__rich--favorites",
       "flex-layout.row#home__favorites--store-sony",
       "flex-layout.row#home__surveys--mobile",

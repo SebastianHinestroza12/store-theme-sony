@@ -45,7 +45,7 @@
     "title": "Home button offers",
     "props": {
       "href": "/",
-      "label": "Ver ofertas >>",
+      "label": "Ver ofertas",
       "displayMode": "button",
       "blockClass": "home__button-one"
     }

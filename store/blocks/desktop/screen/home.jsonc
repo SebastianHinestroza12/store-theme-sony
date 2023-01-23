@@ -8,6 +8,7 @@
       "flex-layout.row#home__rich--text",
       "flex-layout.row#home__pictures",
       "flex-layout.row#home__text--pictures",
+      "search-result-layout.customQuery#home",
       "rich-text#home__favorites--store",
       "flex-layout.row#home__favorites--sony",
       "flex-layout.row#home__title--newletter",
