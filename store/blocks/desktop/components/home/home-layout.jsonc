@@ -2,23 +2,44 @@
   "flex-layout.row#home__info--section-1": {
     "title": "Flex layout section 1",
     "children": [
-      "flex-layout.row#home__container-information"
+      // "flex-layout.row#home__container-information",
+      "flex-layout.col#home__container-information1",
+      "flex-layout.col#home__container-information2",
+      "flex-layout.col#home__container-information3"
     ],
     "props": {
-      "blockClass": "home__section--2"
+      "blockClass": "home__section--2",
+      "colSizing": "auto",
+      "horizontalAlign": "center"
     }
   },
-  "flex-layout.row#home__container-information": {
-    "title": "Home Information",
+
+  "flex-layout.col#home__container-information1": {
     "children": [
-      "image#home__image--davivienda",
-      "rich-text#home__info--section-1",
+      "image#home__image--davivienda"
+    ],
+    "props": {
+      "blockClass": "home__sectionCol--2"
+    }
+  },
+
+  "flex-layout.col#home__container-information2": {
+    "children": [
+      "rich-text#home__info--section-1"
+    ],
+    "props": {
+      "blockClass": "home__sectionCol--2"
+    }
+  },
+  "flex-layout.col#home__container-information3": {
+    "children": [
       "link#home__link--info"
     ],
     "props": {
-      "blockClass": "home__container-information"
+      "blockClass": "home__sectionCol--2"
     }
   },
+
   "image#home__image--davivienda": {
     "title": "Home Imagen Davivienda",
     "props": {
@@ -41,7 +62,7 @@
     ],
     "props": {
       "href": "/",
-      "blockClass": "home__link"
+      "blockClass": "home__link--vermas"
     }
   },
   "rich-text#link__info--text": {
