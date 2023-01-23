@@ -3,13 +3,11 @@
   border-radius: 0;
   border-color: transparent;
   overflow: hidden;
-  width: 20.3125rem;
 }
 
 .searchBarInnerContainer--header__search--barra{
   display: flex;
   justify-content:right;
-  width: 20.925rem;
 }
 
 .searchBarIcon--header__search--barra--external-search{
@@ -32,7 +30,4 @@
   overflow-clip-margin: content-box;
   cursor: pointer;
   overflow: clip;
-}
-.logoContainer--header__logo--sony{
-  margin-right: 6rem;
 }

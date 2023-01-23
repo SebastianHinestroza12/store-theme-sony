@@ -9,13 +9,14 @@
 
 .submenuWrapper--desktop__deparment--submenu--isOpen{
     background-color: #F1F5F9;
-    position: fixed
-}
-
-
-.submenu--desktop__deparment--submenu{
+    position:fixed;
     width: 100%;
 }
+
+
+/* .submenu--desktop__deparment--submenu{
+    width: 100%;
+} */
 
 .styledLinkContent--desktop__dep{
     font-size: 12px;
@@ -45,5 +46,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 27px !important;
 }

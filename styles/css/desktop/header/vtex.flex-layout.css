@@ -36,7 +36,13 @@
 
 
 /* MENU LOGIN */
-
+.flexRow--header__deparment--login{
+  width: 60px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .flexRowContent--header__deparments--login--one{
     background-color: white;
     height: 211px;

@@ -33,6 +33,13 @@
   margin-left: 2rem;
 }
 
+.link--Login__help--link{
+  text-decoration: none;
+}
+
+.link--Login__help--link--site{
+  text-decoration: none;
+}
 
 .link--Login__help--link--site::before{
   content:url(https://res.cloudinary.com/dafsjo7al/image/upload/v1674362976/icons8-mundo-verde-16_jn8cxy.png);
@@ -47,4 +54,8 @@
   line-height: 1.5;
   text-transform: capitalize;
   margin-left: 2rem;
+}
+
+.link--header__link--help{
+  text-decoration: none;
 }
