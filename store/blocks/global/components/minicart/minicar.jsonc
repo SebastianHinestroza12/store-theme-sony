@@ -40,6 +40,11 @@
     ]
   },
 
+  "icon-cart#minicart__empty--icon": {
+    "props": {
+      "size": 70
+    }
+  },
   "rich-text#minicart__empty--text": {
     "props": {
       "text": "Tu carrito esta vacío, selecciona tus productos y vuelve!!😉",
@@ -47,12 +52,19 @@
       "textPosition": "CENTER"
     }
   },
-  "icon-cart#minicart__empty--icon": {
-    "props": {
-      "size": 70
-    }
+
+  "minicart-product-list": {
+    "blocks": [
+      "product-list#minicart"
+    ]
   },
 
+  "product-list#minicart": {
+    "blocks": [
+      "product-list-content-desktop",
+      "product-list-content-mobile"
+    ]
+  },
   "flex-layout.row#minicart__footer": {
     "children": [
       "minicart-summary",
