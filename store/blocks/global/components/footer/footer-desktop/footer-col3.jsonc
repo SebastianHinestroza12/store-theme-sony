@@ -1,0 +1,78 @@
+{
+  // COLUMN NUMBER THREE
+  "flex-layout.col#footer-desktop--col3": {
+    "title": "Footer Col Three",
+    "children": [
+      "rich-text#footer__title--col3",
+      "menu#footer__menu--col3"
+    ],
+    "props": {
+      "blockClass": "footer__menu--col"
+    }
+  },
+
+  "rich-text#footer__title--col3": {
+    "props": {
+      "text": "Comunidad",
+      "blockClass": "footer__title--column"
+    }
+  },
+
+  "menu#footer__menu--col3": {
+    "children": [
+      "menu-item#blog__playstation",
+      "menu-item#Comunidad",
+      "menu-item#ayuda__product"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#blog__playstation": {
+    "props": {
+      "blockClass": "footer__dep",
+      "id": "Blog__PlayStation",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Blog PlayStation",
+        "text": "Blog PlayStation"
+      }
+    }
+  },
+  "menu-item#Comunidad": {
+    "props": {
+      "blockClass": "footer__dep",
+      "id": "Comunidad__Alpha",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Comunidad Alpha",
+        "text": "Comunidad Alpha"
+      }
+    }
+  },
+
+  "menu-item#ayuda__product": {
+    "props": {
+      "blockClass": "footer__dep",
+      "id": "Ayuda__con__Mi--Producto",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ayuda con Mi Producto",
+        "text": "Ayuda con Mi Producto"
+      }
+    }
+  }
+}

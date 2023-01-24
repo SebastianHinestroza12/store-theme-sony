@@ -1,0 +1,95 @@
+{
+  // COLUMN NUMBER FOUR
+  "flex-layout.col#footer-desktop--col4": {
+    "title": "Footer Col Four",
+    "children": [
+      "rich-text#footer__title--col4",
+      "menu#footer__menu--col4"
+    ],
+    "props": {
+      "blockClass": "footer__menu--col"
+    }
+  },
+
+  "rich-text#footer__title--col4": {
+    "props": {
+      "text": "Noticias e Información",
+      "blockClass": "footer__title--column"
+    }
+  },
+
+  "menu#footer__menu--col4": {
+    "children": [
+      "menu-item#acerca__sony",
+      "menu-item#informacion__corporativa",
+      "menu-item#centro__de--prensa",
+      "menu-item#sony__medio--ambiente"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#acerca__sony": {
+    "props": {
+      "blockClass": "footer__dep",
+      "id": "Acerca__de--Sony",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Acerca de Sony",
+        "text": "Acerca de Sony"
+      }
+    }
+  },
+  "menu-item#informacion__corporativa": {
+    "props": {
+      "blockClass": "footer__dep",
+      "id": "Información__Corporativa",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Información Corporativa",
+        "text": "Información Corporativa"
+      }
+    }
+  },
+
+  "menu-item#centro__de--prensa": {
+    "props": {
+      "blockClass": "footer__dep",
+      "id": "Centro__de--Prensa",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Centro de Prensa",
+        "text": "Centro de Prensa"
+      }
+    }
+  },
+
+  "menu-item#sony__medio--ambiente": {
+    "props": {
+      "blockClass": "footer__dep",
+      "id": "Sony__Ambiente",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sony y el Medio Ambiente",
+        "text": "Sony y el Medio Ambiente"
+      }
+    }
+  }
+}
