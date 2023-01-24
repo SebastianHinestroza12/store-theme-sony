@@ -1,0 +1,64 @@
+{
+  // COLUMN NUMBER ONE
+
+  "flex-layout.col#footer-desktop--col1": {
+    "title": "Footer Col One",
+    "children": [
+      "rich-text#footer__title--one",
+      "flex-layout.row#footer__desktop--location",
+      "menu#footer__menu--col1"
+    ],
+    "props": {
+      "blockClass": "footer__menu--locationCol"
+    }
+  },
+  "rich-text#footer__title--one": {
+    "title": "Title Column One",
+    "props": {
+      "text": "Busca un Distribuidor",
+      "blockClass": "footer__title--column"
+    }
+  },
+
+  "menu#footer__menu--col1": {
+    "children": [
+      "menu-item#stores"
+    ]
+  },
+
+  "flex-layout.row#footer__desktop--location": {
+    "children": [
+      // "image#location",
+      "search-bar#location"
+    ],
+    "props": {
+      "blockClass": "location__footer__desktop"
+    }
+  },
+
+  "search-bar#location": {
+    "props": {
+      "displayMode": "clear-button"
+    }
+  },
+  // "image#location": {
+  //   "props": {
+  //     "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674452643/icons8-marcador-48_m57vuv.png"
+  //   }
+  // },
+
+  "menu-item#stores": {
+    "props": {
+      "blockClass": "footer__dep",
+      "id": "menu-item-shop",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tiendas y Distribuidores",
+        "text": "Tiendas y Distribuidores"
+      }
+    }
+  }
+}

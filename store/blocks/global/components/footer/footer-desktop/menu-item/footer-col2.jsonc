@@ -1,0 +1,198 @@
+{
+  // COLUMN NUMBER TWO
+  "flex-layout.col#footer-desktop--col2": {
+    "title": "Footer Col Two",
+    "children": [
+      "rich-text#footer__title--col2",
+      "menu#footer__menu--col2"
+    ],
+    "props": {
+      "blockClass": "footer__menu--col"
+    }
+  },
+
+  "rich-text#footer__title--col2": {
+    "props": {
+      "text": "Compra Online",
+      "blockClass": "footer__title--column"
+    }
+  },
+
+  "menu#footer__menu--col2": {
+    "children": [
+      "menu-item#tienda__en--linea",
+      "menu-item#ayuda__sony--store",
+      "menu-item#peticiones",
+      "menu-item#politicas",
+      "menu-item#terminos",
+      "menu-item#mi__garantia",
+      "menu-item#superintendencia",
+      "menu-item#estatuto",
+      "menu-item#loquedebe__saber",
+      "menu-item#digital__terrestre"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#tienda__en--linea": {
+    "props": {
+      "blockClass": "footer__dep",
+      "id": "Tienda--en--linea",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tienda en Línea",
+        "text": "Tienda en Línea"
+      }
+    }
+  },
+
+  "menu-item#ayuda__sony--store": {
+    "props": {
+      "blockClass": "footer__dep",
+      "id": "Ayuda-Sony-Store",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ayuda Sony Store",
+        "text": "Ayuda Sony Store"
+      }
+    }
+  },
+
+  "menu-item#peticiones": {
+    "props": {
+      "id": "Peticiones",
+      "type": "custom",
+      "blockClass": "footer__dep",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Peticiones, Quejas o Reclamos (PQRs)",
+        "text": "Peticiones, Quejas o Reclamos (PQRs)"
+      }
+    }
+  },
+
+  "menu-item#politicas": {
+    "props": {
+      "blockClass": "footer__dep",
+      "id": "Politicas--condiciones",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Políticas de cambio y devoluciones",
+        "text": "Políticas de cambio y devoluciones"
+      }
+    }
+  },
+
+  "menu-item#terminos": {
+    "props": {
+      "blockClass": "footer__dep",
+      "id": "terminos__condiciones",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+
+  "menu-item#mi__garantia": {
+    "props": {
+      "blockClass": "footer__dep",
+      "id": "Mi__garantí--Sony",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mi garantía Sony",
+        "text": "Mi garantía Sony"
+      }
+    }
+  },
+
+  "menu-item#superintendencia": {
+    "props": {
+      "blockClass": "footer__dep",
+      "id": "Superintendencia",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Superintendencia de Industria y Comercio",
+        "text": "Superintendencia de Industria y Comercio"
+      }
+    }
+  },
+
+  "menu-item#estatuto": {
+    "props": {
+      "blockClass": "footer__dep",
+      "id": "Estatuto__del--consumidor",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Estatuto del consumidor",
+        "text": "Estatuto del consumidor"
+      }
+    }
+  },
+
+  "menu-item#loquedebe__saber": {
+    "props": {
+      "blockClass": "footer__dep",
+      "id": "Tv",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Todo lo que debes saber sobre la Televisión",
+        "text": "Todo lo que debes saber sobre la Televisión"
+      }
+    }
+  },
+
+  "menu-item#digital__terrestre": {
+    "props": {
+      "blockClass": "footer__dep",
+      "id": "Digital Terrestre",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Digital Terrestre",
+        "text": "Digital Terrestre"
+      }
+    }
+  }
+}

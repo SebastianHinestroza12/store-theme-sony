@@ -1,0 +1,198 @@
+{
+  "footer-layout.desktop": {
+    "title": "Footer Desktop",
+    "children": [
+      "flex-layout.row#footer-desktop",
+      "flex-layout.row#footer__desktop--section2",
+      "flex-layout.row#footer__desktop--section3"
+    ]
+  },
+  "flex-layout.row#footer-desktop": {
+    "title": "Footer Desktop Container",
+    "children": [
+      "flex-layout.col#footer-desktop--col1",
+      "flex-layout.col#footer-desktop--col2",
+      "flex-layout.col#footer-desktop--col3",
+      "flex-layout.col#footer-desktop--col4"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--container",
+      "colSizing": "auto",
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    }
+  },
+
+  "flex-layout.row#footer__desktop--section2": {
+    "title": "Footer Desktop Section 2",
+    "children": [
+      "flex-layout.col#footer-desktop--section1",
+      "flex-layout.col#footer-desktop--section2",
+      "flex-layout.col#footer-desktop--section3"
+    ],
+    "props": {
+      "blockClass": "footer-section2",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#footer-desktop--section1": {
+    "title": "footer Desktop Section 1",
+    "children": [
+      "image#colombia",
+      "rich-text#colombia"
+    ],
+    "props": {
+      "blockClass": "footer__section2--col1"
+    }
+  },
+
+  "image#colombia": {
+    "props": {
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674517835/icons8-colombia-48_ogyxlt.png",
+      "maxWidth": "30px",
+      "maxHeight": "30px"
+    }
+  },
+
+  "rich-text#colombia": {
+    "props": {
+      "text": "Colombia",
+      "blockClass": "footer__text--colombia"
+    }
+  },
+
+  "flex-layout.col#footer-desktop--section2": {
+    "title": "footer Desktop Section 2",
+    "children": [
+      "rich-text#profesionales",
+      "rich-text#contacto--footer"
+    ],
+    "props": {
+      "blockClass": "footer__section2--col2"
+    }
+  },
+  "rich-text#profesionales": {
+    "props": {
+      "text": "Para profesionales",
+      "blockClass": "footer__section2--text"
+    }
+  },
+  "rich-text#contacto--footer": {
+    "props": {
+      "text": "Contacto",
+      "blockClass": "footer__section2--text"
+    }
+  },
+  "flex-layout.col#footer-desktop--section3": {
+    "title": "footer Desktop Section 3",
+    "children": [
+      "image#icon__facebook",
+      "image#icon__twitter",
+      "image#icon__youtube",
+      "image#icon__instagram"
+    ],
+    "props": {
+      "blockClass": "footer__section2--col3"
+    }
+  },
+  "image#icon__facebook": {
+    "props": {
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674514756/icons8-facebook-f-50_yzfan6.png",
+      "maxWidth": "23px",
+      "maxHeight": "23px",
+      "blockClass": "icon-facebook"
+    }
+  },
+  "image#icon__twitter": {
+    "props": {
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674514811/icons8-twitter-30_zehxfa.png",
+      "maxWidth": "23px",
+      "maxHeight": "23px",
+      "blockClass": "icon-twitter"
+    }
+  },
+  "image#icon__youtube": {
+    "props": {
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674514870/icons8-youtube-64_zw4nek.png",
+      "maxWidth": "23px",
+      "maxHeight": "23px",
+      "blockClass": "icon-youtube"
+    }
+  },
+  "image#icon__instagram": {
+    "props": {
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674514908/icons8-instagram-30_qdopgl.png",
+      "maxWidth": "23px",
+      "maxHeight": "23px",
+      "blockClass": "icon-instagram"
+    }
+  },
+  "flex-layout.row#footer__desktop--section3": {
+    "title": "footer__desktop--section3",
+    "children": [
+      "flex-layout.col#footer__desktop--politicas",
+      "flex-layout.col#footer__icon--vtex"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--section3",
+      "colSizing": "auto",
+      "colJustify": "around"
+    }
+  },
+  "flex-layout.col#footer__desktop--politicas": {
+    "children": [
+      "rich-text#copyright",
+      "link#politicas",
+      "rich-text#sony__footer--text",
+      "rich-text#atencion"
+    ],
+    "props": {
+      "blockClass": "footer__desktopCol--section3"
+    }
+  },
+
+  "rich-text#copyright": {
+    "props": {
+      "text": "© 2021 SONY LATIN AMERICA, INC. TODOS LOS DERECHOS RESERVADOS.",
+      "blockClass": "footer__desktopCol--text"
+    }
+  },
+
+  "link#politicas": {
+    "children": [
+      "rich-text#footer__politicas"
+    ],
+    "props": {
+      "blockClass": "footer__desktopCol--link"
+    }
+  },
+
+  "rich-text#footer__politicas": {
+    "props": {
+      "text": "POLÍTICA DE PRIVACIDAD EN LÍNEA DE SONY LATIN AMERICA, INC © 2021 SONY LATIN AMERICA, INC. TODOS LOS DERECHOS RESERVADOS.",
+      "blockClass": "footer__desktopCol--text--link"
+    }
+  },
+
+  "rich-text#sony__footer--text": {
+    "props": {
+      "text": "SONY INTERAMERICAN S.A SUCURSAL COLOMBIA | NIT 800185150-2 KM 1.5 Vía Funza Siberia, Parque Industrial San Diego Bodega 6C | E-mail Compras.OnLine@am.sony.com | TELEFONO DE LINEA DE",
+      "blockClass": "footer__desktopCol--text"
+    }
+  },
+
+  "rich-text#atencion": {
+    "props": {
+      "text": "ATENCION: Bogotá (786 8928), Nacional (01 800 5189714) - lunes a viernes 9 AM a 6 PM.",
+      "blockClass": "footer__desktopCol--text"
+    }
+  },
+  "flex-layout.col#footer__icon--vtex": {
+    "children": [
+      "powered-by"
+    ],
+    "props": {
+      "blockClass": "vtex__icon"
+    }
+  }
+}

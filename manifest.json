@@ -51,7 +51,8 @@
     "vtex.styleguide": "9.x",
     "vtex.tab-layout": "0.x",
     "vtex.telemarketing": "2.x",
-    "vtex.store-icons": "0.x"
+    "vtex.store-icons": "0.x",
+    "vtex.disclosure-layout": "1.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x"

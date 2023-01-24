@@ -1,0 +1,40 @@
+{
+  "disclosure-layout#footer__mobile--distributor": {
+    "title": "Footer disclosure distributor",
+    "children": [
+      "disclosure-trigger#footer__distributor",
+      "disclosure-content#footer__distributor"
+    ]
+  },
+  "disclosure-trigger#footer__distributor": {
+    "title": "Disclosure trigger contributor",
+    "children": [
+      "rich-text#footer__text--contributor",
+      "disclosure-state-indicator#mfooter__discloud"
+    ],
+    "props": {
+      "blockClass": "disclosure__trigger"
+    }
+  },
+  "rich-text#footer__text--contributor": {
+    "title": "Disclousure text contributor",
+    "props": {
+      "text": "Busca un Distribuidor",
+      "blockClass": "footer__text--disclosure"
+    }
+  },
+
+  "disclosure-content#footer__distributor": {
+    "title": "Contents  disclousure contributor",
+    "children": [
+      "menu#footer__mobile--distributor"
+    ]
+  },
+  "disclosure-state-indicator#mfooter__discloud": {
+    "title": "Disclosure State contributor",
+    "props": {
+      "Hide": "image#mobile__icon--above",
+      "Show": "image#mobile__icon--descent"
+    }
+  }
+}

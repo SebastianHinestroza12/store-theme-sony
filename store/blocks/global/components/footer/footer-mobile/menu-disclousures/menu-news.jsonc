@@ -1,0 +1,13 @@
+{
+  "menu#footer__mobile--news": {
+    "children": [
+      "menu-item#acerca__sony",
+      "menu-item#informacion__corporativa",
+      "menu-item#centro__de--prensa",
+      "menu-item#sony__medio--ambiente"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

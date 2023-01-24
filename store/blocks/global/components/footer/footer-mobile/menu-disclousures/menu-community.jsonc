@@ -1,0 +1,12 @@
+{
+  "menu#footer__mobile--community": {
+    "children": [
+      "menu-item#blog__playstation",
+      "menu-item#Comunidad",
+      "menu-item#ayuda__product"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

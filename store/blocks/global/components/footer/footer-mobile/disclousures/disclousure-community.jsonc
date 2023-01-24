@@ -1,0 +1,33 @@
+{
+  "disclosure-layout#footer__mobile--community": {
+    "title": "Footer disclosure community",
+    "children": [
+      "disclosure-trigger#footer__community",
+      "disclosure-content#footer__community"
+    ]
+  },
+  "disclosure-trigger#footer__community": {
+    "title": "Disclosure trigger contributor",
+    "children": [
+      "rich-text#footer__text--community",
+      "disclosure-state-indicator#mfooter__discloud"
+    ],
+    "props": {
+      "blockClass": "disclosure__trigger"
+    }
+  },
+  "rich-text#footer__text--community": {
+    "title": "Disclousure text community",
+    "props": {
+      "text": "Comunidad",
+      "blockClass": "footer__text--disclosure"
+    }
+  },
+
+  "disclosure-content#footer__community": {
+    "title": "Contents  disclousure community",
+    "children": [
+      "menu#footer__mobile--community"
+    ]
+  }
+}

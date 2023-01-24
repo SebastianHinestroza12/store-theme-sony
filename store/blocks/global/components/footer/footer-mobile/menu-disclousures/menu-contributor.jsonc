@@ -1,0 +1,11 @@
+{
+  "menu#footer__mobile--distributor": {
+    "children": [
+      "flex-layout.row#footer__desktop--location",
+      "menu#footer__menu--col1"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-mobile",
+      "flex-layout.row#footer-mobile--redes",
+      "flex-layout.row#footer__desktop--section3"
+    ]
+  },
+  "flex-layout.row#footer-mobile": {
+    "title": "Footer container mobile",
+    "children": [
+      "flex-layout.col#footer__mobile"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--container"
+    }
+  },
+
+  "flex-layout.col#footer__mobile": {
+    "title": "Footer mobile columns",
+    "children": [
+      "disclosure-layout#footer__mobile--distributor",
+      "disclosure-layout#footer__mobile--buy",
+      "disclosure-layout#footer__mobile--community",
+      "disclosure-layout#footer__mobile--news"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--columns"
+    }
+  }
+}

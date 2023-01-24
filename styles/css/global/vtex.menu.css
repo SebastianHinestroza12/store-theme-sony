@@ -1,0 +1,23 @@
+.menuItem--footer__dep{
+  /* border: 1px solid black; */
+  width: 100%;
+}
+
+.styledLinkContainer--footer__dep{
+  /* border: 1px solid black; */
+  display:contents;
+  
+}
+
+.styledLinkContent--footer__dep{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 23px;
+    color: #e4e7eb;
+    white-space: normal;
+    transition: all .25s;
+}
+
+.styledLinkContent--footer__dep:hover{
+  color: #83838f;
+}
