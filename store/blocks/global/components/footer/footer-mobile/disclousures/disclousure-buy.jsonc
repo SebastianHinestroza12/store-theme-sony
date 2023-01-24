@@ -1,0 +1,33 @@
+{
+  "disclosure-layout#footer__mobile--buy": {
+    "title": "Footer disclosure buy",
+    "children": [
+      "disclosure-trigger#footer__buy",
+      "disclosure-content#footer__buy"
+    ]
+  },
+  "disclosure-trigger#footer__buy": {
+    "title": "Disclosure trigger contributor",
+    "children": [
+      "rich-text#footer__text--buy",
+      "disclosure-state-indicator#mfooter__discloud"
+    ],
+    "props": {
+      "blockClass": "disclosure__trigger"
+    }
+  },
+  "rich-text#footer__text--buy": {
+    "title": "Disclousure text buy",
+    "props": {
+      "text": "Compra Online",
+      "blockClass": "footer__text--disclosure"
+    }
+  },
+
+  "disclosure-content#footer__buy": {
+    "title": "Contents  disclousure buy",
+    "children": [
+      "menu#footer__mobile--buy"
+    ]
+  }
+}

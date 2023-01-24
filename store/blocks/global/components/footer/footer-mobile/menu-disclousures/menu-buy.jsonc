@@ -1,0 +1,19 @@
+{
+  "menu#footer__mobile--buy": {
+    "children": [
+      "menu-item#tienda__en--linea",
+      "menu-item#ayuda__sony--store",
+      "menu-item#peticiones",
+      "menu-item#politicas",
+      "menu-item#terminos",
+      "menu-item#mi__garantia",
+      "menu-item#superintendencia",
+      "menu-item#estatuto",
+      "menu-item#loquedebe__saber",
+      "menu-item#digital__terrestre"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

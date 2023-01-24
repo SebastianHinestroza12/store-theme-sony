@@ -1,0 +1,39 @@
+{
+  "flex-layout.row#footer-mobile--redes": {
+    "title": "Footer Mobile Social Media",
+    "children": [
+      "flex-layout.col#footer-mobile--colombia",
+      "flex-layout.col#footer-desktop--section2",
+      "flex-layout.col#footer-desktop--section3"
+    ],
+    "props": {
+      "blockClass": "Container__social-media-block"
+    }
+  },
+  "flex-layout.col#footer-mobile--colombia": {
+    "title": "Footer Mobile Container Icon Col",
+    "children": [
+      "image#icon__colombia--mobile",
+      "rich-text#text__colombia--mobile"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--colombia",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "image#icon__colombia--mobile": {
+    "props": {
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674517835/icons8-colombia-48_ogyxlt.png",
+      "maxWidth": "30px",
+      "maxHeight": "30px"
+    }
+  },
+  "rich-text#text__colombia--mobile": {
+    "title": "Footer Text Colombia Mobile",
+    "props": {
+      "text": "Colombia",
+      "blockClass": "footer__text__colombia--mobile"
+    }
+  }
+}

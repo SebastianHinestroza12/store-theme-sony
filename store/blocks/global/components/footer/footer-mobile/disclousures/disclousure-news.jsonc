@@ -1,0 +1,33 @@
+{
+  "disclosure-layout#footer__mobile--news": {
+    "title": "Footer disclosure news",
+    "children": [
+      "disclosure-trigger#footer__news",
+      "disclosure-content#footer__news"
+    ]
+  },
+  "disclosure-trigger#footer__news": {
+    "title": "Disclosure trigger contributor",
+    "children": [
+      "rich-text#footer__text--news",
+      "disclosure-state-indicator#mfooter__discloud"
+    ],
+    "props": {
+      "blockClass": "disclosure__trigger"
+    }
+  },
+  "rich-text#footer__text--news": {
+    "title": "Disclousure text news",
+    "props": {
+      "text": "Noticias e Información",
+      "blockClass": "footer__text--disclosure"
+    }
+  },
+
+  "disclosure-content#footer__news": {
+    "title": "Contents  disclousure news",
+    "children": [
+      "menu#footer__mobile--news"
+    ]
+  }
+}
