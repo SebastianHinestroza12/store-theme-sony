@@ -1,0 +1,7 @@
+{
+  "product-list-content-desktop": {
+    "children": [
+      "flex-layout.row#list__row--general"
+    ]
+  }
+}

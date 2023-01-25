@@ -1,0 +1,4 @@
+.flexRowContent--quantity__selector--mobile{
+  display: flex;
+  flex-direction: row;
+}
