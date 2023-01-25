@@ -1,0 +1,115 @@
+{
+  "store.search#department": {
+    "blocks": [
+      "search-result-layout#department"
+    ]
+  },
+  "search-result-layout#department": {
+    "blocks": [
+      "search-result-layout.desktop#department",
+      "search-result-layout.mobile#department",
+      "search-not-found-layout"
+    ]
+  },
+
+  // SERACH DESKTOP
+
+  "search-result-layout.desktop#department": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#deparment__results"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+
+  "flex-layout.row#searchbread": {
+    "children": [
+      "flex-layout.col#searchbread"
+    ]
+  },
+
+  "flex-layout.col#searchbread": {
+    "children": [
+      "breadcrumb.search"
+    ]
+  },
+
+  "flex-layout.row#deparment__results": {
+    "title": "Deparment Result",
+    "children": [
+      "gallery-layout-switcher"
+      // "search-content#mobile__result"
+    ]
+  },
+
+  "gallery-layout-switcher": {
+    "children": [
+      "gallery-layout-option#whole",
+      "gallery-layout-option#two",
+      "gallery-layout-option#many"
+    ]
+  },
+
+  "gallery-layout-option#whole": {
+    "props": {
+      "name": "whole",
+      "blockClass": "grid__selector--column"
+    },
+    "children": [
+      "icon-single-grid",
+      "rich-text#option-whole"
+    ]
+  },
+
+  "rich-text#option-whole": {
+    "props": {
+      "text": "# Cameras"
+    }
+  },
+
+  "gallery-layout-option#two": {
+    "props": {
+      "name": "two",
+      "blockClass": "grid__selector--column"
+    },
+    "children": [
+      "icon-inline-grid",
+      "rich-text#option-two"
+    ]
+  },
+
+  "rich-text#option-two": {
+    "props": {
+      "text": "# Tv"
+    }
+  },
+  "gallery-layout-option#many": {
+    "props": {
+      "name": "many",
+      "blockClass": "grid__selector--column"
+    },
+    "children": [
+      "icon-menu",
+      "rich-text#option-many"
+    ]
+  },
+
+  "rich-text#option-many": {
+    "props": {
+      "text": "# Games"
+    }
+  },
+
+  // SEARCH MOBILE
+
+  "search-result-layout.mobile#department": {
+    "children": [
+      "flex-layout.row#searchbread"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  }
+}

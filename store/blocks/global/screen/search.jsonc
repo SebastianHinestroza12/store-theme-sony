@@ -1,0 +1,62 @@
+{
+  "store.search": {
+    "blocks": [
+      "search-result-layout"
+    ]
+  },
+  "store.search#category": {
+    "blocks": [
+      "search-result-layout"
+    ]
+  },
+
+  "store.search#subcategory": {
+    "blocks": [
+      "search-result-layout"
+    ]
+  },
+  "store.search#brand": {
+    "blocks": [
+      "search-result-layout"
+    ]
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  // SERACH DESKTOP
+
+  "search-result-layout.desktop": {
+    "children": [
+      "rich-text#layout__desktop"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+
+  "rich-text#layout__desktop": {
+    "props": {
+      "text": "# SEARCH DESKTOP"
+    }
+  },
+  // SEARCH MOBILE
+
+  "search-result-layout.mobile": {
+    "children": [
+      "rich-text#layout__mobile"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "rich-text#layout__mobile": {
+    "props": {
+      "text": "# SEARCH MOBILE AND TABLET"
+    }
+  }
+}
