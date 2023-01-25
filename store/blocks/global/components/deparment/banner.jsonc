@@ -2,18 +2,37 @@
   "flex-layout.row#department__banner": {
     "title": "Deparment Banner",
     "children": [
-      "image#department__banner--imagen"
+      "flex-layout.col#department__banner"
     ],
     "props": {
       "fullWidth": true,
-      "blockClass": "department__banner"
+      "blockClass": "department__banner--container"
     }
   },
-  "image#department__banner--imagen": {
-    "title": "Department Banner Imagen",
+
+  "flex-layout.col#department__banner": {
+    "children": [
+      "rich-text#title__banner--deparment",
+      "rich-text#paragraph__banner--deparment"
+    ],
     "props": {
-      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/e1aa93e8-737f-4e4a-8444-ecf030d79604___2bc1aabc7f17b3a9d7a8d3502efddfef.jpg",
-      "blockClass": "department__banner--imagen"
+      "fullWidth": true,
+      "blockClass": "department__banner--col"
+    }
+  },
+
+  "rich-text#title__banner--deparment": {
+    "title": "Title Banner",
+    "props": {
+      "text": "Que estudiar sea divertido",
+      "blockClass": "title__banner--col"
+    }
+  },
+  "rich-text#paragraph__banner--deparment": {
+    "title": "Text Banner",
+    "props": {
+      "text": "Descubre los productos esenciales para la vuelta a clases.",
+      "blockClass": "text__banner--col"
     }
   }
 }
