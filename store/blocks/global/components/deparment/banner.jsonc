@@ -1,0 +1,19 @@
+{
+  "flex-layout.row#department__banner": {
+    "title": "Deparment Banner",
+    "children": [
+      "image#department__banner--imagen"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "department__banner"
+    }
+  },
+  "image#department__banner--imagen": {
+    "title": "Department Banner Imagen",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/e1aa93e8-737f-4e4a-8444-ecf030d79604___2bc1aabc7f17b3a9d7a8d3502efddfef.jpg",
+      "blockClass": "department__banner--imagen"
+    }
+  }
+}

@@ -2,23 +2,46 @@
   "store.search": {
     "blocks": [
       "search-result-layout"
-    ]
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    }
   },
   "store.search#category": {
     "blocks": [
       "search-result-layout"
-    ]
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
   },
-
   "store.search#subcategory": {
     "blocks": [
       "search-result-layout"
-    ]
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
   },
   "store.search#brand": {
     "blocks": [
       "search-result-layout"
-    ]
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
   },
   "search-result-layout": {
     "blocks": [
@@ -27,36 +50,24 @@
       "search-not-found-layout"
     ]
   },
-
-  // SERACH DESKTOP
-
   "search-result-layout.desktop": {
     "children": [
-      "rich-text#layout__desktop"
-    ],
-    "props": {
-      "preventRouteChange": true
-    }
+      "rich-text#desktop-response"
+    ]
   },
-
-  "rich-text#layout__desktop": {
-    "props": {
-      "text": "# SEARCH DESKTOP"
-    }
-  },
-  // SEARCH MOBILE
-
   "search-result-layout.mobile": {
     "children": [
-      "rich-text#layout__mobile"
-    ],
+      "rich-text#mobile-response"
+    ]
+  },
+  "rich-text#desktop-response": {
     "props": {
-      "preventRouteChange": true
+      "text": "# BUSQUEDA DESKTOP"
     }
   },
-  "rich-text#layout__mobile": {
+  "rich-text#mobile-response": {
     "props": {
-      "text": "# SEARCH MOBILE AND TABLET"
+      "text": "# BUSQUEDA MOBILE"
     }
   }
 }
