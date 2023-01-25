@@ -1,0 +1,22 @@
+.flexRow--department__banner--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/e1aa93e8-737f-4e4a-8444-ecf030d79604___2bc1aabc7f17b3a9d7a8d3502efddfef.jpg");
+    height: 205px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.flexRowContent--department__banner--container{
+  width: 100%;
+}
+
+.flexCol--department__banner--col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    transform: translateX(-27%);
+}

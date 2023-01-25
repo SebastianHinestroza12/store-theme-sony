@@ -1,0 +1,11 @@
+.paragraph--title__banner--col{
+  font-size: 30px;
+  color: #000;
+  font-weight: 600;
+}
+
+.paragraph--text__banner--col{
+  font-size: 15px;
+    line-height: 24px;
+    color: #000;
+}
