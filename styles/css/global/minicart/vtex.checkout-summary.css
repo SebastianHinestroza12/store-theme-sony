@@ -1,0 +1,23 @@
+.summaryItemLabel{
+  color: #2f353d;
+    font-weight: 700;
+    font-family: SST W01 Bold!important;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.price{
+  color: #2f353d;
+    font-weight: 700;
+    font-family: SST W01 Bold!important;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.summaryItemContainer:first-child{
+  display: none;
+}
+.summarySmallDisclaimer{
+  display: none;
+}
+

@@ -1,0 +1,31 @@
+/* BUTTON CLOSE MINICART */
+
+.closeIconContainer{
+  display: none;
+}
+
+/* MINICAR TITLE */
+.minicartTitle{
+  display: none;
+}
+
+.minicartSummary{
+  box-shadow: none;
+  border-top: 1px solid #e3e4e6;
+}
+
+.minicartCheckoutButton{
+  margin-top: 2rem;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label){
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 700;
+  /* display: none; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+/* .minicartCheckoutButton::after :global(.vtex-button__label){
+  /* content: "prueba"; */
+
+

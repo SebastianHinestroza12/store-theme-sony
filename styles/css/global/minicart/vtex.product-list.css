@@ -1,0 +1,25 @@
+.inputContainer{
+  width: 56px;
+  border: 2px solid #ccc;
+}
+
+.quantitySelectorButton{
+  /* border: 1px solid blue; */
+  /* border: none; */
+  background-color: #fff;
+  border-color: transparent;
+  color: #ccc;
+  /* width: 25px; */
+}
+
+.productName{
+  text-decoration: none;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  font-weight: 500;
+  color: #3f3f40;
+}
