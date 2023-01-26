@@ -97,7 +97,7 @@
   },
   "image#icon__facebook": {
     "props": {
-      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674514756/icons8-facebook-f-50_yzfan6.png",
+      "src": "https://api.iconify.design/ps/facebook.svg?color=white&width=50&height=50",
       "maxWidth": "23px",
       "maxHeight": "23px",
       "blockClass": "icon-facebook"
@@ -105,7 +105,7 @@
   },
   "image#icon__twitter": {
     "props": {
-      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674514811/icons8-twitter-30_zehxfa.png",
+      "src": "https://api.iconify.design/mdi/twitter.svg?color=white&width=50",
       "maxWidth": "23px",
       "maxHeight": "23px",
       "blockClass": "icon-twitter"
@@ -113,7 +113,7 @@
   },
   "image#icon__youtube": {
     "props": {
-      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674514870/icons8-youtube-64_zw4nek.png",
+      "src": "https://api.iconify.design/bi/youtube.svg?color=white&width=50",
       "maxWidth": "23px",
       "maxHeight": "23px",
       "blockClass": "icon-youtube"
@@ -121,7 +121,7 @@
   },
   "image#icon__instagram": {
     "props": {
-      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674514908/icons8-instagram-30_qdopgl.png",
+      "src": "https://api.iconify.design/ph/instagram-logo-fill.svg?color=white&width=50&height=50",
       "maxWidth": "23px",
       "maxHeight": "23px",
       "blockClass": "icon-instagram"
