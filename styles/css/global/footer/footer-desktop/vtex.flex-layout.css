@@ -91,9 +91,9 @@
 
 .flexColChild--footer__section2--col3{
   display: flex;
-  width: 2.25rem;
-  background-color: #e4e7eb;
-  height: 45% !important;
+  width: 3rem;
+  background-color: #3B3D44;
+  height: 48% !important;
   justify-content: center;
   align-items: center;
   cursor: pointer;

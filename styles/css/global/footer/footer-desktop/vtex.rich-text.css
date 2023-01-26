@@ -1,0 +1,34 @@
+.paragraph--footer__title--column{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #83838f;
+    cursor: default;
+}
+
+.paragraph--footer__text--colombia{
+    color: #f0f8ff;
+    font-size: 12px;
+}
+
+.paragraph--footer__section2--text{
+    color: #e4e7eb;
+    font-size: 13px;
+    text-decoration: none;
+    transition: all .25s;
+}
+
+.paragraph--footer__desktopCol--text{
+    text-align: initial;
+    line-height: 16px;
+    font-size: 9px;
+    color: #83838f;
+}
+
+.paragraph--footer__desktopCol--text--link{
+    text-decoration: unset;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: initial;
+    line-height: 16px;
+    font-size: 9px;
+}
