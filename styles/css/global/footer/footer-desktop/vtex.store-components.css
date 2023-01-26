@@ -1,0 +1,3 @@
+.searchBarContainer :global(.vtex-input-prefix__group){
+  margin: 0 !important;
+}
