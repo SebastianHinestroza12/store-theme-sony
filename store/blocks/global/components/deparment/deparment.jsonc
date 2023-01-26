@@ -1,115 +1,118 @@
 {
   "store.search#department": {
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    },
     "blocks": [
       "search-result-layout#department"
     ]
   },
   "search-result-layout#department": {
+    "title": "Search Result Layout Department",
     "blocks": [
-      "search-result-layout.desktop#department",
+      "search-result-layout.desktop#desktop__department",
       "search-result-layout.mobile#department",
       "search-not-found-layout"
     ]
   },
 
-  // SERACH DESKTOP
+  // RESULTS GLOBALES
 
-  "search-result-layout.desktop#department": {
+  "flex-layout.row#global__categories--results": {
+    "title": "Flex Row Category Results",
     "children": [
-      "flex-layout.row#searchbread",
-      "flex-layout.row#deparment__results"
+      "flex-layout.col#categories__results--filter",
+      "flex-layout.col#categories__results--content"
     ],
     "props": {
-      "preventRouteChange": true
+      "blockClass": "global__categories--results"
     }
   },
-
-  "flex-layout.row#searchbread": {
+  "flex-layout.col#categories__results--filter": {
+    "title": "Flex Col Category Filters",
     "children": [
-      "flex-layout.col#searchbread"
-    ]
-  },
-
-  "flex-layout.col#searchbread": {
-    "children": [
-      "breadcrumb.search"
-    ]
-  },
-
-  "flex-layout.row#deparment__results": {
-    "title": "Deparment Result",
-    "children": [
-      "gallery-layout-switcher"
-      // "search-content#mobile__result"
-    ]
-  },
-
-  "gallery-layout-switcher": {
-    "children": [
-      "gallery-layout-option#whole",
-      "gallery-layout-option#two",
-      "gallery-layout-option#many"
-    ]
-  },
-
-  "gallery-layout-option#whole": {
-    "props": {
-      "name": "whole",
-      "blockClass": "grid__selector--column"
-    },
-    "children": [
-      "icon-single-grid",
-      "rich-text#option-whole"
-    ]
-  },
-
-  "rich-text#option-whole": {
-    "props": {
-      "text": "# Cameras"
-    }
-  },
-
-  "gallery-layout-option#two": {
-    "props": {
-      "name": "two",
-      "blockClass": "grid__selector--column"
-    },
-    "children": [
-      "icon-inline-grid",
-      "rich-text#option-two"
-    ]
-  },
-
-  "rich-text#option-two": {
-    "props": {
-      "text": "# Tv"
-    }
-  },
-  "gallery-layout-option#many": {
-    "props": {
-      "name": "many",
-      "blockClass": "grid__selector--column"
-    },
-    "children": [
-      "icon-menu",
-      "rich-text#option-many"
-    ]
-  },
-
-  "rich-text#option-many": {
-    "props": {
-      "text": "# Games"
-    }
-  },
-
-  // SEARCH MOBILE
-
-  "search-result-layout.mobile#department": {
-    "children": [
-      "flex-layout.row#searchbread"
+      "filter-navigator.v3"
     ],
     "props": {
-      "preventRouteChange": true
+      "width": "30%",
+      "blockClass": "categories__results--filter"
+    }
+  },
+  "filter-navigator.v3": {
+    "title": "Filter Navigator v3",
+    "props": {
+      "truncateFilters": true,
+      "showClearByFilter": true,
+      "fullWidthOnMobile": true,
+      "navigationTypeOnMobile": "collapsible",
+      "appliedFiltersOverview": "hide",
+      "initiallyCollapsed": true,
+      "blockClass": "global__filter--search"
+    }
+  },
+  "flex-layout.col#categories__results--content": {
+    "title": "Flex Col Search Content Results",
+    "children": [
+      "search-content#content__result--products"
+    ],
+    "props": {
+      "blockClass": "categories__results--content"
+    }
+  },
+  "search-content#content__result--products": {
+    "title": "Search Content Results",
+    "blocks": [
+      "gallery#department",
+      "not-found"
+    ]
+  },
+  "gallery#department": {
+    "title": "Gallery Department",
+    "props": {
+      "layouts": [
+        {
+          "name": "general-grid",
+          "component": "GeneralGrid",
+          "itemsPerRow": {
+            "desktop": 4,
+            "tablet": 1,
+            "phone": 1
+          }
+        }
+      ],
+      "GeneralGrid": "product-summary.shelf"
+    }
+  },
+  "product-summary.shelf": {
+    "title": "Product Summary Shelf",
+    "children": [
+      "product-summary-image#global__imageproduct--search",
+      "product-summary-name#global__nameproduct--search",
+      "product-list-price",
+      "product-selling-price#global__priceproduct--search"
+      // "product-summary-sku-selector"
+    ]
+  },
+  "product-summary-name#global__nameproduct--search": {
+    "title": "Product Summary Name",
+    "props": {
+      "tag": "h3",
+      "blockClass": "global__nameproduct--search"
+    }
+  },
+  "product-summary-image#global__imageproduct--search": {
+    "title": "Product Summary Image",
+    "props": {
+      "blockClass": "global__imageproduct--search"
+    }
+  },
+  "product-selling-price#global__priceproduct--search": {
+    "title": "Product Summary Price",
+    "props": {
+      "blockClass": "global__priceproduct--search"
     }
   }
 }

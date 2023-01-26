@@ -1,0 +1,8 @@
+{
+  "search-result-layout.mobile#department": {
+    "title": "Search Result Layout Mobile Department",
+    "children": [
+      "flex-layout.row#global__categories--results"
+    ]
+  }
+}

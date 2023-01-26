@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#department__banner": {
+    "title": "Deparment Banner",
+    "children": [
+      "flex-layout.col#department__banner"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "department__banner--container"
+    }
+  },
+
+  "flex-layout.col#department__banner": {
+    "children": [
+      "rich-text#title__banner--deparment",
+      "rich-text#paragraph__banner--deparment"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "department__banner--col"
+    }
+  },
+
+  "rich-text#title__banner--deparment": {
+    "title": "Title Banner",
+    "props": {
+      "text": "Que estudiar sea divertido",
+      "blockClass": "title__banner--col"
+    }
+  },
+  "rich-text#paragraph__banner--deparment": {
+    "title": "Text Banner",
+    "props": {
+      "text": "Descubre los productos esenciales para la vuelta a clases.",
+      "blockClass": "text__banner--col"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "search-result-layout.desktop#desktop__department": {
+    "title": "Search Result Layout Desktop Department",
+    "children": [
+      "flex-layout.row#department__banner",
+      "flex-layout.row#slider__departmnet--search",
+      "flex-layout.row#global__categories--results"
+    ],
+    "props": {
+      "blockClass": "desktop__department"
+    }
+  }
+}
