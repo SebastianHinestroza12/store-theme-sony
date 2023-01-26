@@ -23,6 +23,7 @@
     "vtex.login": "2.x",
     "vtex.menu": "2.x",
     "vtex.minicart": "2.x",
+    "vtex.modal-layout": "0.x",
     "vtex.my-account": "1.x",
     "vtex.order-placed": "2.x",
     "vtex.product-details": "1.x",
@@ -57,6 +58,7 @@
     "vtex.telemarketing": "2.x"
   },
   "peerDependencies": {
+    "vtex.wish-list": "1.x",
     "vtex.mega-menu": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"

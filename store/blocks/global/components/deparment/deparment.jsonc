@@ -48,8 +48,8 @@
       "showClearByFilter": true,
       "fullWidthOnMobile": true,
       "navigationTypeOnMobile": "collapsible",
-      "appliedFiltersOverview": "hide",
       "initiallyCollapsed": true,
+      "totalProductsOnMobile": "show",
       "blockClass": "global__filter--search"
     }
   },
@@ -78,8 +78,8 @@
           "component": "GeneralGrid",
           "itemsPerRow": {
             "desktop": 4,
-            "tablet": 1,
-            "phone": 1
+            "tablet": 3,
+            "phone": 2
           }
         }
       ],
@@ -89,11 +89,16 @@
   "product-summary.shelf": {
     "title": "Product Summary Shelf",
     "children": [
+      "add-to-list-btn",
       "product-summary-image#global__imageproduct--search",
       "product-summary-name#global__nameproduct--search",
+
       "product-list-price",
-      "product-selling-price#global__priceproduct--search"
-      // "product-summary-sku-selector"
+      "product-selling-price#global__priceproduct--search",
+      // "product-rating-inline",
+      "product-summary-sku-selector",
+      "add-to-cart-button",
+      "modal-trigger#global__modal-trigger"
     ]
   },
   "product-summary-name#global__nameproduct--search": {
@@ -114,5 +119,49 @@
     "props": {
       "blockClass": "global__priceproduct--search"
     }
+  },
+  "product-summary-sku-selector": {
+    "props": {
+      "hideImpossibleCombinations": false
+    }
+  },
+  "modal-trigger#global__modal-trigger": {
+    "children": [
+      "rich-text#global__quick--trigger",
+      "modal-layout#global__quick-view--modal"
+    ]
+  },
+  "rich-text#global__quick--trigger": {
+    "props": {
+      "text": "Vista rapida"
+    }
+  },
+  "modal-layout#global__quick-view--modal": {
+    "children": [
+      "flex-layout.row#quick__view--modal"
+    ]
+  },
+  "flex-layout.row#quick__view--modal": {
+    "children": [
+      "flex-layout.col#quick__view--modal--imagen",
+      "flex-layout.col#quick__view--modal--info"
+    ]
+  },
+  "flex-layout.col#quick__view--modal--imagen": {
+    "children": [
+      "product-summary-image"
+    ],
+    "props": {}
+  },
+  "flex-layout.col#quick__view--modal--info": {
+    "children": [
+      "add-to-list-btn",
+      "product-summary-name",
+      "product-summary-price",
+      "product-description",
+      "share",
+      "product-quantity",
+      "add-to-cart-button"
+    ]
   }
 }
