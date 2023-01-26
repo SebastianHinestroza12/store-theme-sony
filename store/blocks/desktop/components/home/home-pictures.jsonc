@@ -12,7 +12,8 @@
   "flex-layout.col#home__picture--one": {
     "title": "home__picture--one",
     "children": [
-      "image#home__picture--one"
+      "image#home__picture--one",
+      "flex-layout.row#text__description--picture"
     ],
     "props": {
       "blockClass": "home_container--pictures"
@@ -21,7 +22,8 @@
   "flex-layout.col#home__picture--two": {
     "title": "home__picture--two",
     "children": [
-      "image#home__picture--two"
+      "image#home__picture--two",
+      "flex-layout.row#text__description--picture2"
     ],
     "props": {
       "blockClass": "home_container--pictures"
@@ -30,53 +32,54 @@
   "image#home__picture--one": {
     "title": "Desktop pictures back to school one",
     "props": {
-      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/d33afbf8-d7ef-466a-abad-f9fd58d620ed___50f0a82637171ae4d8047ccf6567c94e.jpg",
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/8e652da2-d34c-4e53-8ad0-dd5996b30326___a3f04bff36c18221fa074cee0b38df65.jpg",
       "blockClass": "home__pitures--back"
     }
   },
   "image#home__picture--two": {
     "title": "Desktop pictures back to school two",
     "props": {
-      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/7bd80cbd-aabd-4ba2-b319-1c7cc8e9f89a___d56e4ca6d9fed01c0b15122d2f3b522e.jpg",
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/581460ce-e1d2-4bc9-b987-19312e384744___1097105d4c3723c232a11ff8559a8d3f.jpg",
       "blockClass": "home__pictures--back"
     }
   },
-  "flex-layout.row#home__text--pictures": {
-    "title": "Home Text Pictures",
+  "flex-layout.row#text__description--picture": {
     "children": [
-      "flex-layout.col#home__text--picture",
-      "flex-layout.col#home__text--picture"
+      "flex-layout.col#home__picture--text"
     ],
     "props": {
-      "blockClass": "home__text--pictures"
+      "blockClass": "text__col--pictures",
+      "colSizing": "auto",
+      "fullWidth": true,
+      "horizontalAlign": "center"
     }
   },
-  "flex-layout.col#home__text--picture": {
-    "title": "Home text link",
+  "flex-layout.col#home__picture--text": {
     "children": [
-      "rich-text#home__pictures--one",
-      "rich-text#home__pictures--two",
-      "link#home__link-text"
+      "rich-text#text__picture1",
+      "rich-text#text__picture2",
+      "link#home__link-picture"
     ],
     "props": {
-      "blockClass": "home__text--rich"
+      "blockClass": "home__col--pictures--container",
+      "horizontalAlign": "center"
     }
   },
-  "rich-text#home__pictures--one": {
-    "title": "Home picture One",
+
+  "rich-text#text__picture1": {
     "props": {
-      "text": "Que estudiar sea divertido",
+      "text": "Explora el mundo y aprende",
       "blockClass": "text__pictures--one"
     }
   },
-  "rich-text#home__pictures--two": {
-    "title": "Home Picture Two",
+  "rich-text#text__picture2": {
     "props": {
-      "text": "Descubre los productos esenciales para la vuelta a clases.",
+      "text": "Captura cada paisaje y aprende más de la naturaleza y la arquitectura.",
       "blockClass": "text__pictures--two"
     }
   },
-  "link#home__link-text": {
+
+  "link#home__link-picture": {
     "title": "Home Picture Three",
     "children": [
       "rich-text#link__text--picture"
@@ -87,10 +90,44 @@
     }
   },
   "rich-text#link__text--picture": {
-    "title": "Home text Three",
     "props": {
       "text": "Descubre más >>",
       "blockClass": "text__pictures--three"
+    }
+  },
+  "flex-layout.row#text__description--picture2": {
+    "children": [
+      "flex-layout.col#home__picture--text2"
+    ],
+    "props": {
+      "blockClass": "text__col--pictures",
+      "colSizing": "auto",
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#home__picture--text2": {
+    "children": [
+      "rich-text#text2__picture1",
+      "rich-text#text2__picture2",
+      "link#home__link-picture"
+    ],
+    "props": {
+      "blockClass": "home__col--pictures--container",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "rich-text#text2__picture1": {
+    "props": {
+      "text": "¡Que la música te inspire!",
+      "blockClass": "text__pictures--one"
+    }
+  },
+  "rich-text#text2__picture2": {
+    "props": {
+      "text": "Busca canciones que te inspiren y haz creaciones fabulosas.",
+      "blockClass": "text__pictures--two"
     }
   }
 }

@@ -7,7 +7,6 @@
       "flex-layout.row#home__slider--section-2",
       "flex-layout.row#home__rich--text",
       "flex-layout.row#home__pictures",
-      "flex-layout.row#home__text--pictures",
       "list-context.product-list#home__list--product",
       "rich-text#home__favorites--store",
       "flex-layout.row#home__favorites--sony",
