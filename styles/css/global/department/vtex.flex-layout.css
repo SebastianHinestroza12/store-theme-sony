@@ -5,9 +5,12 @@
     width: 100%;
     background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/e1aa93e8-737f-4e4a-8444-ecf030d79604___2bc1aabc7f17b3a9d7a8d3502efddfef.jpg");
     height: 205px;
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
+}
+
+.flexCol--categories__results--content{
+  transform: translateY(14px);
 }
 
 .flexRowContent--department__banner--container{
@@ -19,4 +22,102 @@
   justify-content: center;
   align-items: center;
     transform: translateX(-27%);
+}
+
+.flexRowContent--slider__departmnet--search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin : 0.5rem 0 3rem 0 ;
+}
+
+.flexColChild--categories__results--filter{
+  display: flex;
+  justify-content: center;
+  align-items:baseline;
+  /* transform: translateX(66px); */
+}
+
+.flexRow--global__categories--results{
+  margin-bottom: 5rem;
+}
+
+.flexColChild--categories__results--content{
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColChild--categories__results--content :global(.vtex-button){
+    border: none;
+    background-color: #f25529;
+    border-radius: 0;
+    transition: all .25s;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1rem 0 1rem 0;
+}
+
+.flexColChild--categories__results--content:hover :global(.vtex-button){
+  background-color: #D94C26;
+}
+
+.flexCol--Global__discount1  {
+  display: flex;
+}
+
+.flexColChild--Global__discount1{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flexRowContent--container__term-and--conditions{
+  width: 100%;
+  max-width: 74.375rem;
+  margin: 0 auto;
+  
+}
+
+.flexColChild--global__term--and--conditions{
+  margin: 6px;
+}
+
+.flexColChild--quick__view--modal--imagen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColChild--quick__view--modal--info{
+  display: flex;
+  padding: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexCol--quick__view--modal--info :global(.vtex-button){
+   border: none;
+    background-color: #f25529;
+    border-radius: 0;
+    transition: all .25s;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.flexCol--quick__view--modal--info:hover :global(.vtex-button){
+  background-color: #D94C26;
 }

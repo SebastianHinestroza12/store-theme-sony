@@ -6,6 +6,50 @@
 
 .paragraph--text__banner--col{
   font-size: 15px;
-    line-height: 24px;
-    color: #000;
+  line-height: 24px;
+  color: #000;
 }
+
+.container--exclusive__new{
+  background-color: #006CC4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clear: both;
+  box-sizing: border-box!important;
+  height: 24px;
+  line-height: 26px;
+  text-align: center;
+  margin: 0;
+  width: 102px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.container--exclusive{
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  align-items: center;
+  background-color: #A500AA;
+  clear: both;
+  box-sizing: border-box!important;
+  height: 24px;
+  line-height: 26px;
+  text-align: center;
+  margin: 0;
+  width: 102px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.paragraph--text__term-and--conditions{
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #4d4d4e;
+}
+
