@@ -29,7 +29,21 @@
 
 /* BUTTON BACK */
 
-.backToTopButtonContainer{
+/* .backToTopButtonContainer{
   opacity: .3;
   right: calc(12% - 1vw);
+} */
+
+.backToTopButtonActive :global(.vtex-button){
+    background-color: rgba(36, 35, 35, 0.966);
+    /* width: 40px; */
+    color: #fff !important;
+    height: 35px;
+    border-style: none;
+    /* border-bottom: 3.125rem; */
+    opacity: .4;
+}
+
+.backToTopButtonActive:hover :global(.vtex-button){
+   background-color: #000;
 }

@@ -30,3 +30,12 @@
   min-height: 36px;
   border-radius: 0 ;
 }
+
+.newsletterForm--home__form--newletter--mobile :global(.vtex-button){
+  background-color: #F25529;
+  width: 100%;
+  border: none;
+  transition: all .25s;
+  min-height: 36px;
+  border-radius: 0 ;
+}

@@ -61,6 +61,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: translateX(-19px);
 }
 
 .flexRowContent--mobile__home--slider4{
@@ -73,4 +74,8 @@
   align-items: center;
   margin-top: 4rem;
   height: 10rem;
+}
+
+.flexRowContent--mobile__home--slider3{
+  margin-bottom: 3rem;
 }

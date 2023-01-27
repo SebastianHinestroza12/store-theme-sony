@@ -1,6 +1,6 @@
 .slideChildrenContainer--home__slider--products--list{
-  /* border: 1px solid red; */
   width: 78%;
+  height: 27.5rem;
 }
 
 .slideChildrenContainer--home__slider--products--list:hover{
@@ -10,7 +10,6 @@
 }
 
 .slide--home__slider--products--list--visible{
-  /* border: 1px solid blue; */
   display: flex;
   justify-content: center;
   align-items: center;

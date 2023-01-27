@@ -72,6 +72,7 @@
   text-align: center;
   line-height: 1;
   font-size: 19px;
+  transform: translateX(-19px);
 }
 
 .wrapper--home__help--info1{
