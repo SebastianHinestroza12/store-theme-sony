@@ -29,14 +29,14 @@
   "image#home__slider--one": {
     "title": "Desktop Image Slider 1",
     "props": {
-      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/e22bfbd5-e81d-4a5a-97d0-bef81ea81a27___44bd8cb7a1990118729f22cb012b0416.jpg",
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/1554285f-26e0-4b8a-b9a1-7328495af045___8c8d1f93aa085f6d04dd1de08ab2cf96.jpg",
       "blockClass": "home__image--slider"
     }
   },
   "image#home__slider--two": {
     "title": "Desktop Image Slider 2",
     "props": {
-      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/a921bcce-6e66-46ad-bef2-199d598ca77e___feafc2e5ebcddc37cf186bc237bdd909.jpg",
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/7bc80f86-b576-4977-9582-dde9b3e4374f___8dd27a518570f347bfebe84352ec632b.jpg",
       "blockClass": "home__image--slider"
     }
   },
