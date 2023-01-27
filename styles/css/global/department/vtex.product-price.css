@@ -1,0 +1,41 @@
+
+.currencyInteger--global__priceproduct--search{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f25529;
+    margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.currencyGroup--global__priceproduct--search{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f25529;
+    margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+.currencyCode--global__priceproduct--search{
+    color: transparent;
+}
+
+.currencyCode--global__priceproduct--search::before{
+  content: "$";
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #f25529;
+  margin-top: 10px;
+  height: 30px;
+  line-height: 30px;
+
+}
+
+.sellingPrice--global__priceproduct--search{
+  display: flex;
+  justify-content: flex-start;
+}

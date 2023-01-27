@@ -1,0 +1,21 @@
+.image--global__imageproduct--search{
+  width: 268px;
+  height: 282px;
+}
+
+.brandName--global__nameproduct--search{
+    font-size: 13px;
+    line-height: 18px;
+    color: #2f353d;
+    font-weight: 400;
+    height: 37px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: -webkit-box;
+    overflow: hidden;
+}
+
+.imageContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

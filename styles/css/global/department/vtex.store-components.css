@@ -1,0 +1,9 @@
+.imageElement--global__quick--trigger:hover{
+  transform: scale(1.3);
+}
+
+.productDescriptionContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

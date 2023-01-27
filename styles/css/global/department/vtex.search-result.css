@@ -1,0 +1,34 @@
+.gallery--general-grid{
+  width: 100%;
+}
+
+.galleryItem--general-grid:hover{
+  border: 1px solid rgba(56, 55, 55, 0.199)
+}
+
+
+.filter__container--selectedFilters{
+  border: 1px solid red;
+  display: none;
+}
+
+.filterMessage--global__filter--search{
+  color: transparent;
+}
+
+.filterMessage--global__filter--search::before{
+  content: "FILTRAR POR";
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+.filtersWrapper--global__filter--search{
+  width: 15.375rem;
+}
+
+.galleryLayoutSwitcher--galleryswitcher--search{
+  display: flex;
+  justify-content:right;
+  align-items: center;
+}

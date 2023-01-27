@@ -1,0 +1,59 @@
+{
+  "modal-trigger#global__modal-trigger": {
+    "children": [
+      "image#global__quick--trigger",
+      "modal-layout#global__quick-view--modal"
+    ]
+  },
+  "image#global__quick--trigger": {
+    "title": "Global Icon View Product",
+    "props": {
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674776047/icons8-visible-24_zakpcl.png",
+      "blockClass": "global__quick--trigger"
+    }
+  },
+  "modal-layout#global__quick-view--modal": {
+    "children": [
+      "flex-layout.row#quick__view--modal"
+    ],
+    "props": {
+      "disableEscapeKeyDown": true,
+      "blockClass": "global__quick-view--modal"
+    }
+  },
+  "flex-layout.row#quick__view--modal": {
+    "title": "Modal Container",
+    "children": [
+      "flex-layout.col#quick__view--modal--imagen",
+      "flex-layout.col#quick__view--modal--info"
+    ],
+    "props": {
+      "blockClass": "quick__view--modal--row"
+    }
+  },
+  "flex-layout.col#quick__view--modal--imagen": {
+    "title": "Modal  View Image Products ",
+    "children": [
+      "product-summary-image"
+    ],
+    "props": {
+      "blockClass": "quick__view--modal--imagen"
+    }
+  },
+  "flex-layout.col#quick__view--modal--info": {
+    "title": "Modal  View Products Info ",
+    "children": [
+      // "add-to-list-btn",
+      "product-summary-name",
+      "product-summary-price",
+      "product-description",
+      "share",
+      // "shipping-simulator",
+      // "product-quantity",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "quick__view--modal--info"
+    }
+  }
+}

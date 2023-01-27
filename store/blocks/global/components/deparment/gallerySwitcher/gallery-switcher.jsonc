@@ -1,0 +1,57 @@
+{
+  "flex-layout.row#galleryswitcher--search": {
+    "title": "Flex row Gallery Layout Switcher",
+    "children": [
+      "gallery-layout-switcher#galleryswitcher--search",
+      "order-by.v2"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "fullWidth": true,
+      "blockClass": "galleryswitcher--search"
+    }
+  },
+  "gallery-layout-switcher#galleryswitcher--search": {
+    "children": [
+      "gallery-layout-option#grid",
+      "gallery-layout-option#list"
+    ],
+    "props": {
+      "blockClass": "galleryswitcher--search"
+    }
+  },
+  "gallery-layout-option#grid": {
+    "props": {
+      "name": "grid"
+    },
+    "children": [
+      "image#icon__grid-switcher"
+    ]
+  },
+  "gallery-layout-option#list": {
+    "props": {
+      "name": "list"
+    },
+    "children": [
+      "image#icon__list-switcher"
+    ]
+  },
+  "image#icon__grid-switcher": {
+    "title": "Image Icon Grid",
+    "props": {
+      "maxWidth": "5",
+      "maxHeight": "5",
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674790695/icons8-cuadr%C3%ADcula-2-24_bnwe2l.png",
+      "blockClass": "icon__grid-switcher"
+    }
+  },
+  "image#icon__list-switcher": {
+    "title": "Image Icon List",
+    "props": {
+      "maxWidth": "5",
+      "maxHeight": "5",
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674790426/icons8-ancho-de-l%C3%ADnea-24_krejum.png",
+      "blockClass": "icon__list-switcher"
+    }
+  }
+}

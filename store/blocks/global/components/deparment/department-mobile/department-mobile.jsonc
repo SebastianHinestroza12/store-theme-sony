@@ -2,7 +2,19 @@
   "search-result-layout.mobile#department": {
     "title": "Search Result Layout Mobile Department",
     "children": [
-      "flex-layout.row#global__categories--results"
+      "header-row#mobile__header--sony",
+      "flex-layout.row#header__call--mobile",
+      "flex-layout.row#mobile__slider1--home",
+      "flex-layout.row#galleryswitcher--search",
+      "flex-layout.row#departmentbreadcrumb",
+      "flex-layout.row#global__categories--results",
+      "flex-layout.row#global__term--and--conditions",
+      "flex-layout.row#home__surveys--mobile",
+      "flex-layout.row#home__title--newletter--mobile",
+      "flex-layout.row#home__form--newletter--mobile",
+      "flex-layout.row#mobile__home--slider4",
+      "flex-layout.row#home__help",
+      "back-to-top-button#home__button--back"
     ]
   }
 }
