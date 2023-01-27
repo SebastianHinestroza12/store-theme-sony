@@ -29,3 +29,37 @@
   /* content: "prueba"; */
 
 
+.minicartQuantityBadgeDefault{
+  background-color: #F85229!important;
+}
+
+.minicartContainer:hover :global(.vtex-button){
+  background-color: #4472ED !important;
+  border-radius: 0 ;
+}
+
+.minicartCheckoutButton :global(.vtex-button){
+   border: none;
+   transform: translateY(-15px);
+    background-color: #f25529;
+    border-radius: 0;
+    transition: all .25s;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.popupBoxPosition{
+  width: 26.8125rem;
+}
+
+.minicartCheckoutButton:hover :global(.vtex-button){
+  background-color: #f25529;
+  opacity: 0.6;
+  transition: 0.3;
+}
