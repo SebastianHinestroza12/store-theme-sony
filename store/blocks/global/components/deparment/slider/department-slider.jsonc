@@ -3,7 +3,10 @@
     "title": "Deparment Container Slider",
     "children": [
       "slider-layout#slider__departmnet"
-    ]
+    ],
+    "props": {
+      "blockClass": "slider__departmnet--search"
+    }
   },
   "slider-layout#slider__departmnet": {
     "title": "Slider Deparment",
@@ -23,7 +26,8 @@
     },
     "children": [
       "image#department__imagen1--slider",
-      "image#department__imagen2--slider"
+      "image#department__imagen2--slider",
+      "image#department__imagen3--slider"
     ]
   },
   "image#department__imagen1--slider": {
@@ -36,7 +40,14 @@
   "image#department__imagen2--slider": {
     "title": "Department Image Slider 2",
     "props": {
-      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/ed8a436b-e927-44eb-b77d-c66cb336c095___8cd3b07fdfedd6c2afc1dd566ee021bb.jpg",
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/7bc80f86-b576-4977-9582-dde9b3e4374f___8dd27a518570f347bfebe84352ec632b.jpg",
+      "blockClass": "home__image--slider"
+    }
+  },
+  "image#department__imagen3--slider": {
+    "title": "Department Image Slider 3",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/1bb1ed34-0c86-492b-a66d-7c32abe56807___9ee1f3dd8fe6298db6de63d2a7d4e957.jpg",
       "blockClass": "home__image--slider"
     }
   }

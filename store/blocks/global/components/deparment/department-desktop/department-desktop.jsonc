@@ -4,7 +4,15 @@
     "children": [
       "flex-layout.row#department__banner",
       "flex-layout.row#slider__departmnet--search",
-      "flex-layout.row#global__categories--results"
+      "flex-layout.row#galleryswitcher--search",
+      "flex-layout.row#departmentbreadcrumb",
+      "flex-layout.row#global__categories--results",
+      "flex-layout.row#global__term--and--conditions",
+      "flex-layout.row#home__title--newletter",
+      "flex-layout.row#home__form--newletter",
+      "flex-layout.row#home__payment--methods",
+      "flex-layout.row#home__help--buy",
+      "back-to-top-button#home__button--back"
     ],
     "props": {
       "blockClass": "desktop__department"

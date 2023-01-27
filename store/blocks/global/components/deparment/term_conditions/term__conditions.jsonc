@@ -1,0 +1,82 @@
+{
+  "flex-layout.row#global__term--and--conditions": {
+    "title": "Term And Conditions To Buy",
+    "children": [
+      "flex-layout.col#global__term--and--conditions"
+    ],
+    "props": {
+      "blockClass": "container__term-and--conditions"
+    }
+  },
+  "flex-layout.col#global__term--and--conditions": {
+    "title": "Term and conditions col",
+    "children": [
+      "rich-text#term1",
+      "rich-text#term2",
+      "rich-text#term3",
+      "rich-text#term4",
+      "rich-text#term5",
+      "rich-text#term6",
+      "rich-text#term7",
+      "rich-text#term8",
+      "rich-text#term9"
+    ],
+    "props": {
+      "blockClass": "global__term--and--conditions"
+    }
+  },
+  "rich-text#term1": {
+    "props": {
+      "text": "Términos y condiciones Regreso a Clases Ofertas válidas en Colombia únicamente en Tiendas Sony Store de Bogotá (Andino, Calle 122 o Gran estación) y Sony Store Online del 16 al 31 de enero de 2023 y/o hasta agotar inventario lo que primero suceda. Aplica en referencias seleccionadas y disponibles en: https://store.sony.com.co/promociones",
+      "blockClass": "text__term-and--conditions"
+    }
+  },
+  "rich-text#term2": {
+    "props": {
+      "text": "Descuento máximo del 45% corresponde a los audífonos WH-CH710N. Revisa todos los términos y condiciones antes de tu compra en Sony Store Online. Aplica en referencias seleccionadas y disponibles en esta página marcada con la campaña “Back to School”. Envíos gratis en compras iguales o superiores a $99.000. El tiempo de entrega será de máximo 48h hábiles en las principales áreas metropolitanas (Bogotá D.C, Medellín, Cali, Bucaramanga y Barranquilla). 3 días hábiles para el resto de ciudades capitales. Entre 3 y 4 días hábiles para demás ciudades o municipios del país. En el marco de la campaña SONY ofrece dctos de hasta el 45% sobre productos y referencias seleccionadas en enlace indicado anteriormente, asÍ como envíos gratis para todos los productos. En este sentido, existirán dctos desde 1% hasta el 45% de dcto. Más información en :  https://www.sony.com.co/store",
+      "blockClass": "text__term-and--conditions"
+    }
+  },
+  "rich-text#term3": {
+    "props": {
+      "text": "*Términos y Condiciones Davivienda Tasa 0%: Reciba 0% de interés difiriendo a 12 cuotas. Oferta válida del 15 al 31 de enero de 2023. Aplica en tiendas físicas y Online. Aplica para compras iguales o superiores a $500.000 (Quinientos mil pesos) con Tarjetas Crédito Davivienda emitidas en Colombia. Aplica únicamente para compras diferidas a 12 cuotas. No aplica para las tarjetas de crédito sobre las cuales el cliente solicitó y autorizó a Davivienda un plazo fijo para cualquier transacción, dado que no se aplicará el plazo seleccionado en la transacción. El beneficio no es canjeable por efectivo. No aplica para las tarjetas empresariales, marca privada, virtuales, sin banda, cafeteras, agropecuarias, Diners Fondavivienda, Diners Lunch, Diners Gift, aliadas a SU+ y tarjetas débito. La calidad e idoneidad de los productos y/o servicios ofrecidos son responsabilidad exclusiva del establecimiento de comercio. Para conocer tasas, condiciones y tarifas consulte www.davivienda.com",
+      "blockClass": "text__term-and--conditions"
+    }
+  },
+  "rich-text#term4": {
+    "props": {
+      "text": "*Términos y condiciones Renovación Ofertas válidas en Colombia únicamente en Tiendas Sony Store de Bogotá (Andino, Calle 122 o Gran estación) y Sony Store Online del 1 al 9 de enero de 2023 y/o hasta agotar inventario lo que primero suceda. Aplica en referencias seleccionadas y disponibles en: https://store.sony.com.co/promociones",
+      "blockClass": "text__term-and--conditions"
+    }
+  },
+  "rich-text#term5": {
+    "props": {
+      "text": "Descuento máximo del 58% corresponde a los audífonos WF-XB700. Revisa todos los términos y condiciones antes de tu compra en Sony Store Online. Aplica en referencias seleccionadas y disponibles en esta página marcada con la campaña “Renovación”. Envíos gratis en compras iguales o superiores a $99.000. El tiempo de entrega será de máximo 48h hábiles en las principales áreas metropolitanas (Bogotá D.C, Medellín, Cali, Bucaramanga y Barranquilla). 3 días hábiles para el resto de ciudades capitales. Entre 4 y5 días hábiles para demás ciudades o municipios del país. En el marco de la campaña SONY ofrece dctos de hasta el 58% sobre productos y referencias seleccionadas en enlace indicado anteriormente, asÍ como envíos gratis para todos los productos. En este sentido, existirán dctos desde 1% hasta el 58% de dcto. Más información en https://www.sony.com.co/store",
+      "blockClass": "text__term-and--conditions"
+    }
+  },
+  "rich-text#term6": {
+    "props": {
+      "text": "*Términos y Condiciones para Garantía Extendida Gratis por Año Compra y registra tu cámara o lente Alpha y recibe una garantía extendida de 1 año. En solo tres (3) pasos puedes registrar tu producto, así: 1) Accede a la web e inicia sesión: Accede a www.sony-latin.com/registro",
+      "blockClass": "text__term-and--conditions"
+    }
+  },
+  "rich-text#term7": {
+    "props": {
+      "text": "Deberás crear una cuenta de MySony o acceder. 2) Registra tu producto: Una vez que inicies sesión, podrás registrar todos tus productos de Sony. 3) Confirmación de la oferta: Recibirás un correo indicando los detalles de tu Garantía Extendida Consulte las cámaras y lentes incluidos en la promoción, así como todos los términos y condiciones ingresando a: https://www.sony-latin.com/corporate/SOLA/alpha-garantia-extendida/index.html",
+      "blockClass": "text__term-and--conditions"
+    }
+  },
+  "rich-text#term8": {
+    "props": {
+      "text": "*Términos y condiciones Compra local Ofertas válidas en Colombia en las tiendas Sony Store en productos seleccionados bajo la campaña de “Compra en Colombia al mismo precio de U.S.A.” Aplica en productos seleccionados. Para consultar todos los productos de esta campaña, puede ingresar a:https://store.sony.com.co/compralocal",
+      "blockClass": "text__term-and--conditions"
+    }
+  },
+  "rich-text#term9": {
+    "props": {
+      "text": "*Términos y condiciones Generales Compras en Sony Store Online: Precios y ofertas incluyen impuestos y aplican para compras a través de SONY STORE ONLINE o Tiendas Sony Store del país, a menos que se indique explícitamente lo contrario. Los precios en otros distribuidores o puntos de venta autorizados de productos Sony pueden variar. Las especificaciones, disponibilidad, precios y términos de esta oferta están sujetos a cambio sin previo aviso. El inventario disponible para cada producto al momento de la compra online, se encuentra debajo del precio en el campo stock. Las unidades disponibles son a nivel nacional y aplica para todas las tiendas Sony Store de Bogotá (Andino, Calle 122 y Gran Estación) y Sony Store Online. El envío no tendrá ningún costo al cliente para pedidos superiores a $99.900 (IVA Incluido). No se realizan envío a San Andres y Providencia. El tamaño de las fotos no necesariamente representa el producto real y son de referencia, no incluyen objetos y/o elementos distintos al producto cuyo nombre y referencia se encuentran escrito al pie de las fotos publicadas. Sony no es responsable por errores en el sistema que impidan visualizar correctamente las imágenes o tipografías de este correo. No se realizan envío a San Andres y Providencia. ENTREGA DE PRODUCTOS: el tiempo de entrega de los productos, será de máximo 4 días hábiles en las principales áreas metropolitanas (Bogotá D.C, Medellín, Cali, Bucaramanga y Barranquilla). 5 días hábiles para el resto de ciudades capitales. Entre 6 y 8 días hábiles para demás ciudades o municipios del país, de acuerdo a las políticas de envío y entrega especiales. Revisa todos los términos y condiciones antes de tu compra en Sony Store Online.",
+      "blockClass": "text__term-and--conditions"
+    }
+  }
+}
