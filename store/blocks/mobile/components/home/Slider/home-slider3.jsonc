@@ -23,22 +23,130 @@
       }
     },
     "children": [
+      "flex-layout.row#mobile__slider--imagen1",
+      "flex-layout.row#mobile__slider--imagen2"
+    ]
+  },
+
+  // SLIDER IMAGEN 1
+
+  "flex-layout.row#mobile__slider--imagen1": {
+    "children": [
       "image#mobile__slider--section3-1",
-      "image#mobile__slider--section3-2"
+      "flex-layout.row#mobile__description--picture"
     ]
   },
   "image#mobile__slider--section3-1": {
     "title": "Mobile Image Slider 2",
     "props": {
-      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/d33afbf8-d7ef-466a-abad-f9fd58d620ed___50f0a82637171ae4d8047ccf6567c94e.jpg",
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/8e652da2-d34c-4e53-8ad0-dd5996b30326___a3f04bff36c18221fa074cee0b38df65.jpg",
       "blockClass": "home__image--slider2"
     }
+  },
+
+  "flex-layout.row#mobile__description--picture": {
+    "children": [
+      "flex-layout.col#mobile__picture--text"
+    ],
+    "props": {
+      "blockClass": "mobille__container--text--col",
+      "colSizing": "auto",
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#mobile__picture--text": {
+    "children": [
+      "rich-text#mobile__text--picture1",
+      "rich-text#mobile__text--picture2",
+      "link#mobile__link-picture"
+    ],
+    "props": {
+      "blockClass": "mobile__col--pictures--container",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "rich-text#mobile__text--picture1": {
+    "props": {
+      "text": "Explora el mundo y aprende",
+      "blockClass": "mobile__text--one--picture"
+    }
+  },
+  "rich-text#mobile__text--picture2": {
+    "props": {
+      "text": "Captura cada paisaje y aprende más de la naturaleza y la arquitectura.",
+      "blockClass": "mobile__text--two--picture"
+    }
+  },
+
+  "link#mobile__link-picture": {
+    "title": "Home Picture Three",
+    "children": [
+      "rich-text#link__text--picture"
+    ],
+    "props": {
+      "href": "/",
+      "blockClass": "mobile__link--picture"
+    }
+  },
+  "rich-text#link__text--picture": {
+    "props": {
+      "text": "Descubre más >>",
+      "blockClass": "mobile__pictures--three"
+    }
+  },
+
+  //INTERRUCTIONS SLIDER IMAGEN
+
+  // SLIDER IMAGEN 2
+
+  "flex-layout.row#mobile__slider--imagen2": {
+    "children": [
+      "image#mobile__slider--section3-2",
+      "flex-layout.row#mobile__description--picture2"
+    ]
   },
   "image#mobile__slider--section3-2": {
     "title": "Mobile Image Slider 2",
     "props": {
-      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/7bd80cbd-aabd-4ba2-b319-1c7cc8e9f89a___d56e4ca6d9fed01c0b15122d2f3b522e.jpg",
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/581460ce-e1d2-4bc9-b987-19312e384744___1097105d4c3723c232a11ff8559a8d3f.jpg",
       "blockClass": "home__image--slider2"
+    }
+  },
+  "flex-layout.row#mobile__description--picture2": {
+    "children": [
+      "flex-layout.col#mobile__picture--text2"
+    ],
+    "props": {
+      "blockClass": "mobille__container--text--col",
+      "colSizing": "auto",
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#mobile__picture--text2": {
+    "children": [
+      "rich-text#mobile__picture2",
+      "rich-text#mobile__picture--text2",
+      "link#mobile__link-picture"
+    ],
+    "props": {
+      "blockClass": "mobile__col--pictures--container",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "rich-text#mobile__picture2": {
+    "props": {
+      "text": "¡Que la música te inspire!",
+      "blockClass": "mobile__text--one--picture"
+    }
+  },
+  "rich-text#mobile__picture--text2": {
+    "props": {
+      "text": "Busca canciones que te inspiren y haz creaciones fabulosas.",
+      "blockClass": "mobile__text--two--picture"
     }
   }
 }

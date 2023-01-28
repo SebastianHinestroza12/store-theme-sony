@@ -19,7 +19,10 @@
     "title": "Mobile home information",
     "children": [
       "flex-layout.col#mobile__home--info"
-    ]
+    ],
+    "props": {
+      "blockClass": "mobile__home--infomation"
+    }
   },
   "flex-layout.col#mobile__home--info": {
     "title": "Text Information Section One",
