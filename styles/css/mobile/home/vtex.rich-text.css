@@ -99,3 +99,27 @@
     line-height: 28px;
     font-weight: 300;
 }
+
+.paragraph--mobile__text--one--picture{
+    font-size: 18px;
+    line-height: 26px;
+    color: #83838f;
+    font-weight: 700;
+}
+
+.paragraph--mobile__text--two--picture{
+    clear: both;
+    width: 100%;
+    font-size: 14px;
+    color: #83838f;
+    margin-top: 12px;
+    line-height: 23px;
+    white-space: normal;
+    text-align: center;
+}
+
+.paragraph--mobile__pictures--three{
+  color: #4572ed;
+    text-decoration: none;
+    transition: all .2s;
+}

@@ -1,5 +1,38 @@
-/* Example Tablet:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.flexRowContent--mobile__marco--slider{
+    height: 83px;
+    display: flex;
+    align-items: center;
+    padding: 0 !important;
+    margin-top: 0 !important;
+    width: 110%;
+    transform: translateX(-22px);
+}
+.flexCol--mobile__section--info {
+    /* border: 1px solid red; */
+    width: 50% !important;
+}
+.flexRowContent--mobile__home--infomation{
+    border: 1px solid red;
+    transform: translate(-205px, -211px);
+    display: none;
+}
+
+.flexRow--mobille__container--text--col{
+    display: flex;
+    align-items: flex-end;
+}
+
+.flexRowContent--home__favorites--store-sony{
+    display: flex ;
+}
+
+.flexRowContent--home__surveys--mobile{
+    display: none;
+}
+.flexColChild--home__newletter-mobile--info{
+    display: flex;
+    justify-content: flex-start;
+}
+}

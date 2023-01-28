@@ -23,3 +23,21 @@
 /* .paginationDotsContainer--home__slider--sectiontwo{
   border: 1px solid #000;
 } */
+
+.paginationDot--home__slider--sectionthree--isActive{
+  background-color: rgba(5, 5, 5, 0.699);
+}
+
+.paginationDot--home__slider--sectionthree {
+width: 16px !important;
+    height: 16px !important;
+
+}
+.paginationDot--home__slider--sectiontwo{
+  width: 16px !important;
+    height: 16px !important
+}
+.paginationDot--home__slider--sectiontwo--isActive{
+  background-color: rgba(5, 5, 5, 0.699);
+}
+
