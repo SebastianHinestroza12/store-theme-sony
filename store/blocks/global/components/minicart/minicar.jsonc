@@ -1,6 +1,7 @@
 {
   "minicart.v2": {
     "props": {
+      "MinicartIcon": "icon-cart#icon__minicart",
       "variation": "popup",
       "itemCountMode": "total",
       "quantityDisplay": "always"
@@ -9,7 +10,11 @@
       "minicart-base-content"
     ]
   },
-
+  "icon-cart#icon__minicart": {
+    "props": {
+      "size": 29
+    }
+  },
   "minicart-base-content": {
     "blocks": [
       "minicart-empty-state"
@@ -70,9 +75,4 @@
       "minicart-checkout-button"
     ]
   }
-  // "image#icon__prueba": {
-  //   "props": {
-  //     "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674430934/icons8-carrito-de-compras-24_cbeybq.png"
-  //   }
-  // }
 }
