@@ -9,7 +9,7 @@
   flex-direction: row;
   width: 12.6875rem !important;
   justify-content: flex-start;
-  background-color: #3f3f40;
+  background-color: #3c3c42;
   cursor: pointer;
 
 }
@@ -24,4 +24,16 @@
 
 .flexColChild--footer__mobile--colombia {
   margin-right: 1rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.flexCol--footer__section2--col2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .flexColChild--footer__section2--col3{
+    height: 48px !important;
+  }
 }

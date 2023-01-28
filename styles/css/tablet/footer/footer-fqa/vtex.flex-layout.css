@@ -1,0 +1,24 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .flexRowContent--Container__social-media-block{
+    padding: 1rem;
+    position: relative;
+  }
+
+  .flexCol--footer__mobile--colombia  {
+    display: flex;
+    justify-content: flex-start;
+    height: 2.7125rem;
+    position: absolute;
+    top: -32px;
+    left: 38%;
+  }
+
+  .flexColChild--footer__section2--col3 {
+    transform: translate(10px, 38px);
+  }
+
+  .flexColChild--footer__mobile--columns:first-child{
+    padding-top: 1.5rem;
+  }
+}

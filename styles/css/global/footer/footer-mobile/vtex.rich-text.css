@@ -9,3 +9,18 @@
     color: #FFF;
     font-size: 12px;
 }
+
+.link--footer__desktopCol--text{
+    text-decoration: none;
+    color: #83838f;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .paragraph--footer__desktopCol--text--link{
+    text-align: center;
+  }
+  .paragraph--footer__desktopCol--text{
+    text-align: center;
+  }
+  
+}
