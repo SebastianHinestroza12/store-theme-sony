@@ -1,9 +1,0 @@
-{
-  "image#header__image--icon": {
-    "title": "Header Icon Call",
-    "props": {
-      "src": "assets/img/call-icon.jpg",
-      "blockClass": "header__image--icon"
-    }
-  }
-}

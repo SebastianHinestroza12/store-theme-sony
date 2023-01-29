@@ -1,11 +1,14 @@
 .flexRowContent--header__information--container{
   display: flex;
   flex-direction: column;
+  transform: translateX(68px);
 }
+
 .flexRowContent--header__order--racking{
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: translateX(67px);
 }
 
 .flexCol--header__col--order  {
@@ -14,7 +17,6 @@
 /* MENU */
 
 .flexRowContent--row__container--menu{
-  /* background-color: red; */
   width: 100%;
 }
 
@@ -38,11 +40,16 @@
 /* MENU LOGIN */
 .flexRow--header__deparment--login{
   width: 60px;
-  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.flexRow--header__deparment--login{
+  width: 2.375rem;
+  height: 3.0625rem;
+}
+
 .flexRowContent--header__deparments--login--one{
     background-color: white;
     height: 211px;
@@ -63,6 +70,10 @@
     cursor: pointer;
 }
 
+.flexColChild--header__col--login :global(.vtex-button){
+  background: none;
+  
+}
 
 .flexColChild--help__site{
   margin-left: 1rem;

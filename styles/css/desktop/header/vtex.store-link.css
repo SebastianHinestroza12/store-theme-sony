@@ -24,13 +24,18 @@
 
 .label--Login__help--link{
   font-size: 0.875rem;
-  color: #474747;
+  color: #000;
   font-weight: 400;
   line-height: 1.5;
-  text-transform: capitalize;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
+  text-transform: uppercase;
   margin-left: 2rem;
+}
+
+.label--Login__help--link:hover{
+  color:  #7193F2;
+
 }
 
 .link--Login__help--link{
@@ -48,14 +53,21 @@
 .label--Login__help--link--site{
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.875rem;
-  color: #474747;
+  font-size: .75rem;
+  color: #000;
   font-weight: 400;
   line-height: 1.5;
-  text-transform: capitalize;
+  text-transform: uppercase;
   margin-left: 2rem;
 }
 
+.label--Login__help--link--site:hover{
+  color:  #7193F2;
+}
 .link--header__link--help{
   text-decoration: none;
+}
+
+.link--Sitio__Sony--button{
+  transform: translateX(74px);
 }

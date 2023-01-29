@@ -1,0 +1,13 @@
+.label{
+  color: black !important;
+  font-size: 12px;
+}
+
+
+/* .label::after{
+  content: url('https://api.iconify.design/material-symbols/arrow-forward-ios.svg?color=%237193f2&width=16&height=16');
+  transform: translate(1px, 19px) !important;
+} */
+.label:hover{
+  color:  #7193F2 !important;
+}
