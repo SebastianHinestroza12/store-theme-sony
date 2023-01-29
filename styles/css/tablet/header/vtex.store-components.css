@@ -1,0 +1,7 @@
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .logoLink--header__logo--sony{
+    transform: translateX(60px);
+  }
+  
+}

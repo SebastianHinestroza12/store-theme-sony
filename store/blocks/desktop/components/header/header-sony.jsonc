@@ -8,8 +8,6 @@
       "flex-layout.row#header__order--racking",
       "menu#desktop__menu--login",
       "flex-layout.row#header__sony__site--button",
-      // "header-spacer",
-      // "modal-trigger#header__top--login",
       "minicart.v2"
     ],
     "props": {

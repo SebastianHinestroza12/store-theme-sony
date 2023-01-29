@@ -17,8 +17,7 @@
       "rich-text#telephone__sales--store"
     ],
     "props": {
-      "blockClass": "header__information--store",
-      "horizontalAlign": "left"
+      "blockClass": "header__information--store"
     }
   },
   "rich-text#telephone__sales--store": {
@@ -35,8 +34,7 @@
       "rich-text#telephone__contact--store"
     ],
     "props": {
-      "blockClass": "header__information--store",
-      "horizontalAlign": "left"
+      "blockClass": "header__information--store"
     }
   },
 
@@ -54,8 +52,7 @@
       "rich-text#information__store--hours"
     ],
     "props": {
-      "blockClass": "header__information--store",
-      "horizontalAlign": "left"
+      "blockClass": "header__information--store"
     }
   },
 
