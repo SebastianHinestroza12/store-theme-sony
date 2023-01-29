@@ -1,8 +1,7 @@
 .autoCompleteOuterContainer--header__search--barra{
   display: flex;
   border-radius: 0;
-  border-color: transparent;
-  overflow: hidden;
+  transform: translateX(49px);
 }
 
 .searchBarInnerContainer--header__search--barra{
@@ -30,4 +29,15 @@
   overflow-clip-margin: content-box;
   cursor: pointer;
   overflow: clip;
+}
+
+.searchBarInnerContainer--header__search--barra::after{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: url('https://api.iconify.design/ic/round-call.svg?width=18&height=18');
+  transform: translate(68px, 1px);
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 4px 6px 0 6px;
 }
