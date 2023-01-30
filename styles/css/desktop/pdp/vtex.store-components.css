@@ -1,0 +1,42 @@
+.productBrand--pdp__product--name {
+  font-size: 22px;
+    color: #2f353d;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.productBrandName{
+  color: #83838f;
+  margin-bottom: 0.2em;
+}
+
+.currencyCode--pdp__product--price{
+    color: #f25529;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.currencyInteger--pdp__product--price{
+    color: #f25529;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.currencyGroup--pdp__product--price{
+  color: #f25529;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.productDescriptionContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.productDescriptionTitle{
+  width: 100%;
+  font-size: 22px;
+  color: #2f353d;
+  line-height: 24px;
+  font-weight: 400;
+}
