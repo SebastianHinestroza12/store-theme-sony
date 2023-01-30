@@ -1,0 +1,13 @@
+.flexRow--product__list--context{
+  background: #f1f5f9;
+  padding: 130px 0 43px;
+  border-top: 1px solid #e3e4e6;
+}
+
+.flexRow--product__list--text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(104px);
+}

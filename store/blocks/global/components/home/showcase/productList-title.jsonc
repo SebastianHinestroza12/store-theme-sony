@@ -1,0 +1,32 @@
+{
+  "flex-layout.row#product__list--text": {
+    "children": [
+      "flex-layout.col#product__list--text"
+    ],
+    "props": {
+      "blockClass": "product__list--text"
+    }
+  },
+  "flex-layout.col#product__list--text": {
+    "children": [
+      "rich-text#title__product--list",
+      "rich-text#subtitle__product--list"
+    ]
+  },
+  "rich-text#title__product--list": {
+    "props": {
+      "blockClass": "title__product--list",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "productos que te interesaron"
+    }
+  },
+  "rich-text#subtitle__product--list": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Cómpralos antes de que se agote el stock",
+      "blockClass": "subtitle__product--list"
+    }
+  }
+}
