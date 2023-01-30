@@ -1,0 +1,12 @@
+.paragraph--disclosure__pdp--text{
+  clear: both;
+    width: 100%;
+    margin: 10px 0;
+    line-height: 40px;
+    border: 0;
+    font-size: 22px;
+    color: #2f353d;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 3rem;
+}
