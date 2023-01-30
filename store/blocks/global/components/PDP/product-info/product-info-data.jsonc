@@ -9,6 +9,7 @@
       "blockClass": "container__pdp--information"
     }
   },
+
   "flex-layout.col#product__infomation--data": {
     "title": "Data info product",
     "children": [
