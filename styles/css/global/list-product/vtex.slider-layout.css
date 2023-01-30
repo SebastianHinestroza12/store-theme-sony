@@ -1,12 +1,14 @@
 .slideChildrenContainer--home__slider--products--list{
   width: 78%;
   height: 27.5rem;
+  /* border: 1px solid red; */
+  background-color: #fff;
 }
 
 .slideChildrenContainer--home__slider--products--list:hover{
   /* filter: saturate(180%); */
   /* filter: opacity(.5); */
-  border: solid 1px #ccc;
+  border: solid 1px rgba(230, 228, 228, 0.959);
 }
 
 .slide--home__slider--products--list--visible{
@@ -32,4 +34,9 @@
 
 .sliderArrows:hover{
   background-color: rgb(0, 0, 0) !important;
+}
+
+
+.slideChildrenContainer--home__slider--products--list {
+  width: 18.0625rem;
 }
