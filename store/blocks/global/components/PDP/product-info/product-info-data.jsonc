@@ -18,12 +18,13 @@
       "product-price#pdp__product--price",
       "product-identifier.product#pdp__product--identifier",
       "product-installments#pdp__product--installments",
+      "add-to-cart-button#pdp__button--add-to-cart",
       "product-separator",
       "product-rating-inline",
       "product-description",
       "sku-selector#sku__pdp",
+      "flex-layout.row#offer"
       // "product-quantity",
-      "add-to-cart-button#pdp__button--add-to-cart"
       // "product-specifications",
       // "product-reviews"
       // "vtex.store-components:blog-related-posts"

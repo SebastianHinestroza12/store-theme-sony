@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#disclosure__pdp--container": {
+    "title": "Disclosure PDP Container",
+    "children": [
+      "flex-layout.col#disclosure__pdp--container"
+    ],
+    "props": {
+      "blockClass": "disclosure__pdp--row"
+    }
+  },
+  "flex-layout.col#disclosure__pdp--container": {
+    "children": [
+      "disclosure-layout#global__disclosure--productinfo",
+      "disclosure-layout#disclosure__reviews",
+      "disclosure-layout#disclosure__questions"
+    ],
+    "props": {
+      "blockClass": "disclosure__pdp--col"
+    }
+  }
+}
