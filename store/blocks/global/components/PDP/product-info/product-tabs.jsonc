@@ -1,0 +1,100 @@
+{
+  "flex-layout.row#product__tabs": {
+    "title": "Aditional Infomation",
+    "children": [
+      "tab-layout#product__tabs"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "tab__aditional-information"
+    }
+  },
+  "tab-layout#product__tabs": {
+    "title": "Tab layout container",
+    "children": [
+      "tab-list#product__tabs--list",
+      "tab-content#product__tabs--content"
+    ],
+    "props": {
+      "blockClass": "tab-layout-container"
+    }
+  },
+  "tab-list#product__tabs--list": {
+    "title": "Tab list container",
+    "children": [
+      "tab-list.item#tabs__list--reviews--rating",
+      "tab-list.item#tabs__list--product--especifications",
+      "tab-list.item#tabs__list--questions"
+    ],
+    "props": {
+      "blockClass": "tab__list--container"
+    }
+  },
+
+  "tab-list.item#tabs__list--reviews--rating": {
+    "title": "Tab list reviews and rating",
+    "props": {
+      "tabId": "reviews-and-ratings",
+      "label": "Revisiones y calificaciones.",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#tabs__list--product--especifications": {
+    "title": "Tab list especifications",
+    "props": {
+      "tabId": "product-specification",
+      "label": "Especificaciones de producto",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-list.item#tabs__list--questions": {
+    "title": "Tab list questions",
+    "props": {
+      "tabId": "questions",
+      "label": "Preguntas y respuestas",
+      "defaultActiveTab": false
+    }
+  },
+
+  "tab-content#product__tabs--content": {
+    "title": "Tab content container",
+    "children": [
+      "tab-content.item#tabs__content--reviews--rating",
+      "tab-content.item#tabs__content--product--especifications",
+      "tab-content.item#tabs__content--questions"
+    ],
+    "props": {
+      "blockClass": "product__tabs--content"
+    }
+  },
+  "tab-content.item#tabs__content--reviews--rating": {
+    "title": "Tab content reviews",
+    "props": {
+      "tabId": "reviews-and-ratings",
+      "blockClass": "product__tabs--content"
+    },
+    "children": [
+      "product-reviews"
+    ]
+  },
+  "tab-content.item#tabs__content--product--especifications": {
+    "title": "Product content especification",
+    "props": {
+      "tabId": "product-specification",
+      "blockClass": "product__tabs--content"
+    },
+    "children": [
+      "product-specifications"
+    ]
+  },
+  "tab-content.item#tabs__content--questions": {
+    "title": "Product contents questions",
+    "props": {
+      "tabId": "questions",
+      "blockClass": "product__tabs--content"
+    },
+    "children": [
+      "questions-and-answers"
+    ]
+  }
+}

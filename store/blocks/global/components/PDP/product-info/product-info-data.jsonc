@@ -1,0 +1,68 @@
+{
+  "flex-layout.row#product__infomation": {
+    "title": "Infomation product detail",
+    "children": [
+      "flex-layout.col#product__image",
+      "flex-layout.col#product__infomation--data"
+    ],
+    "props": {
+      "blockClass": "container__pdp--information"
+    }
+  },
+  "flex-layout.col#product__infomation--data": {
+    "title": "Data info product",
+    "children": [
+      "vtex.store-components:product-name#pdp__product--name",
+      "vtex.store-components:product-brand",
+      "product-price#pdp__product--price",
+      "product-identifier.product#pdp__product--identifier",
+      "product-installments#pdp__product--installments",
+      "product-separator",
+      "product-rating-inline",
+      "product-description",
+      "sku-selector#sku__pdp",
+      // "product-quantity",
+      "add-to-cart-button#pdp__button--add-to-cart"
+      // "product-specifications",
+      // "product-reviews"
+      // "vtex.store-components:blog-related-posts"
+    ],
+    "props": {
+      "blockClass": "container__col--information"
+    }
+  },
+  "vtex.store-components:product-name#pdp__product--name": {
+    "props": {
+      "blockClass": "pdp__product--name"
+    }
+  },
+  "product-price#pdp__product--price": {
+    "props": {
+      "blockClass": "pdp__product--price"
+    }
+  },
+  "product-identifier.product#pdp__product--identifier": {
+    "props": {
+      "blockClass": "pdp__product--identifier"
+    }
+  },
+  "product-installments#pdp__product--installments": {
+    "props": {
+      "blockClass": "pdp__product--installments"
+    }
+  },
+  "sku-selector#sku__pdp": {
+    "props": {
+      "displayMode": "default",
+      "initialSelection": "empty",
+      "blockClass": "sku__pdp"
+    }
+  },
+  "add-to-cart-button#pdp__button--add-to-cart": {
+    "title": "Button Add To Cart PDP",
+    "props": {
+      "blockClass": "pdp__button--add-to-cart",
+      "text": "Agregar al carrito"
+    }
+  }
+}

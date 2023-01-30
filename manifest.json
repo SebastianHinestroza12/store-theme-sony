@@ -59,7 +59,8 @@
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",
-    "vtex.mega-menu": "2.x"
+    "vtex.mega-menu": "2.x",
+    "vtex.questions-and-answers": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

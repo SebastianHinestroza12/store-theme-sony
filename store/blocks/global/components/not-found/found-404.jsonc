@@ -1,0 +1,70 @@
+{
+  "flex-layout.row#global__department__not-found-search": {
+    "title": "Page not found",
+    "children": [
+      "flex-layout.col#image__not-found-search",
+      "flex-layout.col#text__not-found-search"
+    ],
+    "props": {
+      // "colSizing": "auto",
+      // "fullWidth": true,
+      "blockClass": "global__not--found"
+    }
+  },
+  "flex-layout.col#image__not-found-search": {
+    "title": "Imagen Not Found Container",
+    "children": [
+      "image#not-found"
+    ],
+    "props": {
+      "blockClass": "not__found--col"
+    }
+  },
+  "image#not-found": {
+    "title": "Imagen Not Found",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/error-ojo-mobile.gif?v=636906092919770000",
+      "blockClass": "image__not--found"
+    }
+  },
+  "flex-layout.col#text__not-found-search": {
+    "children": [
+      "rich-text#not-found1",
+      "rich-text#not-found2",
+      "link#not-found"
+    ],
+    "props": {
+      "blockClass": "not__found--col"
+    }
+  },
+  "rich-text#not-found1": {
+    "props": {
+      "text": "¡Nada por aquí!",
+      "blockClass": "not__found--1",
+      "textAlignment": "CENTER"
+    }
+  },
+  "rich-text#not-found2": {
+    "props": {
+      "text": "Lo sentimos, no hemos encontrado la página que buscas. Te pedimos verifiques la dirección web. Si no funciona, realiza una búsqueda o",
+      "textAlignment": "CENTER",
+      "blockClass": "not__found2"
+    }
+  },
+  "link#not-found": {
+    "children": [
+      "rich-text#link-not-found"
+    ],
+    "props": {
+      "blockClass": "not__found--link",
+      "href": "/"
+    }
+  },
+  "rich-text#link-not-found": {
+    "props": {
+      "text": "vuelve a la página de inicio.",
+      "textAlignment": "CENTER",
+      "blockClass": "text__no--found--link"
+    }
+  }
+}

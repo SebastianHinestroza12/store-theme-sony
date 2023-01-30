@@ -39,8 +39,8 @@
   "image#icon__grid-switcher": {
     "title": "Image Icon Grid",
     "props": {
-      "maxWidth": "5",
-      "maxHeight": "5",
+      // "maxWidth": "5",
+      // "maxHeight": "5",
       "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674790695/icons8-cuadr%C3%ADcula-2-24_bnwe2l.png",
       "blockClass": "icon__grid-switcher"
     }
@@ -48,8 +48,8 @@
   "image#icon__list-switcher": {
     "title": "Image Icon List",
     "props": {
-      "maxWidth": "5",
-      "maxHeight": "5",
+      // "maxWidth": "5",
+      // "maxHeight": "5",
       "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1674790426/icons8-ancho-de-l%C3%ADnea-24_krejum.png",
       "blockClass": "icon__list-switcher"
     }
