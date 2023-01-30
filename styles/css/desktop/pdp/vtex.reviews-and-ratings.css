@@ -1,0 +1,7 @@
+.formSubmit :global(.vtex-button){
+    background-color: #f25529;
+    width: auto;
+    border-style: none;
+    border-radius: 0;
+    padding: 15px;
+}

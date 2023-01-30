@@ -1,0 +1,19 @@
+.flexRow--container__pdp--information{
+  background-color: #F3F4F6;
+}
+
+.flexCol--container__col--information{
+  margin-left: 2rem;
+}
+
+.flexColChild--container__col--information :global(.vtex-button){
+  background-color: #f25529;
+    width: auto;
+    border-style: none;
+    border-radius: 0;
+    padding: 15px;
+}
+
+.flexColChild--container__col--information:hover :global(.vtex-button){
+  background-color: #D94C26;
+}

@@ -1,0 +1,7 @@
+{
+  "store.not-found#search": {
+    "blocks": [
+      "flex-layout.row#global__department__not-found-search"
+    ]
+  }
+}

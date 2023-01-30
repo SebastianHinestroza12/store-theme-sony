@@ -1,0 +1,23 @@
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .listContainer--tab__list--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listContainer--tab__list--container :global(.vtex-button){
+  background-color: #f25529;
+  cursor: pointer;
+  border-radius: 0 !important;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 10px;
+  padding: 0.5rem;
+  font-weight: 700;
+  border-style: none !important;
+}
+ .flexColChild--container__col--information :global(.vtex-button){
+    margin-top: 2rem;
+}
+}
