@@ -1,0 +1,17 @@
+.paragraph--title__product--list{
+  font-size: 22px;
+  color: #2f353d;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper--subtitle__product--list{
+  font-size: 18px;
+  color: #83838f;
+  line-height: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
