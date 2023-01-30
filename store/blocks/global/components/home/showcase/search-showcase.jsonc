@@ -1,4 +1,12 @@
 {
+  "flex-layout.row#product__list--context": {
+    "children": [
+      "list-context.product-list#home__list--product"
+    ],
+    "props": {
+      "blockClass": "product__list--context"
+    }
+  },
   "list-context.product-list#home__list--product": {
     "title": "Home List products",
     "blocks": [
