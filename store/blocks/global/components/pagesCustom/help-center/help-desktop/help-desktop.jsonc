@@ -1,0 +1,13 @@
+{
+  "responsive-layout.desktop#help__center": {
+    "children": [
+      "flex-layout.row#title__help--center--one",
+      "flex-layout.row#help__center",
+      "flex-layout.row#home__title--newletter",
+      "flex-layout.row#home__form--newletter",
+      "flex-layout.row#home__payment--methods",
+      "flex-layout.row#home__help--buy",
+      "back-to-top-button#home__button--back"
+    ]
+  }
+}
