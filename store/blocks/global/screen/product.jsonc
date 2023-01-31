@@ -1,14 +1,8 @@
 {
   "store.product": {
     "children": [
-      "flex-layout.row#product__breadcrumb",
-      "flex-layout.row#product__infomation",
-      "flex-layout.row#product__tabs",
-      "flex-layout.row#home__title--newletter",
-      "flex-layout.row#home__form--newletter",
-      "flex-layout.row#home__payment--methods",
-      "flex-layout.row#home__help--buy",
-      "back-to-top-button#home__button--back"
+      "responsive-layout.mobile#image__pdp--desktop",
+      "responsive-layout.desktop#image__pdp--mobile"
     ]
   }
 }

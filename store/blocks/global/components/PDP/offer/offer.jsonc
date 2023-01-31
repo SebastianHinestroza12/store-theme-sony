@@ -1,0 +1,54 @@
+{
+  "flex-layout.row#offer": {
+    "title": "Banner Offer PDP",
+    "children": [
+      "flex-layout.col#offer"
+    ],
+    "props": {
+      "blockClass": "offer__banner--pdp"
+    }
+  },
+  "flex-layout.col#offer": {
+    "title": "Banner Offers Col",
+    "children": [
+      "link#valid__offer",
+      "image#offer__davivienda",
+      "link#terms__offer"
+    ],
+    "props": {
+      "blockClass": "offer__col"
+    }
+  },
+  "link#valid__offer": {
+    "title": "Link Offers Valid",
+    "children": [
+      "rich-text#valid__offer"
+    ]
+  },
+  "rich-text#valid__offer": {
+    "title": "Text Offers Valid",
+    "props": {
+      "text": "» Oferta válida del 18 al 31 de Ene/2023. Ver Términos y condiciones aquí",
+      "blockClass": "valid__offer"
+    }
+  },
+  "image#offer__davivienda": {
+    "title": "Imagen Banner Offers",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/BDP-Banner-Davivienda-Enero.jpg"
+    }
+  },
+  "link#terms__offer": {
+    "title": "Link Terms Offers",
+    "children": [
+      "rich-text#terms__offer"
+    ]
+  },
+  "rich-text#terms__offer": {
+    "title": "Text Terms Offers",
+    "props": {
+      "text": "» Ver información detallada del producto",
+      "blockClass": "valid__offer"
+    }
+  }
+}

@@ -12,8 +12,13 @@
     border-style: none;
     border-radius: 0;
     padding: 15px;
+    /* transform: translate(440px, -337px); */
 }
 
 .flexColChild--container__col--information:hover :global(.vtex-button){
   background-color: #D94C26;
+}
+
+.flexRow--offer__banner--pdp{
+  margin-top: 2rem;
 }

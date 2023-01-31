@@ -1,0 +1,39 @@
+{
+  "disclosure-layout#global__disclosure--productinfo": {
+    "title": "Disclosure Product One",
+    "children": [
+      "disclosure-trigger#global__disclosure--productinfo",
+      "disclosure-content#global__disclosure--productinfo"
+    ]
+  },
+  "disclosure-trigger#global__disclosure--productinfo": {
+    "title": "Disclosure Trigger Products One",
+    "children": [
+      "rich-text#text__disclousure--especifications",
+      "disclosure-state-indicator#global__disclosurestate-products"
+    ],
+    "props": {
+      "blockClass": "disclosure__trigger--specification"
+    }
+  },
+  "rich-text#text__disclousure--especifications": {
+    "title": "Text Disclosure Products One",
+    "props": {
+      "text": "ESPECIFICACIONES",
+      "blockClass": "disclosure__pdp--text"
+    }
+  },
+  "disclosure-state-indicator#global__disclosurestate-products": {
+    "title": "Disclosure State Products",
+    "props": {
+      "Hide": "image#mobile__icon--above",
+      "Show": "image#mobile__icon--descent"
+    }
+  },
+  "disclosure-content#global__disclosure--productinfo": {
+    "title": "Disclosure Content Product One",
+    "children": [
+      "product-specifications"
+    ]
+  }
+}
