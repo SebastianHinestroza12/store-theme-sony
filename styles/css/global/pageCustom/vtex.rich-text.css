@@ -1,0 +1,28 @@
+.paragraph--title__help--center{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 6px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.paragraph--help__link--text{
+  color: #4572ed;
+  font-size: 13px;
+}
+
+.wrapper--title__help--center--one{
+  font-size: 23px;
+  color: #000;
+  margin-left: 1.1rem;
+}
+
+@media only screen and (max-width: 575px){
+  .paragraph--title__help--center{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 6px;
+    white-space:normal !important;
+}
+}

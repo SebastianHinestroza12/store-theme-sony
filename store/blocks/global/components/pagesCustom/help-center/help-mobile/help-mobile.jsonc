@@ -1,0 +1,14 @@
+{
+  "responsive-layout.mobile#help__center": {
+    "children": [
+      "flex-layout.row#title__help--center--one",
+      "flex-layout.row#help__center",
+      "flex-layout.row#home__surveys--mobile",
+      "flex-layout.row#home__title--newletter--mobile",
+      "flex-layout.row#home__form--newletter--mobile",
+      "flex-layout.row#mobile__home--slider4",
+      "flex-layout.row#home__help",
+      "back-to-top-button#home__button--back"
+    ]
+  }
+}
