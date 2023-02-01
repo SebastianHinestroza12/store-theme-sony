@@ -38,7 +38,7 @@
 
   "search-bar#location": {
     "props": {
-      "displayMode": "clear-button",
+      // "displayMode": "clear-button",
       "placeholder": "Buscar"
       // "autoFocus": true
     }
