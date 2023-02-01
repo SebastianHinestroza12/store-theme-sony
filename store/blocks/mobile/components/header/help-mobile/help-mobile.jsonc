@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#help__mobile": {
+    "title": "Header text help link",
+    "children": [
+      "link#help__mobile--link"
+    ],
+    "props": {
+      "blockClass": "help__mobile"
+    }
+  },
+  "link#help__mobile--link": {
+    "title": "Help mobile link",
+    "children": [
+      "rich-text#header__help--mobile"
+    ],
+    "props": {
+      "href": "centro-de-ayuda",
+      "blockClass": "help__mobile--link"
+    }
+  },
+  "rich-text#header__help--mobile": {
+    "title": "Header text help link",
+    "props": {
+      "text": "Ayuda",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "header__help--mobile"
+    }
+  }
+}

@@ -2,8 +2,6 @@
   "search-result-layout.mobile#department": {
     "title": "Search Result Layout Mobile Department",
     "children": [
-      "header-row#mobile__header--sony",
-      "flex-layout.row#header__call--mobile",
       "flex-layout.row#mobile__slider1--home",
       "flex-layout.row#galleryswitcher--search",
       "flex-layout.row#departmentbreadcrumb",
