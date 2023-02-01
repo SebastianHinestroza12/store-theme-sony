@@ -11,3 +11,13 @@
   align-items: center;
   background-color: rgb(69, 114, 237);
 }
+
+@media only screen and (max-width: 575px){
+  .headerStickyRow--mobile__drawer{
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+

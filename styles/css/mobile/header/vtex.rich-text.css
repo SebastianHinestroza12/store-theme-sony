@@ -10,3 +10,11 @@
   justify-content: center;
   align-items: center;
 }
+
+.paragraph--header__help--mobile{
+  font-size: 10px;
+  text-transform: uppercase;
+  line-height: 18px;
+  color: #fff;
+  font-weight: 700;
+}

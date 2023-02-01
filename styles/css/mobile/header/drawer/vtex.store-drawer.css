@@ -1,0 +1,12 @@
+.menuIcon{
+  color: #fff;
+}
+
+@media only screen and (max-width: 575px){
+  .openIconContainer{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

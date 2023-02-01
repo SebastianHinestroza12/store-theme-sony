@@ -7,9 +7,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
 .styledLinkContent--desktop__dep--login{
-    transform: translateX(372px);
+    transform: translateX(2px);
 }
-.submenuWrapper--desktop__deparment--submenu--login--isOpen{
-    transform: translate(164px, -15px);
-}
+
 }
