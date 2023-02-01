@@ -1,0 +1,39 @@
+{
+  "disclosure-layout#disclosure__reviews": {
+    "title": "Disclosure Product One",
+    "children": [
+      "disclosure-trigger#disclosure__reviews",
+      "disclosure-content#disclosure__reviews"
+    ]
+  },
+  "disclosure-trigger#disclosure__reviews": {
+    "title": "Disclosure Trigger Products One",
+    "children": [
+      "rich-text#text__disclosure--reviews",
+      "disclosure-state-indicator#global__disclosurestate-products"
+    ],
+    "props": {
+      "blockClass": "disclosure__trigger--specification"
+    }
+  },
+  "rich-text#text__disclosure--reviews": {
+    "title": "Text Disclosure Products One",
+    "props": {
+      "text": "RESEÑAS",
+      "blockClass": "disclosure__pdp--text"
+    }
+  },
+  "disclosure-state-indicator#global__disclosurestate-products": {
+    "title": "Disclosure State Products",
+    "props": {
+      "Hide": "image#mobile__icon--above",
+      "Show": "image#mobile__icon--descent"
+    }
+  },
+  "disclosure-content#disclosure__reviews": {
+    "title": "Disclosure Content Product One",
+    "children": [
+      "product-reviews"
+    ]
+  }
+}

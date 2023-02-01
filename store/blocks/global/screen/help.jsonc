@@ -1,0 +1,8 @@
+{
+  "store.custom#centro-de-ayuda": {
+    "blocks": [
+      "responsive-layout.mobile#help__center",
+      "responsive-layout.desktop#help__center"
+    ]
+  }
+}

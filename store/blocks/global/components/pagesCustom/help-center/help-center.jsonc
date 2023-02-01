@@ -1,0 +1,565 @@
+{
+  "flex-layout.row#help__center": {
+    "title": "CENTRO DE AYUDAS",
+    "children": [
+      "flex-layout.col#help__center1",
+      "flex-layout.col#help__center2",
+      "flex-layout.col#help__center3",
+      "flex-layout.col#help__center4",
+      "flex-layout.col#help__center5",
+      "flex-layout.col#help__center6",
+      "flex-layout.col#help__center7",
+      "flex-layout.col#help__center8",
+      "flex-layout.col#help__center9",
+      "flex-layout.col#help__center10",
+      "flex-layout.col#help__center11"
+    ],
+    "props": {
+      "blockClass": "help__center",
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#help__center1": {
+    "title": "Help center 1",
+    "children": [
+      "flex-layout.row#help__center1"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "help__center--col"
+    }
+  },
+  "flex-layout.row#help__center1": {
+    "title": "Help center row1",
+    "children": [
+      "flex-layout.col#help__center--row1",
+      "image#help__image1"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "help__center--row--container"
+    }
+  },
+  "flex-layout.col#help__center--row1": {
+    "title": "Container Title And Link",
+    "children": [
+      "rich-text#help__text--1",
+      "link#help__center--link"
+    ],
+    "props": {
+      "blockClass": "help__block--center"
+    }
+  },
+  "rich-text#help__text--1": {
+    "title": "Title Help 1",
+    "props": {
+      "text": "Cómo comprar",
+      "blockClass": "title__help--center"
+    }
+  },
+  "link#help__center--link": {
+    "title": "Help Center Link",
+    "children": [
+      "rich-text#help__center--link"
+    ],
+    "props": {
+      "blockClass": "link__help__center"
+    }
+  },
+  "rich-text#help__center--link": {
+    "title": "Help Center Link Text",
+    "props": {
+      "text": "Ver más >>",
+      "blockClass": "help__link--text"
+    }
+  },
+  "image#help__image1": {
+    "title": "Help Center Imagen1",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/AR-ImagenesCentrodeAyuda-1-CarritodeCompras.png?v=637498647203300000",
+      "blockClass": "help__imagen"
+    }
+  },
+
+  // CONTAINER 2
+
+  "flex-layout.col#help__center2": {
+    "title": "Help center 2",
+    "children": [
+      "flex-layout.row#help__center2"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "help__center--col"
+    }
+  },
+  "flex-layout.row#help__center2": {
+    "title": "Help center row2",
+    "children": [
+      "flex-layout.col#help__center--row2",
+      "image#help__image2"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "help__center--row--container"
+    }
+  },
+  "flex-layout.col#help__center--row2": {
+    "title": "Container Title And Link",
+    "children": [
+      "rich-text#help__text--2",
+      "link#help__center--link"
+    ],
+    "props": {
+      "blockClass": "help__block--center"
+    }
+  },
+  "rich-text#help__text--2": {
+    "title": "Title Help 2",
+    "props": {
+      "text": "Formas de Pago",
+      "blockClass": "title__help--center"
+    }
+  },
+  "image#help__image2": {
+    "title": "Help Center Imagen1",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/AR-ImagenesCentrodeAyuda-2-PagosyFacturacion.png?v=637498647203930000",
+      "blockClass": "help__imagen"
+    }
+  },
+
+  // CONTAINER 3
+
+  "flex-layout.col#help__center3": {
+    "title": "Help center 3",
+    "children": [
+      "flex-layout.row#help__center3"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "help__center--col"
+    }
+  },
+  "flex-layout.row#help__center3": {
+    "title": "Help center row3",
+    "children": [
+      "flex-layout.col#help__center--row3",
+      "image#help__image3"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "help__center--row--container"
+    }
+  },
+  "flex-layout.col#help__center--row3": {
+    "title": "Container Title And Link",
+    "children": [
+      "rich-text#help__text--3",
+      "link#help__center--link"
+    ],
+    "props": {
+      "blockClass": "help__block--center"
+    }
+  },
+  "rich-text#help__text--3": {
+    "title": "Title Help 3",
+    "props": {
+      "text": "Forma de Entrega",
+      "blockClass": "title__help--center"
+    }
+  },
+  "image#help__image3": {
+    "title": "Help Center Imagen1",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/AR-ImagenesCentrodeAyuda-3-EntregaProducto.png?v=637551567975800000",
+      "blockClass": "help__imagen"
+    }
+  },
+
+  // CONTAINER 4
+
+  "flex-layout.col#help__center4": {
+    "title": "Help center 4",
+    "children": [
+      "flex-layout.row#help__center4"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "help__center--col"
+    }
+  },
+  "flex-layout.row#help__center4": {
+    "title": "Help center row4",
+    "children": [
+      "flex-layout.col#help__center--row4",
+      "image#help__image4"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "help__center--row--container"
+    }
+  },
+  "flex-layout.col#help__center--row4": {
+    "title": "Container Title And Link",
+    "children": [
+      "rich-text#help__text--4",
+      "link#help__center--link"
+    ],
+    "props": {
+      "blockClass": "help__block--center"
+    }
+  },
+  "rich-text#help__text--4": {
+    "title": "Title Help 4",
+    "props": {
+      "text": "Cambios y Devoluciones",
+      "blockClass": "title__help--center"
+    }
+  },
+  "image#help__image4": {
+    "title": "Help Center Imagen1",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/AR-ImagenesCentrodeAyuda-4-CambiosyDevoluciones.png?v=637551567977070000",
+      "blockClass": "help__imagen"
+    }
+  },
+
+  // CONTAINER 5
+
+  "flex-layout.col#help__center5": {
+    "title": "Help center 5",
+    "children": [
+      "flex-layout.row#help__center5"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "help__center--col"
+    }
+  },
+  "flex-layout.row#help__center5": {
+    "title": "Help center row5",
+    "children": [
+      "flex-layout.col#help__center--row5",
+      "image#help__image5"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "help__center--row--container"
+    }
+  },
+  "flex-layout.col#help__center--row5": {
+    "title": "Container Title And Link",
+    "children": [
+      "rich-text#help__text--5",
+      "link#help__center--link"
+    ],
+    "props": {
+      "blockClass": "help__block--center"
+    }
+  },
+  "rich-text#help__text--5": {
+    "title": "Title Help 5",
+    "props": {
+      "text": "Mi Garantía",
+      "blockClass": "title__help--center"
+    }
+  },
+  "image#help__image5": {
+    "title": "Help Center Imagen5",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/AR-ImagenesCentrodeAyuda-5-GarantiaySoporte.png?v=637551567978330000",
+      "blockClass": "help__imagen"
+    }
+  },
+
+  // CONTAINER 6
+
+  "flex-layout.col#help__center6": {
+    "title": "Help center 6",
+    "children": [
+      "flex-layout.row#help__center6"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "help__center--col"
+    }
+  },
+  "flex-layout.row#help__center6": {
+    "title": "Help center row6",
+    "children": [
+      "flex-layout.col#help__center--row6",
+      "image#help__image6"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "help__center--row--container"
+    }
+  },
+  "flex-layout.col#help__center--row6": {
+    "title": "Container Title And Link",
+    "children": [
+      "rich-text#help__text--6",
+      "link#help__center--link"
+    ],
+    "props": {
+      "blockClass": "help__block--center"
+    }
+  },
+  "rich-text#help__text--6": {
+    "title": "Title Help 6",
+    "props": {
+      "text": "Peticiones/Quejas/Rec...",
+      "blockClass": "title__help--center"
+    }
+  },
+  "image#help__image6": {
+    "title": "Help Center Imagen6",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/AR-ImagenesCentrodeAyuda-8-ContactoAyuda.png?v=637551567980670000",
+      "blockClass": "help__imagen"
+    }
+  },
+
+  // CONTAINER 7
+
+  "flex-layout.col#help__center7": {
+    "title": "Help center 7",
+    "children": [
+      "flex-layout.row#help__center7"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "help__center--col"
+    }
+  },
+  "flex-layout.row#help__center7": {
+    "title": "Help center row7",
+    "children": [
+      "flex-layout.col#help__center--row7",
+      "image#help__image7"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "help__center--row--container"
+    }
+  },
+  "flex-layout.col#help__center--row7": {
+    "title": "Container Title And Link",
+    "children": [
+      "rich-text#help__text--7",
+      "link#help__center--link"
+    ],
+    "props": {
+      "blockClass": "help__block--center"
+    }
+  },
+  "rich-text#help__text--7": {
+    "title": "Title Help 7",
+    "props": {
+      "text": "Preguntas Frecuentes",
+      "blockClass": "title__help--center"
+    }
+  },
+  "image#help__image7": {
+    "title": "Help Center Imagen7",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/SOLA_Imagenes_CentrodeAyuda_PreguntasFrecuentes.png?v=637565108418200000",
+      "blockClass": "help__imagen"
+    }
+  },
+
+  // CONTAINER 8
+
+  "flex-layout.col#help__center8": {
+    "title": "Help center 8",
+    "children": [
+      "flex-layout.row#help__center8"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "help__center--col"
+    }
+  },
+  "flex-layout.row#help__center8": {
+    "title": "Help center row8",
+    "children": [
+      "flex-layout.col#help__center--row8",
+      "image#help__image8"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "help__center--row--container"
+    }
+  },
+  "flex-layout.col#help__center--row8": {
+    "title": "Container Title And Link",
+    "children": [
+      "rich-text#help__text--8",
+      "link#help__center--link"
+    ],
+    "props": {
+      "blockClass": "help__block--center"
+    }
+  },
+  "rich-text#help__text--8": {
+    "title": "Title Help 8",
+    "props": {
+      "text": "Políticas de Privacidad",
+      "blockClass": "title__help--center"
+    }
+  },
+  "image#help__image8": {
+    "title": "Help Center Imagen8",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/AR-ImagenesCentrodeAyuda-7-Privacidad.png?v=637551567979570000",
+      "blockClass": "help__imagen"
+    }
+  },
+
+  // CONTAINER 9
+
+  "flex-layout.col#help__center9": {
+    "title": "Help center 9",
+    "children": [
+      "flex-layout.row#help__center9"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "help__center--col"
+    }
+  },
+  "flex-layout.row#help__center9": {
+    "title": "Help center row9",
+    "children": [
+      "flex-layout.col#help__center--row9",
+      "image#help__image9"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "help__center--row--container"
+    }
+  },
+  "flex-layout.col#help__center--row9": {
+    "title": "Container Title And Link",
+    "children": [
+      "rich-text#help__text--9",
+      "link#help__center--link"
+    ],
+    "props": {
+      "blockClass": "help__block--center"
+    }
+  },
+  "rich-text#help__text--9": {
+    "title": "Title Help 9",
+    "props": {
+      "text": "Copyright",
+      "blockClass": "title__help--center"
+    }
+  },
+  "image#help__image9": {
+    "title": "Help Center Imagen9",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/SOLA_Imagenes_CentrodeAyuda_Copyright.png?v=637565108417300000",
+      "blockClass": "help__imagen"
+    }
+  },
+
+  // CONTAINER 10
+
+  "flex-layout.col#help__center10": {
+    "title": "Help center 10",
+    "children": [
+      "flex-layout.row#help__center10"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "help__center--col"
+    }
+  },
+  "flex-layout.row#help__center10": {
+    "title": "Help center row10",
+    "children": [
+      "flex-layout.col#help__center--row10",
+      "image#help__image10"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "help__center--row--container"
+    }
+  },
+  "flex-layout.col#help__center--row10": {
+    "title": "Container Title And Link",
+    "children": [
+      "rich-text#help__text--10",
+      "link#help__center--link"
+    ],
+    "props": {
+      "blockClass": "help__block--center"
+    }
+  },
+  "rich-text#help__text--10": {
+    "title": "Title Help 10",
+    "props": {
+      "text": "Términos y Condiciones",
+      "blockClass": "title__help--center"
+    }
+  },
+  "image#help__image10": {
+    "title": "Help Center Imagen10",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/SOLA_Imagenes_CentrodeAyuda_TerminosyCondiciones.png?v=637722424079230000",
+      "blockClass": "help__imagen"
+    }
+  },
+
+  // CONTAINER 11
+
+  "flex-layout.col#help__center11": {
+    "title": "Help center 11",
+    "children": [
+      "flex-layout.row#help__center11"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "help__center--col"
+    }
+  },
+  "flex-layout.row#help__center11": {
+    "title": "Help center row11",
+    "children": [
+      "flex-layout.col#help__center--row11",
+      "image#help__image11"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "help__center--row--container"
+    }
+  },
+  "flex-layout.col#help__center--row11": {
+    "title": "Container Title And Link",
+    "children": [
+      "rich-text#help__text--11",
+      "link#help__center--link"
+    ],
+    "props": {
+      "blockClass": "help__block--center"
+    }
+  },
+  "rich-text#help__text--11": {
+    "title": "Title Help 11",
+    "props": {
+      "text": "Términos y Condiciones...",
+      "blockClass": "title__help--center"
+    }
+  },
+  "image#help__image11": {
+    "title": "Help Center Imagen11",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/SOLA_Imagenes_CentrodeAyuda_TerminosyCondiciones.png?v=637722424079230000",
+      "blockClass": "help__imagen"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "disclosure-layout#disclosure__questions": {
+    "title": "Disclosure Product One",
+    "children": [
+      "disclosure-trigger#disclosure__questions",
+      "disclosure-content#disclosure__questions"
+    ]
+  },
+  "disclosure-trigger#disclosure__questions": {
+    "title": "Disclosure Trigger Products One",
+    "children": [
+      "rich-text#disclosure__questions",
+      "disclosure-state-indicator#global__disclosurestate-products"
+    ],
+    "props": {
+      "blockClass": "disclosure__trigger--specification"
+    }
+  },
+  "rich-text#disclosure__questions": {
+    "title": "Text Disclosure Products One",
+    "props": {
+      "text": "PREGUNTAS",
+      "blockClass": "disclosure__pdp--text"
+    }
+  },
+  "disclosure-state-indicator#global__disclosurestate-products": {
+    "title": "Disclosure State Products",
+    "props": {
+      "Hide": "image#mobile__icon--above",
+      "Show": "image#mobile__icon--descent"
+    }
+  },
+  "disclosure-content#disclosure__questions": {
+    "title": "Disclosure Content Product One",
+    "children": [
+      "questions-and-answers"
+    ]
+  }
+}

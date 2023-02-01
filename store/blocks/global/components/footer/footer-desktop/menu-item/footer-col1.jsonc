@@ -38,9 +38,9 @@
 
   "search-bar#location": {
     "props": {
-      "displayMode": "clear-button",
-      "placeholder": "Buscar",
-      "autoFocus": true
+      // "displayMode": "clear-button",
+      "placeholder": "Buscar"
+      // "autoFocus": true
     }
   },
   // "image#location": {
