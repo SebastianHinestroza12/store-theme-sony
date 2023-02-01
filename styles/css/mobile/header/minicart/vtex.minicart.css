@@ -2,13 +2,24 @@
 .minicartWrapperContainer{
   transform: none;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .minicartContainer :global(.vtex-button){
-  transform: translateX(-6px);
+  display: contents;
+}
+.minicartContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .minicartContainer:hover :global(.vtex-button){
   background-color: transparent !important;
+}
+.openIconContainer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 3.4375rem;
 }
 }
