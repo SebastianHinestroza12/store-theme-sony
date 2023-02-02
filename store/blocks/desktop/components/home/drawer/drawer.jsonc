@@ -29,8 +29,8 @@
   "flex-layout.row#home__drawer--container": {
     "title": "Drawer content container",
     "children": [
-      "flex-layout.col#home__content1--drawer",
-      "flex-layout.col#home__content2--drawer"
+      "flex-layout.col#home__content2--drawer",
+      "flex-layout.col#home__content--imagen"
     ],
     "props": {
       "blockClass": "home__drawer--container",
@@ -39,11 +39,18 @@
     }
   },
 
-  "flex-layout.col#home__content1--drawer": {
-    "title": "Drawer content col1",
+  "flex-layout.col#home__content--imagen": {
+    "children": [
+      "image#drawer"
+    ],
     "props": {
-      "blockClass": "home__content1--drawer",
-      "paddingRight": 0
+      "blockClass": "home__content--image"
+    }
+  },
+  "image#drawer": {
+    "props": {
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1675372576/clou_zbuahf.png",
+      "blockClass": "image__drawer"
     }
   },
   "flex-layout.col#home__content2--drawer": {
