@@ -5,11 +5,6 @@
   z-index: 4;
   width: 2.875rem;
 }
-.flexRow--home__drawer--container{
-  /* border: 1px solid blue; */
-  width: 100%;
-  height: 14.75rem !important;
-}
 
 .flexRowContent--home__drawer--container{
   /* border: 1px solid red; */
@@ -17,12 +12,6 @@
   display: flex;
   height: 100%;
   flex-direction: column;
-}
-
-.flexCol--home__content1--drawer{
-  background-color: #E8E8EB;
-  height: 23px;
-  padding-right: 0px !important;
 }
 
 .flexCol--home__content2--drawer{

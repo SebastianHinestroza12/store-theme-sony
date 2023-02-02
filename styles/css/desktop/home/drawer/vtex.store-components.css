@@ -11,3 +11,7 @@
   border: 1px solid #e3eaff;
   border-right: none;
 }
+
+.imageElement--image__drawer{
+  cursor: pointer;
+}
