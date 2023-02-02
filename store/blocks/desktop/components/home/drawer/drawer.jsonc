@@ -1,0 +1,84 @@
+{
+  "flex-layout.row#container__drawer": {
+    "title": "Home drawer right",
+    "children": [
+      "drawer#home__drawer--right"
+    ]
+  },
+
+  "drawer#home__drawer--right": {
+    "children": [
+      "flex-layout.row#home__drawer--container"
+    ],
+    "blocks": [
+      "drawer-trigger#right"
+    ],
+    "props": {
+      "blockClass": "drawer-trigger#right",
+      "slideDirection": "rightToLeft",
+      "maxWidth": 400
+    }
+  },
+
+  "drawer-trigger#right": {
+    "children": [
+      "flex-layout.row#drawer-opinion"
+    ]
+  },
+
+  "flex-layout.row#home__drawer--container": {
+    "title": "Drawer content container",
+    "children": [
+      "flex-layout.col#home__content1--drawer",
+      "flex-layout.col#home__content2--drawer"
+    ],
+    "props": {
+      "blockClass": "home__drawer--container",
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#home__content1--drawer": {
+    "title": "Drawer content col1",
+    "props": {
+      "blockClass": "home__content1--drawer",
+      "paddingRight": 0
+    }
+  },
+  "flex-layout.col#home__content2--drawer": {
+    "title": "Drawer content col2",
+    "children": [
+      "logo#drawer__home"
+    ],
+    "props": {
+      "blockClass": "home__content2--drawer"
+    }
+  },
+  "logo#drawer__home": {
+    "title": "Logo drawer",
+    "props": {
+      "blockClass": "drawer__home__logo",
+      "url": "assets/img/logo.jpg",
+      "width": 70,
+      "href": "/"
+    }
+  },
+  "flex-layout.row#drawer-opinion": {
+    "title": "Home drawer opinion",
+    "children": [
+      "image#drawer-opinion"
+    ],
+    "props": {
+      "blockClass": "drawer__opinion"
+    }
+  },
+
+  "image#drawer-opinion": {
+    "title": "Image Trigger Drawer",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/arquivos/danos-tu-opinion-btn.png?v=637074654213000000",
+      "blockClass": "drawer__opinion--imagen"
+    }
+  }
+}
