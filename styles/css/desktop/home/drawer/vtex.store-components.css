@@ -1,0 +1,13 @@
+.imageElement--drawer__opinion--imagen{
+  border: 1px solid rgb(241, 11, 11);
+  background: #4572ed;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  cursor: pointer;
+  margin-left: .5rem;
+  padding: .2125rem;
+  border: 1px solid #e3eaff;
+  border-right: none;
+}
