@@ -1,1 +1,16 @@
 
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+  .logoImage--header__logo--sony{
+    max-width: initial;
+}
+.logoContainer--header__logo--sony{
+  display: flex; 
+  width: 32px;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  border-left: 1px solid #2f353d;
+  border-right: 1px solid #2f353d;
+}
+}

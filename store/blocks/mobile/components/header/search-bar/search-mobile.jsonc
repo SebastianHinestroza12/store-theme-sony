@@ -1,0 +1,46 @@
+{
+  "overlay-trigger#mobile__search--bar": {
+    "title": "Header mobile search bar container",
+    "children": [
+      "image#icon__search--mobile",
+      "overlay-layout#mobile__search--bar"
+    ],
+    "props": {
+      "blockClass": "mobile__search--bar"
+    }
+  },
+  "image#icon__search--mobile": {
+    "props": {
+      "src": "https://api.iconify.design/ic/baseline-search.svg?color=white&width=28&rotate=90deg"
+    }
+  },
+  "overlay-layout#mobile__search--bar": {
+    "title": "Mobile overlay search",
+    "children": [
+      "search-bar#mobile__search--bar"
+    ],
+    "props": {
+      "blockClass": "mobile__search--bar"
+    }
+  },
+  "search-bar#mobile__search--bar": {
+    "blocks": [
+      "autocomplete-result-list.v2#mobile"
+    ],
+    "props": {
+      "autocompleteAlignment": "center",
+      "placeholder": "Buscar...",
+      "openAutocompleteOnFocus": true
+    }
+  },
+  "autocomplete-result-list.v2#mobile": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "maxTopSearches": 10,
+      "orderBy": "OrderByNameASC",
+      "autocompleteWidth": 100
+    }
+  }
+}

@@ -2,7 +2,6 @@
   "responsive-layout.mobile#phone__and__tablet": {
     "title": "Responsive Mobile",
     "children": [
-      "header-row#mobile__header--sony",
       "flex-layout.row#header__call--mobile",
       "flex-layout.row#mobile__slider1--home",
       "flex-layout.row#mobile__home--infomation",

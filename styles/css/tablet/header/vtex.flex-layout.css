@@ -1,0 +1,15 @@
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .flexRowContent--header__deparment--login{
+    height: 66px;
+    justify-content: center;
+    display: flex;
+    transform: translateX(284px);
+    align-items: center;
+    border-left: 1px solid #2f353d;
+    border-right: 1px solid #2f353d;
+  }
+
+  .flexRow--help__mobile{
+    transform: translateX(219px);
+  }
+}

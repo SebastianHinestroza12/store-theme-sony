@@ -11,3 +11,28 @@
   align-items: center;
   background-color: rgb(69, 114, 237);
 }
+
+@media only screen and (max-width: 575px){
+  .headerStickyRow--mobile__drawer{
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerRowContainer--block__container--menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.headerRow--block__container--menu{
+  width: 100%;
+}
+.headerRowBackground--block__container--menu {
+  width: 100%;
+}
+}
+
+
+
+
+
