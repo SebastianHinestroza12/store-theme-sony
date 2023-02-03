@@ -18,7 +18,8 @@
     ],
     "props": {
       "orderBy": "OrderByNameASC",
-      "autocompleteWidth": 40
+      "autocompleteWidth": 40,
+      "blockClass": "search__header--desktop"
     }
   }
 }

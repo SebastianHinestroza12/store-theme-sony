@@ -82,14 +82,14 @@
   "link#home__link-picture": {
     "title": "Home Picture Three",
     "children": [
-      "rich-text#link__text--picture"
+      "rich-text#link__text--picture--sony"
     ],
     "props": {
       "href": "/",
       "blockClass": "home__link--picture"
     }
   },
-  "rich-text#link__text--picture": {
+  "rich-text#link__text--picture--sony": {
     "props": {
       "text": "Descubre más >>",
       "blockClass": "text__pictures--three"

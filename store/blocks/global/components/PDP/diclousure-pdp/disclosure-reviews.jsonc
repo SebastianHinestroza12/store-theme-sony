@@ -10,7 +10,7 @@
     "title": "Disclosure Trigger Products One",
     "children": [
       "rich-text#text__disclosure--reviews",
-      "disclosure-state-indicator#global__disclosurestate-products"
+      "disclosure-state-indicator#global__disclosure-reviews"
     ],
     "props": {
       "blockClass": "disclosure__trigger--specification"
@@ -23,7 +23,7 @@
       "blockClass": "disclosure__pdp--text"
     }
   },
-  "disclosure-state-indicator#global__disclosurestate-products": {
+  "disclosure-state-indicator#global__disclosure-reviews": {
     "title": "Disclosure State Products",
     "props": {
       "Hide": "image#mobile__icon--above",
