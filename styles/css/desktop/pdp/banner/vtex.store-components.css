@@ -1,0 +1,14 @@
+.productBrand--banner__name--pdp{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2f353d;
+    margin-top: 8px;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-decoration: none;
+    display: -webkit-box;
+    overflow: hidden;
+    text-align: left;
+}

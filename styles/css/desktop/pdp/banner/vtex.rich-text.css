@@ -1,0 +1,57 @@
+.wrapper--text__information2--1{
+      font-size: 10px;
+      color: #2f353d;
+      display: block;
+      width: 100%;
+      text-align: center;
+}
+.wrapper--text__information2--2{
+  display: block;
+  font-size: 10px;
+  text-align: center;
+  color: #83838f;
+}
+.wrapper--text__information2--3{
+  display: block;
+  font-size: 10px;
+  color: #5887f5;
+  text-align: center;
+}
+
+.container--text__information2--3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.container--text__information2--2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper--text__col2--information{
+  text-align: center;
+  font-size: 10px;
+  line-height: 13px;
+  color: #2f353d;
+}
+
+.wrapper--text__col2--information::before{
+  content: url("https://res.cloudinary.com/dafsjo7al/image/upload/v1675383006/icons8-comprobar-32_fyvaxq.png");
+}
+
+.container--text__col2--information{
+  margin: auto;
+}
+
+.wrapper--text__col3--information{
+  text-align: center;
+  font-size: 10px;
+  line-height: 13px;
+  color: #2f353d;
+}
+
+.wrapper--text__col3--information::before{
+  content: url("https://res.cloudinary.com/dafsjo7al/image/upload/v1675383154/icons8-nueva-tienda-32_xumy4r.png");
+}

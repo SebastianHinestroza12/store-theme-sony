@@ -24,13 +24,15 @@
 
 .currencyGroup--pdp__product--price{
   color: #f25529;
-    font-size: 16px;
-    font-weight: 700;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .productDescriptionContainer{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: flex-start !important;
 }
 
 .productDescriptionTitle{
@@ -40,3 +42,10 @@
   line-height: 24px;
   font-weight: 400;
 }
+
+.productDescriptionText{
+  margin-left: 0;
+  max-width: 557px;
+  text-align: justify;
+}
+
