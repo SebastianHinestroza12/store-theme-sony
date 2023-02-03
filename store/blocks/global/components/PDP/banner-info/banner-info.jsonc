@@ -1,0 +1,151 @@
+{
+  "flex-layout.row#banner__information--pdp": {
+    "title": "Banner Information PDP",
+    "children": [
+      "flex-layout.col#banner__information1",
+      "flex-layout.col#banner__information2",
+      "flex-layout.col#banner__information3"
+    ],
+    "props": {
+      "blockClass": "banner__information--pdp"
+    }
+  },
+
+  "flex-layout.col#banner__information1": {
+    "title": "Banner Col1",
+    "children": [
+      "vtex.store-components:product-name#banner__name"
+    ],
+    "props": {
+      "blockClass": "banner__information1"
+    }
+  },
+
+  "vtex.store-components:product-name#banner__name": {
+    "title": "Bane Name Product",
+    "props": {
+      "blockClass": [
+        "banner__name--pdp"
+      ]
+    }
+  },
+  "flex-layout.col#banner__information2": {
+    "title": "Banner Col2",
+    "children": [
+      "flex-layout.row#banner__information2"
+    ],
+    "props": {
+      "blockClass": "banner__information2"
+    }
+  },
+  "flex-layout.row#banner__information2": {
+    "title": "Banner Row Information2",
+    "children": [
+      "flex-layout.col#information2__col1",
+      "flex-layout.col#information2__col2",
+      "flex-layout.col#information2__col3"
+    ]
+  },
+  "flex-layout.col#information2__col1": {
+    "title": "Banner informacion2 col1",
+    "children": [
+      "rich-text#text__information2--1",
+      "rich-text#text__information2--2",
+      "rich-text#text__information2--3"
+    ],
+    "props": {
+      "blockClass": [
+        "banner__col",
+        "banner__col--width"
+      ]
+    }
+  },
+
+  "rich-text#text__information2--1": {
+    "title": "Banner text information2",
+    "props": {
+      "text": "Envíos a partir de 2 días",
+      "blockClass": "text__information2--1"
+    }
+  },
+
+  "rich-text#text__information2--2": {
+    "title": "Banner text information2",
+    "props": {
+      "text": "para ciudades principales",
+      "blockClass": "text__information2--2"
+    }
+  },
+
+  "rich-text#text__information2--3": {
+    "title": "Banner text information2",
+    "props": {
+      "text": "Calcula aquí tu envío",
+      "blockClass": "text__information2--3"
+    }
+  },
+
+  "flex-layout.col#information2__col2": {
+    "title": "Banner information col2",
+    "children": [
+      "rich-text#text__information2--col2"
+    ],
+    "props": {
+      "blockClass": "banner__col"
+    }
+  },
+
+  "rich-text#text__information2--col2": {
+    "title": "Banner information text2 col2",
+    "props": {
+      "text": "Formas de Pago",
+      "blockClass": "text__col2--information"
+    }
+  },
+
+  "flex-layout.col#information2__col3": {
+    "title": "Banner information text3 col3",
+    "children": [
+      "rich-text#text__information--col3"
+    ],
+    "props": {
+      "blockClass": "banner__col"
+    }
+  },
+  "rich-text#text__information--col3": {
+    "title": "Banner information col3",
+    "props": {
+      "text": "Disponible en tienda",
+      "blockClass": "text__col3--information"
+    }
+  },
+  "flex-layout.col#banner__information3": {
+    "title": "Banner Col3",
+    "children": [
+      "flex-layout.row#banner__information--row"
+    ],
+    "props": {
+      "blockClass": "banner__information3"
+    }
+  },
+  "flex-layout.row#banner__information--row": {
+    "children": [
+      "flex-layout.col#price",
+      "flex-layout.col#button--add"
+    ],
+    "props": {
+      "blockClass": "banner__information--row"
+    }
+  },
+  "flex-layout.col#price": {
+    "children": [
+      "product-price#pdp__product--price",
+      "product-identifier.product#pdp__product--identifier"
+    ]
+  },
+  "flex-layout.col#button--add": {
+    "children": [
+      "add-to-cart-button#pdp__button--add-to-cart"
+    ]
+  }
+}

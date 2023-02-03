@@ -1,6 +1,7 @@
 {
   "responsive-layout.desktop#image__pdp--mobile": {
     "children": [
+      "flex-layout.row#banner__information--pdp",
       "flex-layout.row#product__breadcrumb",
       "flex-layout.row#product__infomation",
       // "flex-layout.row#product__tabs",
