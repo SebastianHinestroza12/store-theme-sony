@@ -2,10 +2,10 @@
   "responsive-layout.desktop#home__section-1": {
     "title": "Home Section 1 Desktop",
     "children": [
+      "flex-layout.row#whatsapp__button",
       "flex-layout.row#home__slider--section-1",
       "flex-layout.row#home__info--section-1",
       "flex-layout.row#home__slider--section-2",
-      // "flex-layout.row#drawer-opinion",
       "flex-layout.row#container__drawer",
       "flex-layout.row#home__rich--text",
       "flex-layout.row#home__pictures",
