@@ -2,6 +2,7 @@
   "search-result-layout.mobile#department": {
     "title": "Search Result Layout Mobile Department",
     "children": [
+      "flex-layout.row#whatsapp__button",
       "flex-layout.row#mobile__slider1--home",
       "flex-layout.row#galleryswitcher--search",
       "flex-layout.row#departmentbreadcrumb",

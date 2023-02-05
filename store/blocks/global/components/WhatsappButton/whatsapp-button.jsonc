@@ -1,0 +1,13 @@
+{
+  "flex-layout.row#whatsapp__button": {
+    "title": "Whatsapp Button",
+    "children": [
+      "whatsapp-button"
+    ]
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "https://api.iconify.design/ri/whatsapp-line.svg?color=%23f25529&width=50"
+    }
+  }
+}

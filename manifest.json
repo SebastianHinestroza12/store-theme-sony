@@ -56,7 +56,8 @@
     "vtex.store": "2.x",
     "vtex.styleguide": "9.x",
     "vtex.tab-layout": "0.x",
-    "vtex.telemarketing": "2.x"
+    "vtex.telemarketing": "2.x",
+    "itgloberspartnercl.whatsapp-button": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",

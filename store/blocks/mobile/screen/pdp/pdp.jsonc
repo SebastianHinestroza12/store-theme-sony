@@ -1,6 +1,7 @@
 {
   "responsive-layout.mobile#image__pdp--desktop": {
     "children": [
+      "flex-layout.row#whatsapp__button",
       "flex-layout.row#product__breadcrumb",
       "flex-layout.row#product__infomation",
       // "flex-layout.row#product__tabs",
