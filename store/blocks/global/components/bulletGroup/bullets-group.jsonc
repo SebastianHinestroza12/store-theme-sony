@@ -1,0 +1,135 @@
+{
+  "list-context.bullet-group": {
+    "children": [
+      "slider-layout#bullet-group"
+    ],
+    "props": {
+      "bullets": [
+        {
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/355311/01-Product-WH-1000XM5-S.jpg?v=1762194157",
+          "titleBullet": "Audífonos inalámbricos con noise cancelling WH-1000XM5",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/355266/01-Product-SRS-XE200-D.jpg?v=1762162478",
+          "titleBullet": "Parlante inalámbrico portátil XE200 de la serie X",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/351282/d7b7a583061ec800dfa74bea7bc37941.jpg?v=1762162480",
+          "titleBullet": "Audífonos inalámbricos con Noise Cancelling WF-1000XM4",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/350957/KD-65X80J-1.jpg?v=1762162479",
+          "titleBullet": "X80J | 4K Ultra HD | Alto rango dinámico (HDR) | Smart TV (Google TV)",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/352284/e6c64548ff9844b62832b1816a1aa3a4.jpg?v=1762162483",
+          "titleBullet": "Parlante inalámbrico portátil XP500 de la serie X",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/352891/6ff70f66ce935f02861635b3e936a70c.jpg?v=1762193861",
+          "titleBullet": "Audífonos True Wireless WF-C500",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/355337/SRS-XG300B.jpg?v=1762162477",
+          "titleBullet": "Parlante inalámbrico portátil XG300 de la serie X",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/352217/WH1000XM4_Black---1-.jpg?v=1762161213",
+          "titleBullet": "Audífonos inalámbricos con noise cancelling WH1000XM4",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/355702/01-Product-WF-LS900-L-ALT.jpg?v=1762188677",
+          "titleBullet": "Audífonos inalámbricos con cancelación de ruido LinkBuds S | WF-LS900N",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/352275/6364a26f0350572e348f7a7851ddc755.jpg?v=1762162484",
+          "titleBullet": "Parlante inalámbrico portátil XP700 de la serie X",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/354964/7fc14e756300807519fde2f4c9996b9f.jpg?v=1762162476",
+          "titleBullet": "Barra de sonido de 2.1 canales con potente subwoofer inalámbrico | HT-S400",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/350345/ee8ccc400849734aa981fc0d9e5dc3f2.jpg?v=1762185067",
+          "titleBullet": "Parlante inalámbrico premium SRS-RA3000 con sonido ambiental que llena la habitación",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/339272/1a26f75f6bc8b7d417e77a6edb85a8c1.jpg?v=1762162486",
+          "titleBullet": "Sistema de audio de alta potencia V13 con tecnología BLUETOOTH®",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/189026/b2a6c0f0b3136f302df64ef870c62f1e.jpg?v=1762162486",
+          "titleBullet": "Tocadiscos con conectividad BLUETOOTH®",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/340412/4dfd9ca48ba82b26b620b9049c099665.jpg?v=1762162477",
+          "titleBullet": "X80H | 4K Ultra HD | Alto rango dinámico (HDR) | Smart TV (Android TV)",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/352866/bbe592b986fba7179121a5e8c0017a1d.jpg?v=1762162478",
+          "titleBullet": "Parlante inalámbrico portátil EXTRA BASS™ XB13",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 3
+      },
+      "infinite": true,
+      "blockClass": "slider__bullet",
+      "showPaginationDots": "never"
+    }
+  }
+}

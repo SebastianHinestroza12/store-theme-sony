@@ -81,11 +81,11 @@
     "background": {
       "header--background" : "#000",
       "header--search" : "##4472ED",
-      "price--product" : "##F25529", 
-      "new--product" : "##00CC6F", 
-      "product--discount" : "##A500AA", 
-      "exclusive--product" : "##006CC4", 
-      "product--warranty" : "##ABB2B9", 
+      "price--product" : "##F25529",
+      "new--product" : "##00CC6F",
+      "product--discount" : "##A500AA",
+      "exclusive--product" : "##006CC4",
+      "product--warranty" : "##ABB2B9",
       "latest offers"  : "##EF293E"
     },
     "hover-background": {

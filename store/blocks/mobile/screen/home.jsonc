@@ -10,6 +10,7 @@
       "flex-layout.row#mobile__home--slider2",
       "flex-layout.row#home__rich--text",
       "flex-layout.row#mobile__home--slider3",
+      "list-context.bullet-group",
       "flex-layout.row#product__list--text",
       "flex-layout.row#product__list--context",
       "flex-layout.row#home__rich--favorites",
