@@ -1,0 +1,20 @@
+.bullet__item--title{
+  font-size: 13px;
+  line-height: 18px;
+  color: #2f353d;
+  overflow-wrap: break-word;
+  font-weight: 400;
+  height: 37px;
+}
+
+
+
+/* @media screen and (max-width:760px){
+  .bullet__item{
+
+  }
+
+  .bullet__item--image{
+
+  }
+} */

@@ -1,0 +1,40 @@
+.bullet__item--title{
+  font-size: 13px;
+  line-height: 18px;
+  color: #2f353d;
+  overflow-wrap: break-word;
+  font-weight: 400;
+  height: 37px;
+}
+
+.bullet__item{
+  width: 18rem;
+  margin-right: .9375rem;
+}
+.bullet__item:hover{
+  border: solid 1px rgba(230, 228, 228, 0.959);
+}
+.bullet__item--image{
+  width: 100%;
+}
+
+.bullet__item--image:hover{
+  filter: opacity(.5);
+}
+.bullet__item--link{
+  text-decoration: none;
+}
+
+
+.bullet__item--slider__bullet{
+  border : 1px solid red
+}
+
+.lideChildrenContainer--slider__bullet{
+  border: 1px solid orange;
+}
+
+.sliderLayoutContainer--slider__bullet{
+  max-width: 1196px;
+  margin: 0 auto;
+}
