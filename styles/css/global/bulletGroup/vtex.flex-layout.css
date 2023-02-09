@@ -1,0 +1,21 @@
+.flexRow--bullet-group--list{
+  padding: 3rem;
+  border-top: 1px solid #e3e4e6;
+  border-bottom: 1px solid #e3e4e6;
+}
+
+.flexRowContent--bullet-group--list{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexCol--bullet__group--col{
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 575px){
+  .flexRow--bullet-group--list{
+  padding: 0px !important;
+}
+
+}

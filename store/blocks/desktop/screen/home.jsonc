@@ -9,6 +9,7 @@
       "flex-layout.row#container__drawer",
       "flex-layout.row#home__rich--text",
       "flex-layout.row#home__pictures",
+      "flex-layout.row#bullets__group--list",
       "flex-layout.row#product__list--text",
       "flex-layout.row#product__list--context",
       "rich-text#home__favorites--store",
