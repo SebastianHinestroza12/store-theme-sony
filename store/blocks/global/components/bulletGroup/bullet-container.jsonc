@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#bullets__group--list": {
+    "title": "Bullet Group",
+    "children": [
+      "flex-layout.col#bullets__group--text",
+      "list-context.bullet-group"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "colSizing": "auto",
+      "blockClass": "bullet-group--list"
+    }
+  }
+}
