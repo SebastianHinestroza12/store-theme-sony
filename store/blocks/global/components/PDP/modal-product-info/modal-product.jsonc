@@ -1,0 +1,39 @@
+{
+  "modal-trigger#add-to-cart-info": {
+    "children": [
+      "modal-layout#add-to-cart-info"
+    ],
+    "props": {
+      "customPixelEventName": "addToCart"
+    }
+  },
+  "modal-layout#add-to-cart-info": {
+    "children": [
+      "modal-header#add-to-cart-info",
+      "add-to-cart-info"
+    ],
+    "props": {
+      "blockClass": "modal__add--to--cart"
+    }
+  },
+  "modal-header#add-to-cart-info": {
+    "children": [
+      "logo#add-to-cart-info"
+    ],
+    "title": "Modal Icon Close",
+    "props": {
+      "iconCloseSize": 24,
+      "showCloseButton": true,
+      "blockClass": "modal__close--icon"
+    }
+  },
+  "logo#add-to-cart-info": {
+    "title": "Logo Modal Add To Cart",
+    "props": {
+      "blockClass": "logo__add-to-cart",
+      "url": "assets/img/logo.jpg",
+      "width": 100,
+      "href": "/"
+    }
+  }
+}

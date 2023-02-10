@@ -23,7 +23,8 @@
       "product-rating-inline",
       "product-description",
       "sku-selector#sku__pdp",
-      "flex-layout.row#offer"
+      "flex-layout.row#offer",
+      "modal-trigger#add-to-cart-info"
       // "product-quantity",
       // "product-specifications",
       // "product-reviews"
