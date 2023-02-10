@@ -1,0 +1,15 @@
+{
+  "slider-layout#bullet-group2": {
+    "title": "Slider bullet group2",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "blockClass": "slider__bullet",
+      "showPaginationDots": "mobileOnly"
+    }
+  }
+}
