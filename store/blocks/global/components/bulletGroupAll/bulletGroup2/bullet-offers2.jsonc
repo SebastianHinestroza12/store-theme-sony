@@ -1,0 +1,32 @@
+{
+  "flex-layout.col#bullets__group--text2": {
+    "title": "Bullet Group Text",
+    "children": [
+      "rich-text#bullets2__group1",
+      "rich-text#bullets2__group2"
+    ],
+    "props": {
+      "blockClass": "bullet__group--col"
+    }
+  },
+
+  "rich-text#bullets2__group1": {
+    "title": "Bullet Text 1",
+    "props": {
+      "text": "CÁMARAS Y LENTES",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "bullet__group--text1"
+    }
+  },
+
+  "rich-text#bullets2__group2": {
+    "title": "Bullet Text 2",
+    "props": {
+      "text": "El poder de las imágenes puede ser tuyo",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "bullet__group--text2"
+    }
+  }
+}
