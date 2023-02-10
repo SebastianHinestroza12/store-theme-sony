@@ -1,0 +1,15 @@
+.paper--modal__add--to--cart{
+  border-radius: 0 !important;
+}
+
+.headerContainer--modal__close--icon{
+  padding: .5rem;
+  background-color: black;
+  display: flex;
+  align-items: baseline;
+}
+
+
+.closeIcon--modal__close--icon{
+  color: white !important;
+}
