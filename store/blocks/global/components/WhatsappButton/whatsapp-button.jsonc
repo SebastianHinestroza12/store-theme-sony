@@ -3,11 +3,14 @@
     "title": "Whatsapp Button",
     "children": [
       "whatsapp-button"
-    ]
+    ],
+    "props": {
+      "blockClass": "container__whatsapp--button"
+    }
   },
   "whatsapp-button": {
     "props": {
-      "logo": "https://api.iconify.design/ri/whatsapp-line.svg?color=%23f25529&width=50"
+      "logo": "https://api.iconify.design/ri/whatsapp-line.svg?color=%23f25529&width=38"
     }
   }
 }
