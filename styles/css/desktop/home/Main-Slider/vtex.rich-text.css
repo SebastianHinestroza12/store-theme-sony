@@ -1,0 +1,38 @@
+
+/* CONTENT 1 */
+
+.paragraph--home__text--section1{
+  color: black;
+  font-size: 13px;
+  font-weight: 700;
+}
+.paragraph--home__text--section2{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: black;
+}
+.paragraph--home__text--section3{
+  color: black;
+  font-size: 15px;
+}
+
+/* CONTENT 2 */
+
+.paragraph--home2__text--section1{
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.paragraph--home2__text--section2{
+  color: #FFF;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.paragraph--home2__text--section3{
+  color: #FFF;
+  font-size: 15px;
+}

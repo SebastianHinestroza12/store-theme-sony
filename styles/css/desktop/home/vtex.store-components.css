@@ -1,13 +1,13 @@
 .imageElement--home__image--slider{
-  height: 90px;
+  max-width: 1196px;
 }
 
-.imageElement--images__favorites{ 
+.imageElement--images__favorites{
   border: 1px solid #000;
   width: 250px;
   height: 240px;
   margin-bottom: 10px;
-  border-style: none; 
+  border-style: none;
 }
 
 /* NewLetter */
@@ -29,21 +29,17 @@
 
 /* BUTTON BACK */
 
-/* .backToTopButtonContainer{
+.backToTopButtonContainer{
   opacity: .3;
   right: calc(12% - 1vw);
-} */
+}
 
 .backToTopButtonActive :global(.vtex-button){
     background-color: rgba(36, 35, 35, 0.966);
-    /* width: 40px; */
     color: #fff !important;
-    height: 35px;
     border-style: none;
-    /* border-bottom: 3.125rem; */
-    opacity: .4;
 }
 
 .backToTopButtonActive:hover :global(.vtex-button){
-   background-color: #000;
+   background-color: #000 !important;
 }

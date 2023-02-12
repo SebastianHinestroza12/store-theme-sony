@@ -1,0 +1,66 @@
+
+/* CONTENT SLIDER 1 */
+
+.flexRow--home__section--one{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/3e8f2b21-1b73-449e-a725-5c2e45d0d1f1___85a2133e802f0fe9dcf91263906995b4.jpg");
+    height: 470px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+
+@media only screen and (max-width: 575px){
+  .flexRow--home__section--one{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/3e8f2b21-1b73-449e-a725-5c2e45d0d1f1___85a2133e802f0fe9dcf91263906995b4.jpg");
+    height: 22.25rem !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+}
+
+.flexRowContent--home__section--one{
+  display: grid;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.flexCol--home__section--info  {
+  padding: 1rem;
+  width: 380px !important;
+}
+
+.flexColChild--home__section--info{
+  margin: 4px;
+}
+
+/* CONTENT SLIDER 2 */
+
+.flexRow--home2__slider2{
+  background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/b781a3bd-9a4b-4b42-8268-8fdb533068f6___f8a3518663e71322d32d876e12d17bf2.jpg");
+}
+
+
+
+/* CONTENT SLIDER 3 */
+
+.flexRow--home3__slider3{
+  background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/55c74716-df70-4532-83ee-0f242b3524fd___32ff68d2178cf47a8bb7108655e35290.jpg");
+}
+
+/* CONTENT SLIDER 4 */
+
+.flexRow--home4__slider4{
+  background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/4d3ee1f5-5622-4e0c-9351-39296eb7f4c6___2e76c042da58061c040aacc5a873fb7e.jpg");
+}
+
+.flexCol--slider4__background{
+  background-color: #212530 ;
+}

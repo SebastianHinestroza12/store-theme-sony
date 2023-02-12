@@ -1,10 +1,11 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .paragraph--mobile__text--davivienda{
-  width: 32.3125rem;
-  transform: translateX(62px);
+        width: 33.3125rem;
+        transform: translateX(98px);
+        padding: 0 !important;
   }
-  
-  .paragraph--text__favorites--1{  
+
+  .paragraph--text__favorites--1{
     font-size: 18px;
     color: #2f353d;
     line-height: 1!important;
@@ -15,5 +16,8 @@
     color: #2f353d;
     width: 50rem;
     transform: translateX(-346px);
+  }
+  .wrapper--home__text--unmissable{
+    margin: 3rem;
   }
 }

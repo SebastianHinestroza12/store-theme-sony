@@ -1,0 +1,30 @@
+.paginationDotsContainer--main__slider{
+  margin-bottom: .6875rem;
+}
+
+.paginationDot--main__slider{
+  width: 12px!important;
+  height: 12px!important;
+}
+
+.paginationDot--main__slider--isActive{
+  background-color: #030303ce;
+}
+
+.sliderArrows--main__slider{
+    cursor: pointer;
+    z-index: 2;
+    width: 32px;
+    height: 52px;
+    background-color: rgba(56, 55, 55, 0.404) !important;
+    color: #fff;
+    border-radius: 3px;
+    transition: all .25s;
+    margin: 7.7rem;
+}
+
+@media (min-width: 2560px) {
+  .sliderArrows--main__slider{
+    margin: 46rem;
+  }
+}

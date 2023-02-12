@@ -1,5 +1,4 @@
 
-
 .sliderLayoutContainer--home__slider--section2{
   margin-top: 2.5rem;
 }
@@ -8,21 +7,20 @@
   justify-content: center;
   align-items: center;
 }
-/* .paginationDot--home__slider--section2 {
-  background-color: #575757;
-} */
 
+.paginationDotsContainer--home__slider--section2{
+  margin-bottom: .125rem;
+}
 .paginationDot--home__slider--section2--isActive{
   background-color: #030303ce !important;
 }
+
+
 .sliderArrows--home__slider--section2{
     cursor: pointer;
     z-index: 2;
     width: 32px;
     height: 52px;
-    font-size: 18px;
-    text-align: center;
-    line-height: 52px;
     background-color: rgba(56, 55, 55, 0.404) !important;
     color: #fff;
     border-radius: 3px;
@@ -33,3 +31,8 @@
   background-color: rgb(0, 0, 0) !important;
 }
 
+@media (min-width: 2560px) {
+  .sliderArrows--home__slider--section2{
+    margin: 7.5rem;
+}
+}

@@ -41,16 +41,29 @@
 .container--home__text--unmissable{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .paragraph--home__text--unmissable{
     color: #3F3F40;
     font-size: 37px;
     line-height: 36px;
-    margin: 0 auto 35px;
     float: none;
     text-transform: capitalize;
+}
+
+@media only screen and (max-width: 575px){
+  .paragraph--home__text--unmissable{
+    font-size: 30px;
+}
+.wrapper--home__text--unmissable{
+  margin: 1rem 0 2rem 0;
+  padding: 1rem;
+}
+
+}
+
+.wrapper--home__text--unmissable{
+  margin-top: 1.5rem;
 }
 
 .paragraph--text__pictures--one{
@@ -63,6 +76,7 @@
     font-size: 14px;
     color: #83838f;
     line-height: 23px;
+    text-align: center;
     white-space: normal;
 }
 
@@ -173,6 +187,6 @@
 .paragraph--home__help--correo{
     color : #83838F;
     text-decoration: none;
-    
+
 }
 

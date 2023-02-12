@@ -1,0 +1,15 @@
+.link--home__button-one {
+    background-color: #f25529;
+    border-radius: 0px;
+    color: #fff;
+    cursor: pointer;
+    border-style: none;
+    height: 44px;
+    display: block;
+    font-size: 14px;
+    display: flex;
+    text-transform: initial;
+    align-items: center;
+    width: max-content;
+    transition: all .2s;
+}

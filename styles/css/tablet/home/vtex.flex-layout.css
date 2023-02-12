@@ -18,6 +18,9 @@
     transform: translate(-205px, -211px);
     display: none;
 }
+.flexCol--mobile__col--pictures--container{
+  padding: 0;
+}
 
 .flexRow--mobille__container--text--col{
     display: flex;

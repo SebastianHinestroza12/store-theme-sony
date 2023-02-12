@@ -1,8 +1,6 @@
 .imageElement--home__image--mobile{
-  /* border: 1px solid #000; */
-  width: 70%;
-  height: 6.375rem;
-  margin: 0 auto;
+  max-height: 420px;
+  width: 81%;
 }
 
 .imageElement--home__image--slider2{

@@ -1,21 +1,3 @@
-.buttonLink--home__button-one{
-  /* border: 1px solid #ccc; */
-  color: #fff;
-  height: 44px;
-  transition: all .2s;
-  background-color: #5787F3;
-  border: none;
-  margin-top: 2rem;
-  border-radius: 0 !important;
-}
-
-.buttonLink--home__button-one:hover{
-  background-color: #7992D2;
-}
-.label--home__button-one{
-  text-transform: initial;
-  font-size: 14px;
-}
 
 .childrenContainer--home__link{
   border: 1px solid red;

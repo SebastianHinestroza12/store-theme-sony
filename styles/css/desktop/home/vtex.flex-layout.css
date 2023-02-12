@@ -9,10 +9,6 @@
     width: 80%;
 }
 
-.flexColChild--home__section2--container--linnk{
-    transform: translateX(-101px);
-}
-
 .flexRowContent--home__section--2{
     display: flex;
     justify-content: center;
@@ -21,41 +17,19 @@
 .flexColChild--home__sectionCol--2{
     padding: 3px;
 }
-.flexRow--home__section--one{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/bc65af1d-78dd-430f-b724-f0315ba61f1e___bf3b889d11bc8a5e4d7e6d055de8e34b.jpg");
-    height: 405px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
-}
 
 /* SLIDER 1 */
 
-
-.flexRowContent--home__container-information{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    width: 74vw;
-    margin-right: 9rem;
-    border: 10px solid red;
-}
-
-.flexCol--home__section--info{
-    margin-bottom: 5.5rem;
-    margin-right: 45rem;
-}
-.flexColChild--home__section--info{
-    height: 40px !important;
-}
-
 .flexRow--home__rich--text{
-    margin-top: 5rem;
     text-align: center;
+}
+
+.flexCol--home_container--pictures{
+  height: 46.375rem;
+}
+
+.flexRow--text__col--pictures{
+  max-width: 34.4375rem;
 }
 
 .flexRow--home__pictures{
@@ -84,6 +58,13 @@
     justify-content: center;
     align-items: center;
     margin: 15px 120px 30px 145px;
+
+}
+
+@media only screen and (max-width: 575px){
+  .flexCol--home__text--rich{
+     border: 1px solid red;
+  }
 
 }
 
@@ -159,7 +140,7 @@
 
 
 .flexRow--text__col--pictures{
-    transform: translate(10px, -84px);
+    transform: translate(-1px, -84px);
 }
 
 .flexColChild--home__col--pictures--container{
