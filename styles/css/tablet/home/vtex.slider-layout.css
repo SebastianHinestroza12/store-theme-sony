@@ -3,5 +3,8 @@
     transform: translateY(48px) !important;
     margin-bottom: 2rem;
   }
-  
+
+  .slide--home__slider--sectiontwo{
+    margin-top: 5rem;
+  }
 }
