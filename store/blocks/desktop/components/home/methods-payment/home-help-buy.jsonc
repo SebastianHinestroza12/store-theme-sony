@@ -10,6 +10,7 @@
   },
 
   "flex-layout.col#home__help--container": {
+    "title": "Home Col Section Help",
     "children": [
       "rich-text#home__help--info",
       "rich-text#home__help--correo",

@@ -9,14 +9,17 @@
     }
   },
   "slider-layout#home__slider--sectionfour": {
-    "title": "Slider layout-sectionthree",
+    "title": "Slider layout sectionfour",
     "props": {
       "showNavigationArrows": "never",
       "itemsPerPage": {
         "mobile": 2,
         "tablet": 3
       },
-      "blockClass": "home__slider--sectionthree",
+      "blockClass": [
+        "home__slider--sectionthree",
+        "home__slider--section--four"
+      ],
       "autoplay": {
         "timeout": 5000,
         "stopOnHover": true

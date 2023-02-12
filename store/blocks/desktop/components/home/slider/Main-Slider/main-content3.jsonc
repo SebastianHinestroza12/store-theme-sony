@@ -1,0 +1,57 @@
+{
+  "flex-layout.row#home__slider3--section-3": {
+    "title": "Slider Main Content3",
+    "children": [
+      "flex-layout.col#home3__container--section"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "home__section--one",
+        "home3__slider3"
+      ]
+    }
+  },
+  "flex-layout.col#home3__container--section": {
+    "title": "Slider Container Content3",
+    "children": [
+      "rich-text#home3__text--section1",
+      "rich-text#home3__text--section2",
+      "rich-text#home3__text--section3",
+      "link#home3__link--button--section"
+    ],
+    "props": {
+      "blockClass": "home__section--info"
+    }
+  },
+  "rich-text#home3__text--section1": {
+    "title": "Home text one",
+    "props": {
+      "text": "Del 28 de Oct/2022 al 31 de Mar/2023",
+      "blockClass": "home__text--section1"
+    }
+  },
+  "rich-text#home3__text--section2": {
+    "title": "Home text two",
+    "props": {
+      "text": "Compra y registra tu producto",
+      "blockClass": "home__text--section2"
+    }
+  },
+  "rich-text#home3__text--section3": {
+    "title": "Home text three",
+    "props": {
+      "text": "Y recibe garantía extendida de 1 año",
+      "blockClass": "home__text--section3"
+    }
+  },
+  "link#home3__link--button--section": {
+    "title": "Home button offers",
+    "props": {
+      "href": "/",
+      "label": " Ver más >>",
+      "displayMode": "button",
+      "blockClass": "home__button-one"
+    }
+  }
+}

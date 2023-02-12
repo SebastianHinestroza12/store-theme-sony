@@ -9,6 +9,7 @@
     }
   },
   "rich-text#home__rich--text": {
+    "title": "Home Text Imperdibles Del Mes",
     "props": {
       "text": "Imperdibles del Mes",
       "blockClass": "home__text--unmissable"

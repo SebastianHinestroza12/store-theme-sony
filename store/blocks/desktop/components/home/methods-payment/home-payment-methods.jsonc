@@ -70,6 +70,7 @@
   },
 
   "rich-text#text__payment": {
+    "title": "Text Methods Payment",
     "props": {
       "text": "Medios de Pago",
       "blockClass": "text__orange--payment"

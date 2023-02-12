@@ -1,0 +1,35 @@
+{
+  "flex-layout.row#Home__Main--SliderForFour": {
+    "title": "Home Main Slider For Four",
+    "children": [
+      "slider-layout#home__main--slider"
+    ],
+    "props": {
+      "blockClass": "main__slider--container",
+      "fullWidth": true
+    }
+  },
+  "slider-layout#home__main--slider": {
+    "title": "Slider Main In Home",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "stopOnHover": true,
+        "timeout": 5000
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "main__slider"
+    },
+    "children": [
+      "flex-layout.row#home__slider--section-1",
+      "flex-layout.row#home__slider2--section-2",
+      "flex-layout.row#home__slider3--section-3",
+      "flex-layout.row#home__slider4--section-4"
+    ]
+  }
+}

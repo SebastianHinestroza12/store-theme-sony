@@ -6,7 +6,8 @@
       "link#home__link--marco"
     ],
     "props": {
-      "blockClass": "mobile__marco--slider"
+      "blockClass": "mobile__marco--slider",
+      "fullWidth": true
     }
   },
   "rich-text#home__marco": {

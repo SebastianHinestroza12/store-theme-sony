@@ -39,7 +39,7 @@
   "image#mobile__slider--section3-1": {
     "title": "Mobile Image Slider 2",
     "props": {
-      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/8e652da2-d34c-4e53-8ad0-dd5996b30326___a3f04bff36c18221fa074cee0b38df65.jpg",
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/59424336-583f-40cf-ab25-9f71318d1d90___9cb5dfa0bd0e09f3a9f227ae3b8ffb66.jpg",
       "blockClass": "home__image--slider2"
     }
   },
@@ -69,13 +69,13 @@
 
   "rich-text#mobile__text--picture1": {
     "props": {
-      "text": "Explora el mundo y aprende",
+      "text": "α7 IV Para una nueva generación de creadores",
       "blockClass": "mobile__text--one--picture"
     }
   },
   "rich-text#mobile__text--picture2": {
     "props": {
-      "text": "Captura cada paisaje y aprende más de la naturaleza y la arquitectura.",
+      "text": "la α7 IV es la cámara híbrida ideal, ya que proporciona imágenes impresionantes y permite compartir contenido al instante",
       "blockClass": "mobile__text--two--picture"
     }
   },
@@ -110,7 +110,7 @@
   "image#mobile__slider--section3-2": {
     "title": "Mobile Image Slider 2",
     "props": {
-      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/581460ce-e1d2-4bc9-b987-19312e384744___1097105d4c3723c232a11ff8559a8d3f.jpg",
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/59424336-583f-40cf-ab25-9f71318d1d90___9cb5dfa0bd0e09f3a9f227ae3b8ffb66.jpg",
       "blockClass": "home__image--slider2"
     }
   },
@@ -139,13 +139,13 @@
 
   "rich-text#mobile__picture2": {
     "props": {
-      "text": "¡Que la música te inspire!",
+      "text": "7.1.2 canales: realismo absoluto envolvente",
       "blockClass": "mobile__text--one--picture"
     }
   },
   "rich-text#mobile__picture--text2": {
     "props": {
-      "text": "Busca canciones que te inspiren y haz creaciones fabulosas.",
+      "text": "La HT-A7000 te envuelve por completo en un sonido Surround de 7.1.2 canales gracias a sus múltiples parlantes, S-Force PRO Front Surround y Vertical Surround Engine. Siente la acción a tu alrededor.",
       "blockClass": "mobile__text--two--picture"
     }
   }

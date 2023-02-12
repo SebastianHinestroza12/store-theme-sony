@@ -3,9 +3,9 @@
     "title": "Responsive Mobile",
     "children": [
       "flex-layout.row#whatsapp__button",
+
       "flex-layout.row#header__call--mobile",
-      "flex-layout.row#mobile__slider1--home",
-      "flex-layout.row#mobile__home--infomation",
+      "flex-layout.row#Home__Main--SliderForFour",
       "flex-layout.row#mobile__marco--slider",
       "flex-layout.row#mobile__home--slider2",
       "flex-layout.row#home__rich--text",

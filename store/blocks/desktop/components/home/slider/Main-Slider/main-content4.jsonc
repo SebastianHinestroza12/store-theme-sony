@@ -1,0 +1,60 @@
+{
+  "flex-layout.row#home__slider4--section-4": {
+    "title": "Slider Main Content4",
+    "children": [
+      "flex-layout.col#home__container--section4"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "home__section--one",
+        "home4__slider4"
+      ]
+    }
+  },
+  "flex-layout.col#home__container--section4": {
+    "title": "Slider Container Content2",
+    "children": [
+      "rich-text#home4__text--section1",
+      "rich-text#home4__text--section2",
+      "rich-text#home4__text--section3",
+      "link#home4__link--button--section"
+    ],
+    "props": {
+      "blockClass": [
+        "home__section--info",
+        "slider4__background"
+      ]
+    }
+  },
+  "rich-text#home4__text--section1": {
+    "title": "Home text one",
+    "props": {
+      "text": "Del 1 al 28 Feb/2023",
+      "blockClass": "home2__text--section1"
+    }
+  },
+  "rich-text#home4__text--section2": {
+    "title": "Home text two",
+    "props": {
+      "text": "PS5 DISPONIBLE AHORA",
+      "blockClass": "home2__text--section2"
+    }
+  },
+  "rich-text#home4__text--section3": {
+    "title": "Home text three",
+    "props": {
+      "text": "TRAYÉNDOTE LO EXTRAORDINARIO.",
+      "blockClass": "home2__text--section3"
+    }
+  },
+  "link#home4__link--button--section": {
+    "title": "Home button offers",
+    "props": {
+      "href": "/",
+      "label": " PlayStation®5 Ya disponible >>",
+      "displayMode": "button",
+      "blockClass": "home__button-one"
+    }
+  }
+}

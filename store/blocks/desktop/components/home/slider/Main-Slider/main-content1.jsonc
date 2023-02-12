@@ -1,15 +1,16 @@
 {
   "flex-layout.row#home__slider--section-1": {
-    "title": "DESKTOP Row with text",
+    "title": "Slider Main Content1",
     "children": [
       "flex-layout.col#home__container--section"
     ],
     "props": {
+      "fullWidth": true,
       "blockClass": "home__section--one"
     }
   },
   "flex-layout.col#home__container--section": {
-    "title": "Home container section one",
+    "title": "Slider Container Content1",
     "children": [
       "rich-text#home__text--section1",
       "rich-text#home__text--section2",
@@ -23,21 +24,21 @@
   "rich-text#home__text--section1": {
     "title": "Home text one",
     "props": {
-      "text": "Del 16 al 31 de Ene/2023",
+      "text": "Del 3 al 15 de Feb/2023",
       "blockClass": "home__text--section1"
     }
   },
   "rich-text#home__text--section2": {
     "title": "Home text two",
     "props": {
-      "text": "Que estudiar sea divertido",
+      "text": "Regalos que Enamoran",
       "blockClass": "home__text--section2"
     }
   },
   "rich-text#home__text--section3": {
     "title": "Home text three",
     "props": {
-      "text": "Descubre los productos esenciales para la vuelta a clases.",
+      "text": "Una selección de regalos para esa persona especial desde $23.900",
       "blockClass": "home__text--section3"
     }
   },
@@ -45,7 +46,7 @@
     "title": "Home button offers",
     "props": {
       "href": "/",
-      "label": "Ver ofertas >>",
+      "label": "Comprar ahora >>",
       "displayMode": "button",
       "blockClass": "home__button-one"
     }

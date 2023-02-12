@@ -1,0 +1,57 @@
+{
+  "flex-layout.row#home__slider2--section-2": {
+    "title": "Slider Main Content2",
+    "children": [
+      "flex-layout.col#home__container--section2"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "home__section--one",
+        "home2__slider2"
+      ]
+    }
+  },
+  "flex-layout.col#home__container--section2": {
+    "title": "Slider Container Content2",
+    "children": [
+      "rich-text#home2__text--section1",
+      "rich-text#home2__text--section2",
+      "rich-text#home2__text--section3",
+      "link#home2__link--button--section"
+    ],
+    "props": {
+      "blockClass": "home__section--info"
+    }
+  },
+  "rich-text#home2__text--section1": {
+    "title": "Home text one",
+    "props": {
+      "text": "Nuevo parlante inalámbrico SRS-XV900",
+      "blockClass": "home2__text--section1"
+    }
+  },
+  "rich-text#home2__text--section2": {
+    "title": "Home text two",
+    "props": {
+      "text": "Fiestas más potentes en cualquier lugar",
+      "blockClass": "home2__text--section2"
+    }
+  },
+  "rich-text#home2__text--section3": {
+    "title": "Home text three",
+    "props": {
+      "text": "Gracias a la batería de larga duración, su portabilidad e iluminación",
+      "blockClass": "home2__text--section3"
+    }
+  },
+  "link#home2__link--button--section": {
+    "title": "Home button offers",
+    "props": {
+      "href": "/",
+      "label": "Descúbrelo >>",
+      "displayMode": "button",
+      "blockClass": "home__button-one"
+    }
+  }
+}

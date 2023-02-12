@@ -7,6 +7,7 @@
   },
 
   "drawer#home__drawer--right": {
+    "title": "Home Drawer Opinion",
     "children": [
       "flex-layout.row#home__drawer--container"
     ],
@@ -21,6 +22,7 @@
   },
 
   "drawer-trigger#right": {
+    "title": "Drawer Trigger Opinion",
     "children": [
       "flex-layout.row#drawer-opinion"
     ]
@@ -40,6 +42,7 @@
   },
 
   "flex-layout.col#home__content--imagen": {
+    "title": "Home Drawer Imagen",
     "children": [
       "image#drawer"
     ],

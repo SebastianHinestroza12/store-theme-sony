@@ -2,7 +2,6 @@
   "flex-layout.row#home__info--section-1": {
     "title": "Flex layout section 1",
     "children": [
-      // "flex-layout.row#home__container-information",
       "flex-layout.col#home__container-information1",
       "flex-layout.col#home__container-information2",
       "flex-layout.col#home__container-information3"
@@ -16,6 +15,7 @@
   },
 
   "flex-layout.col#home__container-information1": {
+    "title": "Home Imagen Davivienda",
     "children": [
       "image#home__image--davivienda"
     ],
@@ -25,6 +25,7 @@
   },
 
   "flex-layout.col#home__container-information2": {
+    "title": "Home Text Davivienda",
     "children": [
       "rich-text#home__info--section-1"
     ],
@@ -33,6 +34,7 @@
     }
   },
   "flex-layout.col#home__container-information3": {
+    "title": "Home Link Ver Mas",
     "children": [
       "link#home__link--info"
     ],
@@ -47,7 +49,7 @@
   "image#home__image--davivienda": {
     "title": "Home Imagen Davivienda",
     "props": {
-      "src": "https://store.sony.com.co/arquivos/LOGO-VISA-BLANCO.png",
+      "src": "https://cosonyb2c.vteximg.com.br/arquivos/davivienda-neg.png",
       "blockClass": "home__image--davivienda"
     }
   },
@@ -55,7 +57,7 @@
   "rich-text#home__info--section-1": {
     "title": "text of information send product",
     "props": {
-      "text": " | Ofertas Exclusivas Pagando con tarjetas VISA*.",
+      "text": " | 0% de interés pagando a 12 cuotas con tarjetas Davivienda* ",
       "blockClass": "home__text--davivienda"
     }
   },

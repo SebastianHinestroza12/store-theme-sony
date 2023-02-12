@@ -29,7 +29,14 @@
   "image#home__slider--one": {
     "title": "Desktop Image Slider 1",
     "props": {
-      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/1554285f-26e0-4b8a-b9a1-7328495af045___8c8d1f93aa085f6d04dd1de08ab2cf96.jpg",
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/59ba3006-e307-4c25-a715-c2d2ddfe5460___8358ad0e67299961a64909997403bfe0.jpg",
+      "blockClass": "home__image--slider"
+    }
+  },
+  "image#home__slider--three": {
+    "title": "Desktop Image Slider 3",
+    "props": {
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/7612369d-2889-45d9-898c-afbdfe6238ea___99e5ec56c71edd75e7bec5f5136ffec8.jpg",
       "blockClass": "home__image--slider"
     }
   },
@@ -37,13 +44,6 @@
     "title": "Desktop Image Slider 2",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/7bc80f86-b576-4977-9582-dde9b3e4374f___8dd27a518570f347bfebe84352ec632b.jpg",
-      "blockClass": "home__image--slider"
-    }
-  },
-  "image#home__slider--three": {
-    "title": "Desktop Image Slider 3",
-    "props": {
-      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/1bb1ed34-0c86-492b-a66d-7c32abe56807___9ee1f3dd8fe6298db6de63d2a7d4e957.jpg",
       "blockClass": "home__image--slider"
     }
   }
