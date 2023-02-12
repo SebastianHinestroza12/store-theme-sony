@@ -12,5 +12,8 @@
 
 }
 
-  
+.container--mobile__search--bar{
+  margin-top: 0 !important;
+}
+
 }
