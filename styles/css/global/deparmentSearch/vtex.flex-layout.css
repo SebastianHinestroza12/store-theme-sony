@@ -1,0 +1,6 @@
+.flexRowContent--department__search--bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
