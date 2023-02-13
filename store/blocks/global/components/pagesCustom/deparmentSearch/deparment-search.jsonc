@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#deparment-search-bar": {
+    "title": "Custom Department Search Bar",
+    "children": [
+      "rich-text#deparment-search-bar",
+      "department-search"
+    ],
+    "props": {
+      "blockClass": "department__search--bar"
+    }
+  },
+  "rich-text#deparment-search-bar": {
+    "title": "Text Custom Department Search Bar",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "custom department search",
+      "blockClass": "text__department--search--bar"
+    }
+  }
+}
