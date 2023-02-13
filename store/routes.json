@@ -1,5 +1,8 @@
 {
   "store.custom#centro-de-ayuda": {
     "path": "/centro-de-ayuda"
+  },
+  "store.custom#deparment-search": {
+    "path": "/mi-pedido"
   }
 }

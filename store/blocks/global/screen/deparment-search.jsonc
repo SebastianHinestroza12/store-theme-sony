@@ -1,0 +1,7 @@
+{
+  "store.custom#deparment-search": {
+    "blocks": [
+      "flex-layout.row#deparment-search-bar"
+    ]
+  }
+}
