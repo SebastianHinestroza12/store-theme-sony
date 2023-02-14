@@ -1,0 +1,7 @@
+{
+  "store.custom#pdp-reader": {
+    "blocks": [
+      "flex-layout.row#pdf__reader"
+    ]
+  }
+}
