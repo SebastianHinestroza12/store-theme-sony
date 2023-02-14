@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#pdf__reader": {
+    "title": "Custom Pdf Reader",
+    "children": [
+      "pdf-reader"
+    ]
+  },
+  "pdf-reader": {
+    "props": {
+      "pdfUrl": "https://file-examples.com/storage/fe1aa0c9d563ea1e4a1fd34/2017/10/file-sample_150kB.pdf",
+      "width": 500,
+      "height": 700
+    }
+  }
+}

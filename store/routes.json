@@ -4,5 +4,8 @@
   },
   "store.custom#deparment-search": {
     "path": "/mi-pedido"
+  },
+  "store.custom#pdp-reader": {
+    "path": "/pdf"
   }
 }
