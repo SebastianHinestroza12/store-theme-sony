@@ -1,0 +1,8 @@
+{
+  "flex-layout.row#quick-order": {
+    "title": "Custom Quick Order",
+    "children": [
+      "quick-order"
+    ]
+  }
+}
