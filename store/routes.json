@@ -10,5 +10,8 @@
   },
   "store.custom#quick-order": {
     "path": "/quick-order"
+  },
+  "store.custom#custom-grid": {
+    "path": "/custom-grid"
   }
 }
