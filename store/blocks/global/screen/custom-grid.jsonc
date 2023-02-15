@@ -1,0 +1,7 @@
+{
+  "store.custom#custom-grid": {
+    "blocks": [
+      "flex-layout.row#custom__grid--template"
+    ]
+  }
+}
