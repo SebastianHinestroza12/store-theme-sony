@@ -6,9 +6,8 @@
     align-items: center;
     width: 100%;
     background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/3e8f2b21-1b73-449e-a725-5c2e45d0d1f1___85a2133e802f0fe9dcf91263906995b4.jpg");
-    height: 470px;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    height: 25.3125rem;
+    background-size: cover;
     background-position: 50%;
 }
 
@@ -44,7 +43,7 @@
 /* CONTENT SLIDER 2 */
 
 .flexRow--home2__slider2{
-  background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/b781a3bd-9a4b-4b42-8268-8fdb533068f6___f8a3518663e71322d32d876e12d17bf2.jpg");
+  background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/45c98f9b-f7c6-4ebe-b582-ab987553b76f___6b1eb81b74a2639828a28b1144df1dba.jpg");
 }
 
 
@@ -52,7 +51,7 @@
 /* CONTENT SLIDER 3 */
 
 .flexRow--home3__slider3{
-  background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/55c74716-df70-4532-83ee-0f242b3524fd___32ff68d2178cf47a8bb7108655e35290.jpg");
+  background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/0c3bd9f4-5460-4098-98be-473d5c8e975b___8ca0961585c4bfba240e198f50b32e95.jpg");
 }
 
 /* CONTENT SLIDER 4 */
