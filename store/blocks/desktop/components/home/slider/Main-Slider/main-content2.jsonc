@@ -27,29 +27,29 @@
   "rich-text#home2__text--section1": {
     "title": "Home text one",
     "props": {
-      "text": "Nuevo parlante inalámbrico SRS-XV900",
-      "blockClass": "home2__text--section1"
+      "text": "Del 15 al 28 de Feb/2023",
+      "blockClass": "home__text--section1"
     }
   },
   "rich-text#home2__text--section2": {
     "title": "Home text two",
     "props": {
-      "text": "Fiestas más potentes en cualquier lugar",
-      "blockClass": "home2__text--section2"
+      "text": "!Ofertas en cámaras, lentes y mucho más!",
+      "blockClass": "home__text--section2"
     }
   },
   "rich-text#home2__text--section3": {
     "title": "Home text three",
     "props": {
-      "text": "Gracias a la batería de larga duración, su portabilidad e iluminación",
-      "blockClass": "home2__text--section3"
+      "text": "Aprovecha 10% dcto Extra Precio: Ingresando el cupón: **ALPHA**",
+      "blockClass": "home__text--section3"
     }
   },
   "link#home2__link--button--section": {
     "title": "Home button offers",
     "props": {
       "href": "/",
-      "label": "Descúbrelo >>",
+      "label": "Ver ofertas >>",
       "displayMode": "button",
       "blockClass": "home__button-one"
     }

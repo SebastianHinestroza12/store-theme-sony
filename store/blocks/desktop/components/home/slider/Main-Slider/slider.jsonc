@@ -26,10 +26,10 @@
       "blockClass": "main__slider"
     },
     "children": [
-      "flex-layout.row#home__slider--section-1",
+      // "flex-layout.row#home__slider--section-1",
       "flex-layout.row#home__slider2--section-2",
-      "flex-layout.row#home__slider3--section-3",
-      "flex-layout.row#home__slider4--section-4"
+      "flex-layout.row#home__slider4--section-4",
+      "flex-layout.row#home__slider3--section-3"
     ]
   }
 }

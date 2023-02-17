@@ -27,21 +27,21 @@
   "rich-text#home3__text--section1": {
     "title": "Home text one",
     "props": {
-      "text": "Del 28 de Oct/2022 al 31 de Mar/2023",
+      "text": "Nueva pantalla para autos XAV-AX4000",
       "blockClass": "home__text--section1"
     }
   },
   "rich-text#home3__text--section2": {
     "title": "Home text two",
     "props": {
-      "text": "Compra y registra tu producto",
+      "text": "La mejor conectividad y sonido en tu auto",
       "blockClass": "home__text--section2"
     }
   },
   "rich-text#home3__text--section3": {
     "title": "Home text three",
     "props": {
-      "text": "Y recibe garantía extendida de 1 año",
+      "text": "Con una experiencia totalmente inalámbrica de pantalla táctil y control intuitivo de música y aplicaciones.",
       "blockClass": "home__text--section3"
     }
   },
@@ -49,7 +49,7 @@
     "title": "Home button offers",
     "props": {
       "href": "/",
-      "label": " Ver más >>",
+      "label": "Conoce más >>",
       "displayMode": "button",
       "blockClass": "home__button-one"
     }
