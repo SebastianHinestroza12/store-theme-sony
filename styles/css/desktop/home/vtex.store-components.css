@@ -1,5 +1,6 @@
 .imageElement--home__image--slider{
   max-width: 1196px;
+  cursor: pointer;
 }
 
 .imageElement--images__favorites{

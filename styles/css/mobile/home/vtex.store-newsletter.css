@@ -15,19 +15,13 @@
 
 .emailInputContainer--home__input--mobile{
   width: 16.8rem;
-  
-}
 
-.formSubmitContainer{
-  width: 16.5rem;
 }
 
 .newsletterForm--home__form--newletter :global(.vtex-button){
   background-color: #F25529;
-  width: 100%;
   border: none;
   transition: all .25s;
-  min-height: 36px;
   border-radius: 0 ;
 }
 

@@ -1,12 +1,9 @@
 .nameInputContainer{
-  width: 13%;
   display: inline-block;
-  margin-right: 0.2em;
 }
 .emailInputContainer{
   width: 268px;
   display: inline-block;
-  margin-right: 0.2em;
   border-radius: 0 !important;
 }
 
@@ -17,7 +14,7 @@
 }
 
 .newsletterForm--home__form--newletter{
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

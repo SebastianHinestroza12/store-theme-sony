@@ -4,18 +4,16 @@
     justify-content: center;
     opacity: .95;
     align-items: center;
+    min-height: 3.125rem;
 }
 .flexColChild--home__sectionCol--2--info {
-    width: 80%;
+  margin: 0 8px 0 25px;
 }
 
 .flexRowContent--home__section--2{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.flexColChild--home__sectionCol--2{
-    padding: 3px;
 }
 
 /* SLIDER 1 */
@@ -88,15 +86,46 @@
 }
 
 .flexRow--Home__container--form--newletter{
-    width: 90%;
-    padding: 1.6em 0 2.6em!important;
-    justify-content: center;
-    display: flex;
-    align-items: center;
     margin: 0 auto;
-    position: relative;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
+    width: 85%;
     background-color: #F1F5F9;
+}
+
+@media screen and (min-width: 2560px) and (max-width: 2999px) {
+  .flexRow--Home__container--form--newletter{
+    width: 48%;
+}
+}
+
+.flexRowContent--container__newletter__block{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  max-width: 42.4375rem;
+}
+.flexCol--container__newletter__col1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.flexColChild--container__newletter__col1:nth-child(-n+2){
+  max-width: 8.125rem;
+}
+
+.flexCol--container__newletter__col2{
+  display: flex;
+  justify-content: center;
+}
+
+.flexRow--container__newletter__block{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Payments */
