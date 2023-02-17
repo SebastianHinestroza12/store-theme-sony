@@ -10,7 +10,9 @@
       "blockClass": "home__section--2",
       "colSizing": "auto",
       "horizontalAlign": "center",
-      "fullWidth": true
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
     }
   },
 
