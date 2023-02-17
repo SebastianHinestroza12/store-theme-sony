@@ -1,0 +1,21 @@
+{
+  "flex-layout.col#bullets__group--text5": {
+    "title": "Bullet Group Text",
+    "children": [
+      "rich-text#bullets5__group1"
+    ],
+    "props": {
+      "blockClass": "bullet__group--col"
+    }
+  },
+
+  "rich-text#bullets5__group1": {
+    "title": "Bullet Text 1",
+    "props": {
+      "text": "LOS MÁS VENDIDOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "bullet__group--text1"
+    }
+  }
+}

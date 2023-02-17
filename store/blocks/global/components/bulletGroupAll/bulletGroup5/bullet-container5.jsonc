@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#bullets__group--list5": {
+    "title": "Bullet Group5",
+    "children": [
+      "flex-layout.col#bullets__group--text5",
+      "list-context.bullet-group5"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "colSizing": "auto",
+      "blockClass": [
+        "bullet-group--list",
+        "bulles__group--list5"
+      ]
+    }
+  }
+}

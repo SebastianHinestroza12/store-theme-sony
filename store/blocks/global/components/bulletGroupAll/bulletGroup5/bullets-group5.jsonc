@@ -1,0 +1,50 @@
+{
+  "list-context.bullet-group5": {
+    "title": "List Context Bullets Group5",
+    "children": [
+      "slider-layout#bullet-group5"
+    ],
+    "props": {
+      "bullets": [
+        {
+          "imageAudio": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676041326/colombia_fnwboz.png",
+          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676607955/gara_gmg2tp.png",
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/286575/ILCE-6100L-1000x1000px-01.jpg?v=1762966982",
+          "titleBullet": "Cámara APS-C a6100 con enfoque automático rápido",
+          "bulletBrand": "| ILCE-6100L E38",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609558/4.5.1_srrvqa.png",
+          "bulletPrice": "$ 4.469.899",
+          "bulletDiscount": "$ 4.739.900",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "imageAudio": "https://res.cloudinary.com/dafsjo7al/image/upload/v1675884851/audio_bca8qr.png",
+          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1675882522/3.0_ok1yac.png",
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/351282/d7b7a583061ec800dfa74bea7bc37941.jpg?v=1762162480",
+          "titleBullet": "Audífonos inalámbricos con Noise Cancelling WF-1000XM4",
+          "bulletBrand": "WF1000XM4/BMUC",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609410/4.2_d0qdvq.png",
+          "bulletPrice": "$ 899.898",
+          "bulletDiscount": "$ 1.499.900",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676613078/23_z9f9yh.png",
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/345811/MHC-V83D_01_Front.jpg?v=1762984163",
+          "titleBullet": "Sistema de audio de alta potencia V83D con tecnología BLUETOOTH®",
+          "bulletBrand": "| MHC-V83D//M LA9",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609240/4.9_vjjuyy.png",
+          "bulletPrice": "$ 2.699.895",
+          "bulletDiscount": "$ 3.499.000",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  }
+}

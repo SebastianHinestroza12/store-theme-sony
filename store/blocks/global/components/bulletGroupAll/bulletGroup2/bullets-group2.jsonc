@@ -8,11 +8,12 @@
       "bullets": [
         {
           "imageAudio": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676041326/colombia_fnwboz.png",
-          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676040780/foto_gvn5bi.png",
+          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676606742/discount1_swn23p.png",
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/354856/ILME-FX3-1-Main-a.jpg?v=1762420753",
           "titleBullet": "Cámara FX3 Cinema Line full-frame",
           "bulletBrand": "ILME-FX3//Q E38",
-          "bulletPrice": "$ 20.019.900",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609240/4.9_vjjuyy.png",
+          "bulletPrice": "$ 20.559.900",
           "bulletDiscount": "$ 21.829.900",
           "link": {
             "url": "/"
@@ -20,11 +21,12 @@
         },
         {
           "imageAudio": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676041326/colombia_fnwboz.png",
-          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676040780/foto_gvn5bi.png",
+          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676606742/discount1_swn23p.png",
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/352305/ZV-E10L.jpg?v=1762420745",
           "titleBullet": "Cámara digital con lente intercambiable para vblog",
           "bulletBrand": "ZV-E10L/BQ E38",
-          "bulletPrice": "$ 4.099.901",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609410/4.2_d0qdvq.png",
+          "bulletPrice": "$ 4.209.900",
           "bulletDiscount": "$ 4.469.899",
           "link": {
             "url": "/"
@@ -32,111 +34,120 @@
         },
         {
           "imageAudio": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676041326/colombia_fnwboz.png",
-          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676040875/red_zsjs0b.png",
+          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676606745/discount2_vot31j.png",
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/335572/ZV1-1000x1000px-1-Main.jpg?v=1762420758",
           "titleBullet": "Cámara ZV-1 para videoblogs",
           "bulletBrand": "ZV-1/BC UC2",
-          "bulletPrice": "$ 3.839.900",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609727/4.7_grzdvf.png",
+          "bulletPrice": "$ 3.939.900",
           "bulletDiscount": "$ 4.179.900",
           "link": {
             "url": "/"
           }
         },
         {
-          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676041016/8_cdpame.png",
+          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676606748/discount3_orzwry.png",
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/354345/SEL2470GM2-1-Main-B.jpg?v=1762420723",
           "titleBullet": "FE 24-70 mm F2,8 GM II",
           "bulletBrand": "SEL2470GM2.SOLA",
-          "bulletPrice": "$ 11.799.898",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609240/4.9_vjjuyy.png",
+          "bulletPrice": "$ 12.119.900",
           "bulletDiscount": "$ 12.859.898",
           "link": {
             "url": "/"
           }
         },
         {
-          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676041016/8_cdpame.png",
-          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/354249/SELP1635G-1-Main-B.jpg?v=1762420747",
-          "titleBullet": "FE PZ 16-35 mm F4 G",
-          "bulletBrand": "SELP1635G SOLA",
-          "bulletPrice": "$ 6.159.901",
-          "bulletDiscount": "$ 6.709.899",
+          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676607474/exclusivo_fqkeee.png",
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/353020/a65cd33eef9edbf78f679c7e43bb1a2f.jpg?v=1762966982",
+          "titleBullet": "FE 70-200 mm F2.8 GM OSS II",
+          "bulletBrand": "SEL70200GM2 SOLA",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609727/4.7_grzdvf.png",
+          "bulletPrice": "$ 14.759.900",
+          "bulletDiscount": "$ 15.659.900",
           "link": {
             "url": "/"
           }
         },
         {
-          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676041011/garantias_juu559.png",
+          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676607588/garantia_fmt1y9.png",
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/350980/4335ff88f27d98d3b997b40d742c35f1.jpg?v=1762420755",
           "titleBullet": "FE 14mm F1.8 GM",
           "bulletBrand": "SEL14F18GM/C",
-          "bulletPrice": "$ 8.209.900",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609240/4.9_vjjuyy.png",
+          "bulletPrice": "$ 8.429.901",
           "bulletDiscount": "$ 8.939.900",
           "link": {
             "url": "/"
           }
         },
         {
-          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676041011/garantias_juu559.png",
+          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676607588/garantia_fmt1y9.png",
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/355973/SEL24F28G-1-Main-B.jpg?v=1762420746",
           "titleBullet": "FE 24 mm F2.8 G",
           "bulletBrand": "SEL24F28G.SOLA",
-          "bulletPrice": "$ 3.069.900",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609103/4.5_mdndet.png",
+          "bulletPrice": "$ 3.149.900",
           "bulletDiscount": "$ 3.339.900",
           "link": {
             "url": "/"
           }
         },
         {
-          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676041011/garantias_juu559.png",
+          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676607588/garantia_fmt1y9.png",
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/355965/SEL50F25G-1-Main-B.jpg?v=1762420746",
           "titleBullet": "FE 50 mm F2.5 G",
           "bulletBrand": "SEL50F25G SOLA",
-          "bulletPrice": "$ 3.069.900",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609103/4.5_mdndet.png",
+          "bulletPrice": "$ 3.149.900",
           "bulletDiscount": "$ 3.339.900",
           "link": {
             "url": "/"
           }
         },
         {
-          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676041011/garantias_juu559.png",
-          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/350673/980a699644e3a28138c92fcb8a43f36c.jpg?v=1762420738",
-          "titleBullet": "FE 40 mm F2.5 G",
-          "bulletBrand": "SEL40F25G SOLA",
-          "bulletPrice": "$ 3.069.900",
-          "bulletDiscount": "$ 3.339.900",
+          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676607955/gara_gmg2tp.png",
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/320852/f57b85b6c5a8f45d97410a5d6b52d3be.jpg?v=1762966982",
+          "titleBullet": "Lente teleobjetivo de 2x",
+          "bulletBrand": "SEL20TC//Q SYX",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609103/4.5_mdndet.png",
+          "bulletPrice": "$ 2.889.900",
+          "bulletDiscount": "$ 3.059.901",
           "link": {
             "url": "/"
           }
         },
         {
-          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676041011/garantias_juu559.png",
+          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676607588/garantia_fmt1y9.png",
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/350653/18fe8b6ac35b8643455488ed374c9983.jpg?v=1762420753",
           "titleBullet": "FE 50 mm F1.2 GM",
           "bulletBrand": "SEL50F12GM/Q",
-          "bulletPrice": "$ 10.259.900",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609103/4.5_mdndet.png",
+          "bulletPrice": "$ 10.539.900",
           "bulletDiscount": "$ 11.179.900",
           "link": {
             "url": "/"
           }
         },
         {
-          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676041011/garantias_juu559.png",
+          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676607588/garantia_fmt1y9.png",
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/354042/SEL35F14GM-1-Main-A.jpg?v=1762420748",
           "titleBullet": "FE 35 mm F1.4 GM",
           "bulletBrand": "SEL35F14GM/Q",
-          "bulletPrice": "$ 7.179.900",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609240/4.9_vjjuyy.png",
+          "bulletPrice": "$ 7.369.900",
           "bulletDiscount": "$ 7.819.901",
           "link": {
             "url": "/"
           }
         },
         {
-          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676041011/garantias_juu559.png",
-          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/355552/SEL20F18G-1000x1000px-01-Main.jpg?v=1762420724",
-          "titleBullet": "FE 20 mm F1.8 G",
-          "bulletBrand": "SEL20F18G//QSYX",
-          "bulletPrice": "$ 4.609.901",
-          "bulletDiscount": "$ 5.019.900",
+          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676608200/10_iqy18a.png",
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/355597/SEL18135-1-Main-B.jpg?v=1762966982",
+          "titleBullet": "E 18-135mm F3.5-5.6 OSS",
+          "bulletBrand": "SEL18135.ALL",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609103/4.5_mdndet.png",
+          "bulletPrice": "$ 3.069.900",
           "link": {
             "url": "/"
           }

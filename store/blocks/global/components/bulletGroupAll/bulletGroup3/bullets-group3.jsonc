@@ -11,6 +11,7 @@
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/355901/711719555360_003.jpg?v=1762421002",
           "titleBullet": "PlayStation™5 Estandar God of War Ragnarok (Voucher)",
           "bulletBrand": "|PS5 ESTANDAR GOD OF WAR RAGNAROK",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609727/4.7_grzdvf.png",
           "bulletPrice": "$ 3.998.997",
           "bulletDiscount": "$ 4.499.900",
           "link": {
@@ -22,6 +23,7 @@
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/354853/0a91981ac38b7c0cbedb5a08c75db572.jpg?v=1762420739",
           "titleBullet": "Audífonos inalámbricos con micrófono INZONE H7 para juegos",
           "bulletBrand": "| WH-G700/WZ UC",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609103/4.5_mdndet.png",
           "bulletPrice": "$ 899.898",
           "bulletDiscount": "$ 1.399.901",
           "link": {
@@ -33,6 +35,7 @@
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/183659/dualshock-magma1-1000.jpg?v=1762420711",
           "titleBullet": "PS4 DS4 (CUH-ZCT2U 11) Magma Red - LATAM",
           "bulletBrand": "| 3001551",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609727/4.7_grzdvf.png",
           "bulletPrice": "$ 349.900",
           "link": {
             "url": "/"
@@ -43,6 +46,7 @@
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/354845/39bf4d07b80f99034f09db5d7644e036.jpg?v=1762420744",
           "titleBullet": "Audífonos con cable y micrófono INZONE H3 para juegos",
           "bulletBrand": "| MDR-G300/WZ UC",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609240/4.9_vjjuyy.png",
           "bulletPrice": "$ 349.899",
           "bulletDiscount": "$ 619.901",
           "link": {
@@ -53,6 +57,7 @@
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/347858/ps5-Spiderman-cover.jpg?v=1762420713",
           "titleBullet": "PS5 Marvel’s Spider-Man: Miles Morales",
           "bulletBrand": "| PS5 Marvel’s Spider-Man: Miles Morales",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609103/4.5_mdndet.png",
           "bulletPrice": "$ 289.899",
           "link": {
             "url": "/"
@@ -62,6 +67,7 @@
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/352002/PS5-DualSense-MidnightBlack.jpg?v=1762420715",
           "titleBullet": "Control Inalámbrico DualSense™ Midnight Black",
           "bulletBrand": "|PS5 Dualsense Midnight Black",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609240/4.9_vjjuyy.png",
           "bulletPrice": "$ 369.900",
           "link": {
             "url": "/"
@@ -72,6 +78,7 @@
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/356025/TV65x80J-PS5ST.jpg?v=1762377947",
           "titleBullet": "Kit TV 65X80J + Playstation 5 Estandar",
           "bulletBrand": "|Kit:TV 65X80J + Playstation 5 Estandar",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609410/4.2_d0qdvq.png",
           "bulletPrice": "$ 7.699.900",
           "bulletDiscount": "$ 10.599.899",
           "link": {
@@ -81,6 +88,7 @@
         {
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/354928/711719553427_001.jpg?v=1762421001",
           "titleBullet": "PS5 The Last Of Us: Part 1",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609103/4.5_mdndet.png",
           "bulletBrand": "|PS5 The Last Of Us: Part 1",
           "bulletPrice": "$ 419.900",
           "link": {
@@ -92,6 +100,7 @@
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/354752/14633747850_001.jpg?v=1762420999",
           "titleBullet": "PS5 F1 2022",
           "bulletBrand": "|PS5 F1 2022",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609410/4.2_d0qdvq.png",
           "bulletPrice": "$ 265.900",
           "bulletDiscount": "$ 349.900",
           "link": {
@@ -101,6 +110,7 @@
         {
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/354796/810050910323_004.jpg?v=1762421001",
           "titleBullet": "HORI Wireless Racing Wheel Apex",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609103/4.5_mdndet.png",
           "bulletBrand": "|HORI Wireless Racing Wheel Apex",
           "bulletPrice": "$ 699.900",
           "link": {
@@ -111,6 +121,7 @@
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/353080/PA_CIRC_1stParty_PS4_FRONT_RP_071421-2.jpg?v=1762420716",
           "titleBullet": "PS4 Call of Duty Vanguard",
           "bulletBrand": "|PS4 Call of Duty Vanguard",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609727/4.7_grzdvf.png",
           "bulletPrice": "$ 329.900",
           "link": {
             "url": "/"
@@ -121,6 +132,7 @@
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/352022/PS5-F1-2021---1-.jpg?v=1762420716",
           "titleBullet": "PS5 F1 2021",
           "bulletBrand": "|PS5 F1 2021",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609103/4.5_mdndet.png",
           "bulletPrice": "$ 181.900",
           "bulletDiscount": "$ 219.900",
           "link": {
@@ -131,6 +143,7 @@
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/354026/711719548133_PS5_Standard_HZFW_Pshot_A.jpg?v=1762420715",
           "titleBullet": "PS5 Horizon Forbidden West",
           "bulletBrand": "|PS5 Horizon Forbidden West",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609727/4.7_grzdvf.png",
           "bulletPrice": "$ 449.900",
           "link": {
             "url": "/"
@@ -141,6 +154,7 @@
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/353096/014633382181_001.jpg?v=1762420716",
           "titleBullet": "PS4 Battlefield 2042",
           "bulletBrand": "|PS4 Battlefield 2042",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609103/4.5_mdndet.png",
           "bulletPrice": "$ 119.900",
           "bulletDiscount": "$ 299.900",
           "link": {
@@ -152,6 +166,7 @@
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/189388/UCC_PS4_JEWELCASE.jpg?v=1762420710",
           "titleBullet": "PS4 Uncharted: The Nathan Drake Collection Hits",
           "bulletBrand": "| PS4 Uncharted Collection",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609103/4.5_mdndet.png",
           "bulletPrice": "$ 99.901",
           "link": {
             "url": "/"
@@ -161,6 +176,7 @@
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/244406/CTR_Packshot_PS4.jpg?v=1762420712",
           "titleBullet": "PS4 Crash Team Racing",
           "bulletBrand": "| PS4 Crash Team Racing",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609103/4.5_mdndet.png",
           "bulletPrice": "$ 219.900",
           "link": {
             "url": "/"
@@ -171,6 +187,7 @@
           "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/341182/pack_2D_gtavp_ps4.jpg?v=1762420712",
           "titleBullet": "PS4® Grand Theft Auto V™",
           "bulletBrand": "| PS4 Grand Theft Auto V",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609103/4.5_mdndet.png",
           "bulletPrice": "$ 109.900",
           "bulletDiscount": "$ 119.900",
           "link": {

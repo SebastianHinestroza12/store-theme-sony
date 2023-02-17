@@ -1,0 +1,49 @@
+{
+  "list-context.bullet-group4": {
+    "title": "List Context Bullets Group4",
+    "children": [
+      "slider-layout#bullet-group4"
+    ],
+    "props": {
+      "bullets": [
+        {
+          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676611821/20_ebekgj.png",
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/355181/01-Product-XAV-AX4000.jpg?v=637987935463500000",
+          "titleBullet": "Receptor multimedia digital XAV-AX4000",
+          "bulletBrand": "| XAV-AX4000/QE17",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609558/4.5.1_srrvqa.png",
+          "bulletPrice": "$ 1.999.588",
+          "bulletDiscount": "$ 2.499.900",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "imageAudio": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676041326/colombia_fnwboz.png",
+          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676607588/garantia_fmt1y9.png",
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/353439/ILCE-7M4K.jpg?v=637747433440330000",
+          "titleBullet": "Cámara híbrida full-frame Alpha 7 IV",
+          "bulletBrand": "| ILCE-7M4K E38",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609240/4.9_vjjuyy.png",
+          "bulletPrice": "$ 14.239.901",
+          "bulletDiscount": "$ 15.109.900",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "imageDiscount": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676055729/new36_qdbq4v.png",
+          "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/354853/0a91981ac38b7c0cbedb5a08c75db572.jpg?v=1762420739",
+          "titleBullet": "Audífonos inalámbricos con micrófono INZONE H7 para juegos",
+          "bulletBrand": "| WH-G700/WZ UC",
+          "rating": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676609103/4.5_mdndet.png",
+          "bulletPrice": "$ 899.898",
+          "bulletDiscount": "$ 1.399.901",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  }
+}
