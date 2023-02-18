@@ -33,21 +33,21 @@
   "image#mobile__slider--one": {
     "title": "Mobile Image Slider 1",
     "props": {
-      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/67577e40-8e8a-4a2b-adba-0ebba9f6d7c6___f9635ba576c211c4a26e85a6ce421596.jpg",
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/134d3255-917b-4e31-a5b6-e1c63543ff0d___25ef5dcfaaa2276e69dc886479ede962.jpg",
       "blockClass": "home__image--mobile"
     }
   },
   "image#mobile__slider--two": {
     "title": "Mobile Image Slider 2",
     "props": {
-      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/6188e31c-5298-4861-8ac5-f20a99998bda___4a7b94d5ab40913a24b6dc711eaa1d72.jpg",
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/ad31a41c-6c08-42cf-a477-abfd8a9fdac3___da5308add2144be10080edf9fe3bc5f0.jpg",
       "blockClass": "home__image--mobile"
     }
   },
   "image#mobile__slider--three": {
     "title": "Mobile Image Slider 3",
     "props": {
-      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/f3468f77-1d6d-4c8b-b3e7-0894e4297fec___0917ebfbcd39308188441b98d56290b5.jpg",
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/b976020f-2d10-4d48-9839-7f1d02c8fe80___161fbaf3873d9897bcf8d3ae039fdec8.jpg",
       "blockClass": "home__image--mobile"
     }
   }

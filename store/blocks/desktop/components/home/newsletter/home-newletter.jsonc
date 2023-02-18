@@ -2,15 +2,36 @@
   "flex-layout.row#home__title--newletter": {
     "title": "Home title new letter",
     "children": [
-      "image#home__img--newletter",
-      "rich-text#home__text--newletter"
+      "flex-layout.col#newletter__image",
+      "flex-layout.col#newletter__title"
     ],
     "props": {
       "blockClass": "home__title--newletter",
-      "fullWidth": true
+      "fullWidth": true,
+      // "colSizing": "auto",
+      "colJustify": "around",
+      "preventHorizontalStretch": true
     }
   },
 
+  "flex-layout.col#newletter__image": {
+    "children": [
+      "image#home__img--newletter"
+    ],
+    "props": {
+      "blockClass": "container__newletter--image"
+      // "width": "grow"
+    }
+  },
+  "flex-layout.col#newletter__title": {
+    "children": [
+      "rich-text#home__text--newletter"
+    ],
+    "props": {
+      "blockClass": "container__newletter--title",
+      "width": "grow"
+    }
+  },
   "image#home__img--newletter": {
     "title": "Image title new letter",
     "props": {

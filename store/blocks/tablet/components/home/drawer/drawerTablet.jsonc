@@ -1,0 +1,11 @@
+{
+  "flex-layout.row#drawer__tablet": {
+    "title": "Darwer Question Tablet",
+    "children": [
+      "drawer#home__drawer--right"
+    ],
+    "props": {
+      "blockClass": "drawer__tablet"
+    }
+  }
+}
