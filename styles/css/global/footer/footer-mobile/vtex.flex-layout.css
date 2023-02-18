@@ -27,13 +27,26 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
+
 .flexCol--footer__section2--col2{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 4px;
+  margin: 2rem 0;
 }
   .flexColChild--footer__section2--col3{
     height: 48px !important;
+    width: 52px;
   }
+  .flexCol--footer__section2--col3{
+    margin: 0;
+}
+.flexCol--footer__desktopCol--section3{
+  transform: none;
+}
+
+.flexCol--vtex__icon{
+  transform: none;
+}
 }

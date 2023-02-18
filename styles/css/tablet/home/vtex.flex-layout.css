@@ -8,12 +8,9 @@
   margin-top: 2rem;
 }
 .flexCol--mobile__section--info {
-    /* border: 1px solid red; */
     width: 50% !important;
 }
 .flexRowContent--mobile__home--infomation{
-    border: 1px solid red;
-    transform: translate(-205px, -211px);
     display: none;
 }
 .flexCol--mobile__col--pictures--container{

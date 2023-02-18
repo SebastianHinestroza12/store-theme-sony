@@ -1,5 +1,5 @@
 @media (min-width: 768px) and (max-width: 1024px) {
-  
+
   .flexRowContent--Container__social-media-block{
     padding: 1rem;
     position: relative;
@@ -16,9 +16,24 @@
 
   .flexColChild--footer__section2--col3 {
     transform: translate(10px, 38px);
+    padding: 1.5rem;
   }
 
   .flexColChild--footer__mobile--columns:first-child{
     padding-top: 1.5rem;
   }
+
+.flexRowContent--footer__desktop--section3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flexCol--footer__desktopCol--section3{
+  transform: translateX(-25px);
+}
+
+.flexCol--vtex__icon{
+  transform: none;
+
+}
 }
