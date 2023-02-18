@@ -1,7 +1,8 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .imageElement--home__image--mobile{
-    margin: 0;
-    width: 90%;
+    max-height: 420px;
+    width: 70%;
+    background-size: cover;
   }
 
 }

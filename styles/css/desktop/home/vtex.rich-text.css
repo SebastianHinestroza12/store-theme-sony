@@ -135,18 +135,17 @@
 /* NewLetter */
 
 .container--home__text--newletter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #000;
-    transform: translateX(-271px);
+  display: flex;
+  justify-content:start;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
 }
-
 .paragraph--home__text--newletter{
-    margin-right: 6rem;
-    font-size: 23px;
+  font-size: 32px;
+  color: #2f353d;
+  margin-left: .9375rem;
 }
-
 /* //Payments */
 
 .container--text__orange--payment{
@@ -181,13 +180,13 @@
     align-items: center;
     margin: 1px;
     font-size: 20px;
-    line-height: 28px;
-    font-weight: 300;
 }
 
 .paragraph--home__help--correo{
     color : #83838F;
-    text-decoration: none;
-
 }
 
+.link--home__help--correo{
+  text-decoration: none;
+  color: #0057F4;
+}

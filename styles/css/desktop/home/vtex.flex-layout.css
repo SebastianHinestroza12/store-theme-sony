@@ -81,10 +81,14 @@
 /* Title NewLetter */
 
 .flexRow--home__title--newletter{
-    margin-top: 3rem ;
-    margin-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 61.5rem;
+  margin: 2rem auto;
 }
-
+.flexCol--container__newletter--image{
+  margin-left: 1.0625rem;
+}
 .flexRow--Home__container--form--newletter{
     margin: 0 auto;
     margin-bottom: 1rem;

@@ -10,12 +10,10 @@
 }
 
 .nameInputContainer--home__input--mobile{
-  width: 16.8rem;
+  width: 85%;
 }
-
 .emailInputContainer--home__input--mobile{
-  width: 16.8rem;
-
+  width: 85%;
 }
 
 .newsletterForm--home__form--newletter :global(.vtex-button){
@@ -32,4 +30,13 @@
   transition: all .25s;
   min-height: 36px;
   border-radius: 0 ;
+}
+
+@media only screen and (max-width: 575px){
+  .formSubmitContainer{
+    display: inline-block;
+    margin-top: 1.4rem;
+    transition: all .25s;
+    width: 85%;
+  }
 }

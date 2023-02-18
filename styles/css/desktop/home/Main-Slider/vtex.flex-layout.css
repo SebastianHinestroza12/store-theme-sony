@@ -17,11 +17,13 @@
     display: flex;
     align-items: center;
     width: 100%;
-    background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/3e8f2b21-1b73-449e-a725-5c2e45d0d1f1___85a2133e802f0fe9dcf91263906995b4.jpg");
     height: 22.25rem !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
+}
+  .flexCol--home__section--info  {
+    max-width: 17.1875rem;
 }
 }
 

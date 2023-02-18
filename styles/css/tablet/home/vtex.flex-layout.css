@@ -1,13 +1,11 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
 .flexRowContent--mobile__marco--slider{
-    height: 83px;
     display: flex;
     align-items: center;
-    padding: 0 !important;
-    margin-top: 0 !important;
-    width: 110%;
-    transform: translateX(-22px);
+}
+.flexRowContent--mobile__home--slider2{
+  margin-top: 2rem;
 }
 .flexCol--mobile__section--info {
     /* border: 1px solid red; */
@@ -38,4 +36,7 @@
     display: flex;
     justify-content: flex-start;
 }
+.flexRow--drawer__tablet{
+    display:block;
+  }
 }

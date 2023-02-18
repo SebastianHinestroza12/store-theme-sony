@@ -21,7 +21,7 @@
   justify-content: center;
   align-items: center;
   /* border: 1px solid #fff; */
-  
+
 }
 
 /* BUTTON OF SURVEYS MOBILE */
@@ -42,10 +42,6 @@
 
 .label--home__button--surveys{
   font-size: .775rem;
-}
-
-.link--marco__link--text{
-  text-decoration: none;
 }
 
 .link--mobile__link--picture{

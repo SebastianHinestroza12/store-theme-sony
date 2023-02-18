@@ -18,22 +18,21 @@
 
 .paragraph--mobile__text--davivienda{
     color: #bcbccc;
-    padding-top: 1rem;
     font-size: 18px;
     font-weight: 700;
+    padding: .5625rem;
     text-align: center;
-
 }
 
-.paragraph--mobile__text--ver{
+.link--mobile__text--davivienda{
   background: transparent!important;
   font-size: 18px;
   color: #5787f4;
-  text-decoration: none !important;
+  text-decoration: none;
+  margin-left: 0.5em;
 }
 
-
-.paragraph--mobile__text--ver:hover{
+.link--mobile__text--davivienda:hover{
   color: #EE5C38;
 }
 
@@ -97,8 +96,11 @@
     font-size: 20px;
     line-height: 28px;
     font-weight: 300;
+    color: #83838f;
 }
-
+.link--home__help--correo1{
+  text-decoration: none;
+}
 .paragraph--mobile__text--one--picture{
     font-size: 18px;
     line-height: 26px;

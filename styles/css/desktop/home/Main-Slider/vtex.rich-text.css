@@ -36,3 +36,12 @@
   color: #FFF;
   font-size: 15px;
 }
+
+@media only screen and (max-width: 575px){
+  .paragraph--home__text--section2{
+    font-size: 20px;
+}
+.paragraph--home2__text--section2{
+  font-size: 20px;
+}
+}

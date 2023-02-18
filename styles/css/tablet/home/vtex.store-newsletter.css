@@ -4,20 +4,24 @@
   .newsletterForm--home__form--newletter--mobile{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    height: 106px;
-    width: 100vw !important;
+    justify-content: center;
+    align-items: center;
+    height: 6.625rem;
+    width: 100%  !important;
   }
 
   .nameInputContainer--home__input--mobile{
-  width: 7.8rem;
+    width: 17%;
   }
   .emailInputContainer--home__input--mobile{
-  width: 11.8rem;
+    width: 20%;
   }
-
+  .newsletterForm--home__form--newletter--mobile{
+    margin-top: 0;
+  }
   .newsletterForm--home__form--newletter--mobile :global(.vtex-button){
-    width: 60%;
+    width: 100%;
+    margin-left: 5px;
     transform: translateY(-11px);
   }
 }

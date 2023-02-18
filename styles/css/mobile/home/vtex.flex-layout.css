@@ -14,7 +14,8 @@
 }
 
 .flexRowContent--mobile__marco--slider{
-  background-color: #212530
+  background-color: #212530;
+  padding: .4375rem;
 }
 
 /* FAVORITE SONY STORE */
@@ -88,3 +89,9 @@
   margin: 6px;
   align-items: center;
 }
+
+.flexRow--drawer__tablet{
+    display: none;
+  }
+
+

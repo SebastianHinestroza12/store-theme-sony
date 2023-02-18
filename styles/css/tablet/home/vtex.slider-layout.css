@@ -4,7 +4,10 @@
     margin-bottom: 2rem;
   }
 
-  .slide--home__slider--sectiontwo{
-    margin-top: 5rem;
+  .sliderTrack--home__slider--sectiontwo{
+    height: 13.3125rem;
+  }
+  .sliderArrows--home__slider--sectiontwo{
+    margin-top: 0;
   }
 }
