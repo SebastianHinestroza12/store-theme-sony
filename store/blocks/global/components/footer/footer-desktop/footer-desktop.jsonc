@@ -136,7 +136,8 @@
     "props": {
       "blockClass": "footer__desktop--section3",
       "colSizing": "auto",
-      "colJustify": "around"
+      "colJustify": "around",
+      "fullWidth": true
     }
   },
   "flex-layout.col#footer__desktop--politicas": {
