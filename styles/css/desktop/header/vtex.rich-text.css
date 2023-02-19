@@ -1,4 +1,3 @@
-
 .paragraph--header__store--text{
   font-size: 8px;
   text-transform: uppercase;
@@ -20,8 +19,8 @@
 .paragraph--header__text--order{
   font-size: 10px;
   text-transform: uppercase;
-  line-height: 18px;
   color: #fff;
+  margin: 6px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -33,3 +32,8 @@
   text-align: center;
 }
 
+.wrapper--header__text--products{
+  height: 100%;
+  width: 100%;
+
+}

@@ -8,4 +8,5 @@
     padding: 8px 50px 8px 15px;
     color: #606060;
     box-sizing: border-box;
+    border-radius: 0 !important;
 }

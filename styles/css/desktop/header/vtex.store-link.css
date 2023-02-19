@@ -1,3 +1,7 @@
+.link--header__link--help{
+  text-decoration: none;
+}
+
 .buttonLink--Sitio__Sony--button{
   background-color: #30343d;
   text-align: center;
@@ -18,11 +22,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.link--Login__help--link::before{
-  content:url(https://res.cloudinary.com/dafsjo7al/image/upload/v1674363049/icons8-_por-qu%C3%A9-somos-hombre-16_pzuwmu.png);
+.link--Login__help--link::before {
+  content: url(https://res.cloudinary.com/dafsjo7al/image/upload/v1674363049/icons8-_por-qu%C3%A9-somos-hombre-16_pzuwmu.png);
 }
 
-.label--Login__help--link{
+.label--Login__help--link {
   font-size: 0.875rem;
   color: #000;
   font-weight: 400;
@@ -33,27 +37,26 @@
   margin-left: 2rem;
 }
 
-.label--Login__help--link:hover{
-  color:  #7193F2;
-
+.label--Login__help--link:hover {
+  color: #7193f2;
 }
 
-.link--Login__help--link{
+.link--Login__help--link {
   text-decoration: none;
 }
 
-.link--Login__help--link--site{
+.link--Login__help--link--site {
   text-decoration: none;
 }
 
-.link--Login__help--link--site::before{
-  content:url(https://res.cloudinary.com/dafsjo7al/image/upload/v1674362976/icons8-mundo-verde-16_jn8cxy.png);
+.link--Login__help--link--site::before {
+  content: url(https://res.cloudinary.com/dafsjo7al/image/upload/v1674362976/icons8-mundo-verde-16_jn8cxy.png);
 }
 
-.label--Login__help--link--site{
+.label--Login__help--link--site {
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: .75rem;
+  font-size: 0.75rem;
   color: #000;
   font-weight: 400;
   line-height: 1.5;
@@ -61,13 +64,9 @@
   margin-left: 2rem;
 }
 
-.label--Login__help--link--site:hover{
-  color:  #7193F2;
+.label--Login__help--link--site:hover {
+  color: #7193f2;
 }
-.link--header__link--help{
+.link--header__link--help {
   text-decoration: none;
-}
-
-.link--Sitio__Sony--button{
-  transform: translateX(74px);
 }

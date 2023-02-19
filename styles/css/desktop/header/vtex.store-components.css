@@ -1,12 +1,7 @@
-.autoCompleteOuterContainer--header__search--barra{
-  display: flex;
-  border-radius: 0;
-  transform: translateX(49px);
-}
 
-.searchBarInnerContainer--header__search--barra{
-  display: flex;
-  justify-content:right;
+.searchBarContainer{
+  width: 20.1875rem;
+  /* border: 1px solid red; */
 }
 
 .searchBarIcon--header__search--barra--external-search{
@@ -15,34 +10,14 @@
 .searchIcon{
   color  : #fff
 }
-
-.imageElement--header__image--icon{
-  border-radius: 50%;
-  width: 170px;
-}
-
-
 .imageElement--header__img--products{
   width: auto;
   max-width: 100%;
+  margin: 0 auto;
   border-style: none;
-  overflow-clip-margin: content-box;
   cursor: pointer;
-  overflow: clip;
 }
-
-.searchBarInnerContainer--header__search--barra::after{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  content: url('https://api.iconify.design/ic/round-call.svg?width=18&height=18');
-  transform: translate(68px, 1px);
-  background-color: #fff;
-  border-radius: 50%;
-  padding: 4px 6px 0 6px;
-}
-
-
 :global(.vtex-input-prefix__group){
-   border-style: none !important;
+    border-style: none !important;
+    height: 2.125rem;
 }

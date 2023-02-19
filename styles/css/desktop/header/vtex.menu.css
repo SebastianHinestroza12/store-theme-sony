@@ -13,7 +13,6 @@
     width: 100%;
 }
 
-
 /* .submenu--desktop__deparment--submenu{
     width: 100%;
 } */
@@ -53,7 +52,6 @@
     width: 36px;
     height: 47px;
     align-items: center;
-    transform: translateX(65px);
 }
 
 .styledLinkContent--desktop__dep--login:hover{
