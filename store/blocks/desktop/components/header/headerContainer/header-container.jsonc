@@ -1,0 +1,45 @@
+{
+  "flex-layout.row#header__top--row--container": {
+    "title": "Header Desktop Container Row",
+    "children": [
+      "flex-layout.col#header__top--col1",
+      "flex-layout.col#header__top--col2",
+      "flex-layout.col#header__top--col3"
+    ],
+    "props": {
+      "fullWidth": true,
+      // "colSizing": "auto",
+      "blockClass": "header__top--row--container"
+    }
+  },
+  "flex-layout.col#header__top--col1": {
+    "children": [
+      "logo#header__top--logo"
+    ],
+    "props": {
+      "blockClass": "header__col--logo",
+      "width": "22%"
+    }
+  },
+  "flex-layout.col#header__top--col2": {
+    "children": [
+      "search-bar#search-bar__top"
+    ],
+    "props": {
+      "blockClass": "header__top--search--bar",
+      "width": "24%"
+    }
+  },
+  "flex-layout.col#header__top--col3": {
+    "children": [
+      "flex-layout.row#header__information--container",
+      "flex-layout.row#header__order--racking",
+      "menu#desktop__menu--login",
+      "flex-layout.row#header__sony__site--button",
+      "flex-layout.row#minicart__header--container"
+    ],
+    "props": {
+      "blockClass": "header__top--col3"
+    }
+  }
+}

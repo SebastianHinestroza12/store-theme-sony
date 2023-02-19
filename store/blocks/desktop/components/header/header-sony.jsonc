@@ -2,13 +2,7 @@
   "header-row#header__top": {
     "title": "Header superior",
     "children": [
-      "logo#header__top--logo",
-      "search-bar#search-bar__top",
-      "flex-layout.row#header__information--container",
-      "flex-layout.row#header__order--racking",
-      "menu#desktop__menu--login",
-      "flex-layout.row#header__sony__site--button",
-      "minicart.v2"
+      "flex-layout.row#header__top--row--container"
     ],
     "props": {
       "blockClass": "header__top",

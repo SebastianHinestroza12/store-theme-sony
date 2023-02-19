@@ -1,0 +1,11 @@
+{
+  "flex-layout.row#minicart__header--container": {
+    "children": [
+      "minicart.v2"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "minicart__header--container"
+    }
+  }
+}

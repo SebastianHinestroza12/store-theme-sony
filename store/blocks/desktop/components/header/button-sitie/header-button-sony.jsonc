@@ -3,7 +3,11 @@
     "title": "Header Button Sony Site",
     "children": [
       "link#home__button--sony--site"
-    ]
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "header__sony--site--button"
+    }
   },
   "link#home__button--sony--site": {
     "title": "Header Button Sony Site Link",

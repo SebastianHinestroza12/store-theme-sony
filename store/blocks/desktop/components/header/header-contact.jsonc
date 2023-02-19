@@ -2,15 +2,51 @@
   "flex-layout.row#header__information--container": {
     "title": "Header Information Container",
     "children": [
+      "flex-layout.col#header__information--icon",
+      "flex-layout.col#header__information"
+    ],
+    "props": {
+      "blockClass": "header__information--container",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#header__information--icon": {
+    "children": [
+      "image#header__information--icon"
+    ],
+    "props": {
+      "blockClass": "header__information--icon"
+    }
+  },
+
+  "image#header__information--icon": {
+    "props": {
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676754919/Screenshot_1_vzaz5p.png",
+      "blockClass": "header__icon"
+    }
+  },
+  "flex-layout.col#header__information": {
+    "children": [
+      "flex-layout.row#header__information--container--row"
+    ],
+    "props": {
+      "blockClass": "header__information"
+    }
+  },
+  "flex-layout.row#header__information--container--row": {
+    "children": [
       "flex-layout.col#header__information--store1",
       "flex-layout.col#header__information--store2",
       "flex-layout.col#header__information--store3"
     ],
     "props": {
-      "blockClass": "header__information--container",
+      "blockClass": "header__information--container--row",
+      "fullWidth": true,
       "colSizing": "auto"
     }
   },
+
   "flex-layout.col#header__information--store1": {
     "title": "Header Information Contact  ",
     "children": [
