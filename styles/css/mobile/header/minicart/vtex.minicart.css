@@ -20,6 +20,9 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  width: 3.4375rem;
+  width: 51px;
+}
+.minicartIconContainer {
+  transform: translateX(-17px);
 }
 }

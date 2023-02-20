@@ -5,16 +5,24 @@
   text-transform: capitalize;
 }
 
-.container--header__text--mobile{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .paragraph--header__help--mobile{
   font-size: 10px;
   text-transform: uppercase;
   line-height: 18px;
   color: #fff;
+  font-weight: 700;
+}
+
+
+.wrapper--header__call--text1{
+  font-size: 14px;
+  color: #2f343d;
+  font-weight: 300;
+}
+
+
+.wrapper--header__call--text3{
+  font-size: 14px;
+  color: #2f343d;
   font-weight: 700;
 }

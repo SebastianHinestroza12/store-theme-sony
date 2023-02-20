@@ -1,9 +1,37 @@
+
 @media only screen and (max-width: 575px){
-  .menuItem--desktop__dep--login--isOpen{
-    width: 3rem !important;
-  }
-  .styledLinkContent--desktop__dep--login{
-    transform: none;
-    width: 0;
-  }
+
+.styledLinkContent--desktop__dep{
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.styledLinkContainer--desktop__dep{
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* LOGIN MENU */
+
+.submenuWrapper--desktop__deparment--submenu--login--isOpen{
+    background-color: transparent;
+    transform: translate(-149px, -19px);
+    border: none;
+}
+
+.menuItem--desktop__dep--login--isClosed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.styledLinkContent--desktop__dep--login{
+    width: 0px;
+}
+
+.styledLinkContent--desktop__dep--login:hover{
+    background: none;
+}
+
+
 }

@@ -1,4 +1,8 @@
-.biggy-autocomplete {
-  transform: translateY(-42px);
-  margin: 0 auto;
+
+@media only screen and (max-width: 575px){
+  .biggy-autocomplete {
+    width: 100% !important;
+    margin: 0 auto;
+    transform: translate(51px, -32px);
+}
 }

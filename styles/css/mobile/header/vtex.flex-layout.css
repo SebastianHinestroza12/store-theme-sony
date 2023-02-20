@@ -1,20 +1,86 @@
-.flexRowContent--header__call--block-mobile{
+.flexRow--header__mobile--row{
   width: 100%;
+}
+.flexCol--header__call--col2 {
+  margin: 0 8px;
+}
+.flexRowContent--header__call--block-mobile{
   display: flex;
-  text-align: center;
-  padding: .25rem;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
 }
 
-@media only screen and (max-width: 575px){
-  .flexRowContent--header__deparment--login{
-    height: 66px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    border-left: 1px solid #2f353d;
-    border-right: 1px solid #2f353d;
-  }
-  .flexRowContent--header__deparment--login:hover{
-    background-color: rgb(69, 114, 237);
-  }
+.flexRowContent--header__mobile--row{
+  display: flex;
+  justify-content: center;
+  height: 4.25rem;
+}
+
+/* DRAWER AND LOGO MOBILE */
+
+.flexCol--header__mobile--col1  {
+  display: flex;
+}
+
+.flexCol--header__mobile--col2{
+  border-left: 1px solid #2f353d;
+  border-right: 1px solid #2f353d;
+}
+.flexCol--header__mobile--col3{
+  width: 60px !important;
+
+}
+
+.flexCol--header__mobile--col4{
+  border-right: 1px solid #2f353d;
+  width: 60px !important;
+}
+
+.flexCol--header__mobile--col5  {
+  border-right: 1px solid #2f353d;
+  width: 37px  !important;
+}
+.flexCol--header__mobile--col6{
+  height: 67px;
+}
+/* MINICART AND OTHER */
+
+@media (max-width: 360px) {
+  .flexCol--header__mobile--col3{
+    width: 30px !important;
+
+}
+.flexCol--header__mobile--col4{
+  width: 40px !important;
+}
+.flexCol--header__mobile--col6{
+  width: 40px !important;
+}
+}
+@media (width: 375px){
+  .flexCol--header__mobile--col3{
+    /* border: 1px solid red; */
+    width: 40px !important;
+
+}
+.flexCol--header__mobile--col4{
+  width: 40px !important;
+}
+.flexCol--header__mobile--col6{
+  width: 50px !important;
+}
+}
+@media (width: 393px){
+  .flexCol--header__mobile--col3{
+    /* border: 1px solid red; */
+    width: 40px !important;
+
+}
+.flexCol--header__mobile--col4{
+  width: 40px !important;
+}
+.flexCol--header__mobile--col6{
+  width: 50px !important;
+}
 }

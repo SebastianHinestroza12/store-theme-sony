@@ -1,15 +1,24 @@
 @media only screen and (min-width: 768px) and (max-width: 991px){
-    .flexRowContent--header__deparment--login{
-    height: 66px;
-    justify-content: center;
-    display: flex;
-    transform: translateX(284px);
-    align-items: center;
-    border-left: 1px solid #2f353d;
-    border-right: 1px solid #2f353d;
-  }
+  .flexCol--header__mobile--col1  {
+  width: 130px !important;
+}
 
-  .flexRow--help__mobile{
-    transform: translateX(219px);
-  }
+.flexCol--header__mobile--col2{
+  width: 300px !important;
+}
+.flexCol--header__mobile--col3{
+  width: 95px !important;
+
+}
+
+.flexCol--header__mobile--col4{
+  width: 95px !important;
+}
+
+.flexCol--header__mobile--col5  {
+  width: 60px  !important;
+}
+.flexCol--header__mobile--col6{
+  width: 110px !important;
+}
 }

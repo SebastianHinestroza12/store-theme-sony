@@ -1,21 +1,27 @@
-.headerRowContentContainer{
+.headerRowBackground--mobile__drawer{
   background-color: #000;
 }
 
-.headerRowContentContainer--mobile__drawer:hover{
-  height: 100%;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
-  background-color: rgb(69, 114, 237);
+.headerRowBackground--block__container--menu{
+  background-color: #000;
+  height: 4.25rem;
 }
 
+.headerStickyRow--block__container--menu{
+  top: auto;
+}
+/* .headerRowContentContainer--mobile__drawer:hover{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(69, 114, 237);
+} */
+/*
 @media only screen and (max-width: 575px){
   .headerStickyRow--mobile__drawer{
-    height: 65px;
     display: flex;
+    border: 1px solid red;
     justify-content: center;
     align-items: center;
   }
@@ -30,7 +36,7 @@
 .headerRowBackground--block__container--menu {
   width: 100%;
 }
-}
+} */
 
 
 

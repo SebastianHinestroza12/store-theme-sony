@@ -1,6 +1,7 @@
 @media only screen and (min-width: 768px) and (max-width: 991px){
  .biggy-autocomplete {
-  transform: translate(32px, -66px) !important;
+  transform: translate(237px, -45px) !important;
+  margin: 0 auto;
 }
 
 }
