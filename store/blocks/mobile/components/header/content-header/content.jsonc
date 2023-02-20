@@ -1,0 +1,78 @@
+{
+  "flex-layout.row#header__mobile--row": {
+    "title": "Header mobile container",
+    "children": [
+      "flex-layout.col#header__mobile--col1",
+      "flex-layout.col#header__mobile--col2",
+      "flex-layout.col#header__mobile--col3",
+      "flex-layout.col#header__mobile--col4",
+      "flex-layout.col#header__mobile--col5",
+      "flex-layout.col#header__mobile--col6"
+    ],
+    "props": {
+      "fullWidth": true,
+      "colSizing": "auto",
+      "blockClass": "header__mobile--row"
+    }
+  },
+  "flex-layout.col#header__mobile--col1": {
+    "children": [
+      "header-row#mobile__drawer"
+    ],
+    "props": {
+      "blockClass": "header__mobile--col1",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#header__mobile--col2": {
+    "children": [
+      "logo#header__top--logo--mobile"
+    ],
+    "props": {
+      "blockClass": "header__mobile--col2",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#header__mobile--col3": {
+    "children": [
+      "overlay-trigger#mobile__search--bar"
+    ],
+    "props": {
+      "blockClass": "header__mobile--col3",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#header__mobile--col4": {
+    "children": [
+      "flex-layout.row#help__mobile"
+    ],
+    "props": {
+      "blockClass": "header__mobile--col4",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#header__mobile--col5": {
+    "children": [
+      "menu#desktop__menu--login"
+    ],
+    "props": {
+      "blockClass": "header__mobile--col5",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#header__mobile--col6": {
+    "children": [
+      "flex-layout.row#minicart__header--container"
+    ],
+    "props": {
+      "blockClass": "header__mobile--col6",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  }
+}

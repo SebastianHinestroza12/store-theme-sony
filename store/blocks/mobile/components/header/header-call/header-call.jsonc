@@ -2,17 +2,54 @@
   "flex-layout.row#header__call--mobile": {
     "title": "Header call mobile",
     "children": [
-      "rich-text#header__text--mobile"
+      "flex-layout.col#header__call--col1",
+      "flex-layout.col#header__call--col2",
+      "flex-layout.col#header__call--col3"
     ],
     "props": {
+      "fullWidth": true,
+      "colSizing": "auto",
       "blockClass": "header__call--block-mobile"
     }
   },
-  "rich-text#header__text--mobile": {
-    "title": "Header Text Venta Telefonica",
+
+  "flex-layout.col#header__call--col1": {
+    "title": "",
+    "children": [
+      "rich-text#header__call--col1"
+    ]
+  },
+  "flex-layout.col#header__call--col2": {
+    "title": "",
+    "children": [
+      "image#header__call--col2"
+    ],
     "props": {
-      "text": "Venta Telefónica 📞 601 786 8928 ",
-      "blockClass": "header__text--mobile"
+      "blockClass": "header__call--col2"
+    }
+  },
+  "flex-layout.col#header__call--col3": {
+    "title": "",
+    "children": [
+      "rich-text#header__call--col3"
+    ]
+  },
+  "rich-text#header__call--col1": {
+    "props": {
+      "text": "Venta Telefónica",
+      "blockClass": "header__call--text1"
+    }
+  },
+  "image#header__call--col2": {
+    "props": {
+      "src": "https://res.cloudinary.com/dafsjo7al/image/upload/v1676917305/call_vszvws.png"
+    }
+  },
+
+  "rich-text#header__call--col3": {
+    "props": {
+      "text": "601 786 8928",
+      "blockClass": "header__call--text3"
     }
   }
 }

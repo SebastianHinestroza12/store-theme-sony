@@ -2,16 +2,12 @@
   "header-row#mobile__header--sony": {
     "title": "Header mobile",
     "children": [
-      "header-row#mobile__drawer",
-      "logo#header__top--logo",
-      "overlay-trigger#mobile__search--bar",
-      "flex-layout.row#help__mobile",
-      "menu#desktop__menu--login",
-      "minicart.v2"
+      "flex-layout.row#header__mobile--row"
     ],
     "props": {
       "sticky": true,
       "blockClass": "block__container--menu"
+      // "fullWidth": true
     }
   }
 }

@@ -1,0 +1,11 @@
+{
+  "logo#header__top--logo--mobile": {
+    "title": "Logo Header Mobile",
+    "props": {
+      "blockClass": "header__logo--sony--mobile",
+      "url": "assets/img/logo.jpg",
+      "width": 83,
+      "href": "/"
+    }
+  }
+}
