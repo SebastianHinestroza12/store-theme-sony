@@ -84,3 +84,10 @@
   width: 50px !important;
 }
 }
+@media (width: 390px){
+  .flexCol--header__mobile--col3{
+    /* borde: 1px solid red; */
+    width: 35px !important;
+
+}
+}

@@ -19,3 +19,10 @@
   justify-content: center;
   align-items: center;
 }
+
+.containerNormal {
+  border-radius: 0;
+}
+.containerNormal:hover {
+  border: 1px solid #ccc;
+}

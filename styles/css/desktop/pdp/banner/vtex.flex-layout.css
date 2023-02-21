@@ -13,6 +13,11 @@
   transition: all .25s;
 }
 
+.flexRowContent--banner__information--pdp{
+  max-width: 1261px;
+  margin: 0 auto !important;
+}
+
 .flexCol--banner__information1{
   max-height: 5.375rem;
   max-width: 22.6875rem;

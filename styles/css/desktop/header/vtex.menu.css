@@ -7,6 +7,10 @@
     background-color: #FFFFFF;
 }
 
+.submenu--desktop__deparment--submenu{
+  padding: 14px;
+}
+
 .submenuWrapper--desktop__deparment--submenu--isOpen{
     background-color: #F1F5F9;
     position:fixed;
