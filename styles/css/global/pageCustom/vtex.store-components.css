@@ -4,9 +4,12 @@
 }
 
 @media only screen and (max-width: 575px){
-  
+
   .imageElement--help__imagen{
     width: 3.75rem;
     margin-left: 4rem;
+}
+.imageElement--help__arquivos{
+  transform: translateX(-33px);
 }
 }

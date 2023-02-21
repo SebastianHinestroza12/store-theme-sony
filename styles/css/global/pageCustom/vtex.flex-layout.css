@@ -10,7 +10,8 @@
   align-items: center;
   justify-content: center;
   grid-template-columns: repeat(2, 1fr);
-  width: 65%;
+  max-width: 861px;
+  margin: 0 auto;;
   background-color: #F1F5F9;
   padding: 4rem 0px 1rem 0px;
 
@@ -29,7 +30,7 @@
 .flexColChild--help__center--col{
   /* border: 1px solid forestgreen; */
   width: 100%;
-  
+
 }
 
 .flexRow--help__center--row--container{
@@ -43,12 +44,13 @@
     justify-content: center;
     align-items: center;
 }
-
-.flexRow--title__help--center--one{
-  width: 65%;
+.flexRowContent--title__help--center--one{
+  max-width: 861px;
+  transform: translateY(56px);
   margin: 0 auto;
-  transform: translateY(65px);
+
 }
+
 
 @media only screen and (max-width: 575px){
   .flexCol--help__center--col{
@@ -58,16 +60,6 @@
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
 }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px){
-    .flexRowContent--help__center{
-        width: 100%;
-    }
-
-  .flexRow--title__help--center--one{
-    width: 100% !important;
-  }
 }
 
 
