@@ -30,21 +30,30 @@
     "title": "Desktop Image Slider 1",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/37f297e8-e89c-402e-8aab-d9d3a5367071___7569c17f45eb65ede83bc4ae6b44158e.jpg",
-      "blockClass": "home__image--slider"
+      "blockClass": "home__image--slider",
+      "link": {
+        "url": "/queso"
+      }
     }
   },
   "image#home__slider--three": {
     "title": "Desktop Image Slider 3",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/59ba3006-e307-4c25-a715-c2d2ddfe5460___8358ad0e67299961a64909997403bfe0.jpg",
-      "blockClass": "home__image--slider"
+      "blockClass": "home__image--slider",
+      "link": {
+        "url": "/queso"
+      }
     }
   },
   "image#home__slider--two": {
     "title": "Desktop Image Slider 2",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/a523141c-5b2f-46ac-a2cb-4c21daedb3ec___842acca4c06eddddf275d4004f687f58.jpg",
-      "blockClass": "home__image--slider"
+      "blockClass": "home__image--slider",
+      "link": {
+        "url": "/queso"
+      }
     }
   }
 }

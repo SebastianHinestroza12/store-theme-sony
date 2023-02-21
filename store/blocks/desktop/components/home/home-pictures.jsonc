@@ -32,15 +32,21 @@
   "image#home__picture--one": {
     "title": "Desktop pictures one",
     "props": {
-      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/59424336-583f-40cf-ab25-9f71318d1d90___9cb5dfa0bd0e09f3a9f227ae3b8ffb66.jpg",
-      "blockClass": "home__pictures--back"
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/345b5a54-f095-4292-86b7-3f37ab07a742___4de66193680ef4dcee87d6d17290d5b0.jpg",
+      "blockClass": "home__pictures--back",
+      "link": {
+        "url": "/queso"
+      }
     }
   },
   "image#home__picture--two": {
     "title": "Desktop pictures two",
     "props": {
-      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/e34c3559-0d84-42ef-9cf3-68d925392e2b___843f7b0dec6525a76ab4352ff8ecd86a.jpg",
-      "blockClass": "home__pictures--back"
+      "src": "https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/ac0118e4-4b78-44c8-ad8a-b16063124372___b03bfbf2ffa8f73df8caccdca83aeb4f.jpg",
+      "blockClass": "home__pictures--back",
+      "link": {
+        "url": "/electrodomesticos"
+      }
       // "maxHeight": 500,
       // "maxWidth": 500
     }
@@ -73,14 +79,14 @@
   "rich-text#text__picture1": {
     "title": "Text Picture 1",
     "props": {
-      "text": "α7 IV Para una nueva generación de creadores",
+      "text": "Déjate envolver por la música",
       "blockClass": "text__pictures--one"
     }
   },
   "rich-text#text__picture2": {
     "title": "Tex2 Picture 1",
     "props": {
-      "text": "la α7 IV es la cámara híbrida ideal, ya que proporciona imágenes impresionantes y permite compartir contenido al instante",
+      "text": "Los parlantes premium RA3000 Y RA5000 cambiarán tu forma de experimentar la música en casa con su sonido ambiente que inunda cualquier sala.",
       "blockClass": "text__pictures--two"
     }
   },
@@ -98,7 +104,7 @@
   "rich-text#link__text--picture--sony": {
     "title": "Text Link Picture",
     "props": {
-      "text": "Descubre más >>",
+      "text": "En oferta. Ver Precios >>",
       "blockClass": "text__pictures--three"
     }
   },
@@ -119,7 +125,7 @@
     "children": [
       "rich-text#text2__picture1",
       "rich-text#text2__picture2",
-      "link#home__link-picture"
+      "link#home__link-picture2"
     ],
     "props": {
       "blockClass": "home__col--pictures--container",
@@ -130,15 +136,32 @@
   "rich-text#text2__picture1": {
     "title": "Text1 Picture2",
     "props": {
-      "text": "7.1.2 canales: realismo absoluto envolvente",
+      "text": "Sonido Surround para tus series y películas",
       "blockClass": "text__pictures--one"
     }
   },
   "rich-text#text2__picture2": {
     "title": "Text2 Picture2",
     "props": {
-      "text": "La HT-A7000 te envuelve por completo en un sonido Surround de 7.1.2 canales gracias a sus múltiples parlantes, S-Force PRO Front Surround y Vertical Surround Engine. Siente la acción a tu alrededor.",
+      "text": "Con altavoz central para diálogos claros y potente subwoofer dual integrado.",
       "blockClass": "text__pictures--two"
+    }
+  },
+  "link#home__link-picture2": {
+    "title": "Home Picture Three2",
+    "children": [
+      "rich-text#link__text--picture--sony2"
+    ],
+    "props": {
+      "href": "/",
+      "blockClass": "home__link--picture"
+    }
+  },
+  "rich-text#link__text--picture--sony2": {
+    "title": "Text Link Picture2",
+    "props": {
+      "text": "Conócelo >>",
+      "blockClass": "text__pictures--three"
     }
   }
 }

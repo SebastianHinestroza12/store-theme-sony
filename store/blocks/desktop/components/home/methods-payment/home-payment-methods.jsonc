@@ -29,7 +29,11 @@
     "title": "Image easy-buy",
     "props": {
       "src": "https://cosonyb2c.vteximg.com.br/arquivos/como-comprar.png",
-      "blockClass": "image__payment--size"
+      "blockClass": "image__payment--size",
+      "link": {
+        "openNewTab": true,
+        "url": "/centro-de-ayuda"
+      }
     }
   },
 
@@ -65,7 +69,11 @@
     "title": "Image payment method",
     "props": {
       "src": "https://cosonyb2c.vteximg.com.br/arquivos/medios-pago.png",
-      "blockClass": "image__payment--size"
+      "blockClass": "image__payment--size",
+      "link": {
+        "openNewTab": true,
+        "url": "/centro-de-ayuda"
+      }
     }
   },
 
@@ -81,7 +89,11 @@
     "title": "Image payment Allmethod",
     "props": {
       "src": "https://cosonyb2c.vteximg.com.br/arquivos/payments2.png",
-      "blockClass": "image__payment--allmethods"
+      "blockClass": "image__payment--allmethods",
+      "link": {
+        "openNewTab": true,
+        "url": "/centro-de-ayuda"
+      }
     }
   },
 
@@ -101,7 +113,11 @@
     "title": "Image free shipping",
     "props": {
       "src": "https://cosonyb2c.vteximg.com.br/arquivos/envios-pais.png",
-      "blockClass": "image__payment--size"
+      "blockClass": "image__payment--size",
+      "link": {
+        "openNewTab": true,
+        "url": "/centro-de-ayuda"
+      }
     }
   },
 
@@ -137,7 +153,11 @@
     "title": "Image product fast",
     "props": {
       "src": "https://cosonyb2c.vteximg.com.br/arquivos/icn-test.png",
-      "blockClass": "image__payment--size"
+      "blockClass": "image__payment--size",
+      "link": {
+        "openNewTab": true,
+        "url": "/centro-de-ayuda"
+      }
     }
   },
 
@@ -173,7 +193,11 @@
     "title": "Image warranty product",
     "props": {
       "src": "https://cosonyb2c.vteximg.com.br/arquivos/icn-test2.png",
-      "blockClass": "image__payment--size"
+      "blockClass": "image__payment--size",
+      "link": {
+        "openNewTab": true,
+        "url": "/centro-de-ayuda"
+      }
     }
   },
 
@@ -207,7 +231,11 @@
     "title": "Image security buy",
     "props": {
       "src": "https://cosonyb2c.vteximg.com.br/arquivos/compra-segura.png",
-      "blockClass": "image__payment--size"
+      "blockClass": "image__payment--size",
+      "link": {
+        "openNewTab": true,
+        "url": "/centro-de-ayuda"
+      }
     }
   },
 
