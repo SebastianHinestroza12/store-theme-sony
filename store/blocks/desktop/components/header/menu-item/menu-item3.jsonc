@@ -6,7 +6,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/camara",
+        "href": "/electrodomesticos",
         "noFollow": true,
         "tagTitle": "camara",
         "text": "Cámaras"
@@ -67,7 +67,10 @@
     "title": "Header Imagen Camera1",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/photo-camaras-lentes-intercambiables.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/queso"
+      }
     }
   },
   "rich-text#text__header--camera1": {
@@ -93,7 +96,10 @@
     "title": "Header Imagen Camera2",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/photo-cybershot.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/queso"
+      }
     }
   },
 
@@ -120,7 +126,10 @@
     "title": "Header Imagen Camera3",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/photo-lentes.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/queso"
+      }
     }
   },
   "rich-text#text__header--camera3": {
@@ -145,7 +154,10 @@
     "title": "Header Imagen Camera4",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/photo-accesorios.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/queso"
+      }
     }
   },
   "rich-text#text__header--camera4": {
@@ -171,7 +183,10 @@
     "title": "Header Imagen Camera5",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/camaras-cine.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/queso"
+      }
     }
   },
   "rich-text#text__header--camera5": {

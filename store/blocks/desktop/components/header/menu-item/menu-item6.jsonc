@@ -6,7 +6,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/playStation",
+        "href": "/electrodomesticos",
         "noFollow": true,
         "tagTitle": "playStation",
         "text": "PlayStation"
@@ -68,7 +68,10 @@
     "title": "Header Imagen PlayStation1",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/menu-ps5-v1.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/celulares"
+      }
     }
   },
   "rich-text#text__header--playstation1": {
@@ -94,7 +97,10 @@
     "title": "Header Imagen PlayStation2",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/playstation-consolas.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/celulares"
+      }
     }
   },
 
@@ -121,7 +127,10 @@
     "title": "Header Imagen PlayStation3",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/playstation-juegos.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/custom-grid"
+      }
     }
   },
   "rich-text#text__header--playstation3": {
@@ -146,7 +155,10 @@
     "title": "Header Imagen PlayStation4",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/playstation-accesorios.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/celulares"
+      }
     }
   },
   "rich-text#text__header--playstation4": {

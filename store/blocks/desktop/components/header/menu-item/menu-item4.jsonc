@@ -6,7 +6,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/videocamaras",
+        "href": "/electrodomesticos",
         "noFollow": true,
         "tagTitle": "videocamaras",
         "text": "Videocámaras"
@@ -66,7 +66,10 @@
     "title": "Header Imagen CamCorder1",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/video-handycam.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/mujer"
+      }
     }
   },
   "rich-text#text__header--camcorders1": {
@@ -92,7 +95,10 @@
     "title": "Header Imagen CamCorder2",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/video-accesorios.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/mujer"
+      }
     }
   },
 
@@ -119,7 +125,10 @@
     "title": "Header Imagen CamCorder3",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/video-camaras-cine.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/mujer"
+      }
     }
   },
   "rich-text#text__header--camcorders3": {

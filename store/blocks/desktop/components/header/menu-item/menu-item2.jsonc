@@ -6,7 +6,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/televisores-y-teatros-en-casa",
+        "href": "/electrodomesticos",
         "noFollow": true,
         "tagTitle": "televisores y teatros en casa",
         "text": "TV y Teatro en casa"
@@ -67,6 +67,9 @@
       "src": "https://cosonyb2c.vtexassets.com/arquivos/tv-televisores.png",
       "maxHeight": "200px",
       "maxWidth": "200px",
+      "link": {
+        "url": "/mujer"
+      },
       "blockClass": "header__img--products"
     }
   },
@@ -93,7 +96,10 @@
     "title": "Header Imagen Theater",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/teatro-en-casa.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/electrodomesticos"
+      }
     }
   },
 
@@ -120,7 +126,10 @@
     "title": "Header Imagen Player",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/reproductores-Blu-ray.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/electrodomesticos"
+      }
     }
   },
   "rich-text#text__header--player": {

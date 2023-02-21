@@ -6,7 +6,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/audio-para-auto",
+        "href": "/electrodomesticos",
         "noFollow": true,
         "tagTitle": "audio para auto",
         "text": "Audio para Auto"
@@ -66,7 +66,10 @@
     "title": "Header Imagen CarAudio1",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/reproductores-automovil.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/techo"
+      }
     }
   },
   "rich-text#text__header__car--audio1": {
@@ -92,7 +95,10 @@
     "title": "Header Imagen CarAudio2",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/audio-auto-bocinas-amplificadores.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/techo"
+      }
     }
   },
 

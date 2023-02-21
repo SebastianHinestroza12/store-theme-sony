@@ -6,7 +6,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/audio",
+        "href": "/electrodomesticos",
         "noFollow": true,
         "tagTitle": "audio",
         "text": "Audio"
@@ -66,7 +66,10 @@
     "title": "Header Imagen Audio1 ",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/sistemas%20de-audio.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/hombre"
+      }
     }
   },
   "rich-text#text__header--audio1": {
@@ -92,7 +95,10 @@
     "title": "Header Imagen Audio2",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/ICON-MENU-SRS-XG300.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/hombre"
+      }
     }
   },
 
@@ -119,7 +125,10 @@
     "title": "Header Imagen Audio3",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/audifonos-categoria.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/hombre"
+      }
     }
   },
   "rich-text#text__header--audio3": {
@@ -144,7 +153,10 @@
     "title": "Header Imagen Audio4",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/reproductores-musica-digital-walkman.png",
-      "blockClass": "header__img--products"
+      "blockClass": "header__img--products",
+      "link": {
+        "url": "/hombre"
+      }
     }
   },
   "rich-text#text__header--audio4": {
