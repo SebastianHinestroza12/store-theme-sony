@@ -319,7 +319,10 @@
     "title": "Help Center Imagen6",
     "props": {
       "src": "https://cosonyb2c.vtexassets.com/arquivos/AR-ImagenesCentrodeAyuda-8-ContactoAyuda.png?v=637551567980670000",
-      "blockClass": "help__imagen"
+      "blockClass": [
+        "help__imagen",
+        "help__arquivos"
+      ]
     }
   },
 

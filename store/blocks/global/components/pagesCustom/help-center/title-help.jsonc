@@ -5,8 +5,7 @@
       "rich-text#title__help--center--one"
     ],
     "props": {
-      "colSizing": "auto",
-      "horizontalAlign": "left",
+      "fullWidth": true,
       "blockClass": "title__help--center--one"
     }
   },
@@ -14,8 +13,6 @@
     "title": "Title Help Center One",
     "props": {
       "text": "Centro de ayuda",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
       "blockClass": "title__help--center--one"
     }
   }
