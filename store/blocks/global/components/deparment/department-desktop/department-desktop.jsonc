@@ -2,7 +2,6 @@
   "search-result-layout.desktop#desktop__department": {
     "title": "Search Result Layout Desktop Department",
     "children": [
-      "flex-layout.row#whatsapp__button",
       "flex-layout.row#department__banner",
       "flex-layout.row#slider__departmnet--search",
       "flex-layout.row#galleryswitcher--search",

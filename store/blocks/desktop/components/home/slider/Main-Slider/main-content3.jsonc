@@ -48,7 +48,7 @@
   "link#home3__link--button--section": {
     "title": "Home button offers",
     "props": {
-      "href": "/",
+      "href": "/electrodomesticos",
       "label": "Conoce más >>",
       "displayMode": "button",
       "blockClass": "home__button-one"

@@ -16,7 +16,6 @@
       "rich-text#paragraph__banner--deparment"
     ],
     "props": {
-      "fullWidth": true,
       "blockClass": "department__banner--col"
     }
   },
@@ -32,7 +31,7 @@
     "title": "Text Banner",
     "props": {
       "text": "Descubre los productos esenciales para la vuelta a clases.",
-      "blockClass": "text__banner--col"
+      "blockClass": "text__banner--col2"
     }
   }
 }

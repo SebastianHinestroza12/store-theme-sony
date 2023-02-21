@@ -51,7 +51,7 @@
   "link#home4__link--button--section": {
     "title": "Home button offers",
     "props": {
-      "href": "/",
+      "href": "/electrodomesticos",
       "label": " PlayStation®5 Ya disponible >>",
       "displayMode": "button",
       "blockClass": "home__button-one"

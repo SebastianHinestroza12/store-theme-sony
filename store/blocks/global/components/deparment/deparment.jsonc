@@ -7,6 +7,7 @@
       "flex-layout.col#categories__results--content"
     ],
     "props": {
+      "fullWidth": true,
       "blockClass": "global__categories--results"
     }
   },
@@ -16,7 +17,7 @@
       "filter-navigator.v3"
     ],
     "props": {
-      "width": "30%",
+      "width": "25%",
       "blockClass": "categories__results--filter"
     }
   },
@@ -57,7 +58,7 @@
           "name": "grid",
           "component": "GridSummary",
           "itemsPerRow": {
-            "desktop": 2,
+            "desktop": 3,
             "tablet": 2,
             "phone": 2
           }

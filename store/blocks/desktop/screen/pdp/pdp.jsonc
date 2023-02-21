@@ -1,12 +1,12 @@
 {
   "responsive-layout.desktop#image__pdp--mobile": {
     "children": [
-      "flex-layout.row#whatsapp__button",
       "flex-layout.row#banner__information--pdp",
       "flex-layout.row#product__breadcrumb",
       "flex-layout.row#product__infomation",
       // "flex-layout.row#product__tabs",
       "flex-layout.row#disclosure__pdp--container",
+      "flex-layout.row#bullets__group--list",
       "flex-layout.row#product__list--text",
       "flex-layout.row#product__list--context",
       "flex-layout.row#home__title--newletter",

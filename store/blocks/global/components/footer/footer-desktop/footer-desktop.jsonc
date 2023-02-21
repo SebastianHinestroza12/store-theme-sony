@@ -2,6 +2,7 @@
   "footer-layout.desktop": {
     "title": "Footer Desktop",
     "children": [
+      "flex-layout.row#whatsapp__button",
       "flex-layout.row#footer-desktop",
       "flex-layout.row#footer__desktop--section2",
       "flex-layout.row#footer__desktop--section3"

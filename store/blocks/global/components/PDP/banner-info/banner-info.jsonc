@@ -7,6 +7,7 @@
       "flex-layout.col#banner__information3"
     ],
     "props": {
+      "fullWidth": true,
       "blockClass": "banner__information--pdp"
     }
   },
@@ -17,7 +18,8 @@
       "vtex.store-components:product-name#banner__name"
     ],
     "props": {
-      "blockClass": "banner__information1"
+      "blockClass": "banner__information1",
+      "width": "22%"
     }
   },
 

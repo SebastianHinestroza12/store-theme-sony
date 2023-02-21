@@ -2,8 +2,6 @@
   "responsive-layout.mobile#phone__and__tablet": {
     "title": "Responsive Mobile",
     "children": [
-      "flex-layout.row#whatsapp__button",
-
       "flex-layout.row#header__call--mobile",
       "flex-layout.row#Home__Main--SliderForFour",
       "flex-layout.row#mobile__marco--slider",
