@@ -17,6 +17,7 @@
       "vtex.store-components:product-brand",
       "product-price#pdp__product--price",
       "product-identifier.product#pdp__product--identifier",
+      "add-to-cart-button#pdp__button--add-to-cart",
       "product-installments#pdp__product--installments",
       // "add-to-cart-button#pdp__button--add-to-cart",
       "product-separator",
@@ -64,7 +65,10 @@
   "add-to-cart-button#pdp__button--add-to-cart": {
     "title": "Button Add To Cart PDP",
     "props": {
-      "blockClass": "pdp__button--add-to-cart",
+      "blockClass": [
+        "pdp__button--add-to-cart",
+        "pdp__display--none"
+      ],
       "text": "Agregar al carrito"
     }
   }
